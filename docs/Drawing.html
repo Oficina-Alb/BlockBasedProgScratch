@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Drawing &#8212; Runestone Interactive Overview</title>
+    <link rel="stylesheet" href="_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/activecode.css" />
+    <link rel="stylesheet" type="text/css" href="_static/codemirror.css" />
+    <link rel="stylesheet" type="text/css" href="_static/clickable.css" />
+    <link rel="stylesheet" type="text/css" href="_static/pytutor.css" />
+    <link rel="stylesheet" type="text/css" href="_static/modal-basic.css" />
+    <link rel="stylesheet" type="text/css" href="_static/datafile.css" />
+    <link rel="stylesheet" type="text/css" href="_static/dragndrop.css" />
+    <link rel="stylesheet" type="text/css" href="_static/fitb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/matrixeq.css" />
+    <link rel="stylesheet" type="text/css" href="_static/parsons.css" />
+    <link rel="stylesheet" type="text/css" href="_static/lib/prettify.css" />
+    <link rel="stylesheet" type="text/css" href="_static/poll.css" />
+    <link rel="stylesheet" type="text/css" href="_static/showEval.css" />
+    <link rel="stylesheet" type="text/css" href="_static/tabbedstuff.css" />
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="_static/video.css" />
+    <link rel="stylesheet" type="text/css" href="_static/karel.css" />
+    <link rel="stylesheet" type="text/css" href="_static/notes.css" />
+    <link rel="stylesheet" href="_static/user-highlights.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-4.0.0-dist/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/flatly.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/petlja.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/runestonebase.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <script type="text/javascript" src="_static/jquery.highlight.js"></script>
+    <script type="text/javascript" src="_static/bookfuncs.js"></script>
+    <script type="text/javascript" src="_static/codemirror.js"></script>
+    <script type="text/javascript" src="_static/xml.js"></script>
+    <script type="text/javascript" src="_static/css.js"></script>
+    <script type="text/javascript" src="_static/python.js"></script>
+    <script type="text/javascript" src="_static/htmlmixed.js"></script>
+    <script type="text/javascript" src="_static/javascript.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/CLDRPluralRuleParser.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.messagestore.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.fallbacks.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.language.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.parser.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.emitter.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.emitter.bidi.js"></script>
+    <script type="text/javascript" src="_static/activecode-i18n.en.js"></script>
+    <script type="text/javascript" src="_static/skulpt.min.js"></script>
+    <script type="text/javascript" src="_static/skulpt-stdlib.js"></script>
+    <script type="text/javascript" src="_static/activecode.js"></script>
+    <script type="text/javascript" src="_static/clike.js"></script>
+    <script type="text/javascript" src="_static/timed_activecode.js"></script>
+    <script type="text/javascript" src="_static/animationbase.js"></script>
+    <script type="text/javascript" src="_static/mchoice.js"></script>
+    <script type="text/javascript" src="_static/timedmc.js"></script>
+    <script type="text/javascript" src="_static/timed.js"></script>
+    <script type="text/javascript" src="_static/mchoice-i18n.en.js"></script>
+    <script type="text/javascript" src="_static/clickable.js"></script>
+    <script type="text/javascript" src="_static/timedclickable.js"></script>
+    <script type="text/javascript" src="_static/d3.v2.min.js"></script>
+    <script type="text/javascript" src="_static/jquery.ba-bbq.min.js"></script>
+    <script type="text/javascript" src="_static/jquery.jsPlumb-1.3.10-all-min.js"></script>
+    <script type="text/javascript" src="_static/pytutor.js"></script>
+    <script type="text/javascript" src="_static/codelens.js"></script>
+    <script type="text/javascript" src="_static/datafile.js"></script>
+    <script type="text/javascript" src="_static/dragndrop.js"></script>
+    <script type="text/javascript" src="_static/timeddnd.js"></script>
+    <script type="text/javascript" src="_static/dragndrop-i18n.en.js"></script>
+    <script type="text/javascript" src="_static/fitb.js"></script>
+    <script type="text/javascript" src="_static/timedfitb.js"></script>
+    <script type="text/javascript" src="_static/fitb-i18n.en.js"></script>
+    <script type="text/javascript" src="_static/matrixeq.js"></script>
+    <script type="text/javascript" src="_static/lib/prettify.js"></script>
+    <script type="text/javascript" src="_static/lib/hammer.min.js"></script>
+    <script type="text/javascript" src="_static/parsons.js"></script>
+    <script type="text/javascript" src="_static/timedparsons.js"></script>
+    <script type="text/javascript" src="_static/poll.js"></script>
+    <script type="text/javascript" src="_static/reveal.js"></script>
+    <script type="text/javascript" src="_static/shortanswer.js"></script>
+    <script type="text/javascript" src="_static/timed_shortanswer.js"></script>
+    <script type="text/javascript" src="_static/showEval.js"></script>
+    <script type="text/javascript" src="_static/tabbedstuff.js"></script>
+    <script type="text/javascript" src="_static/runestonevideo.js"></script>
+    <script type="text/javascript" src="_static/karelCorner.js"></script>
+    <script type="text/javascript" src="_static/karelRobot.js"></script>
+    <script type="text/javascript" src="_static/karelWorld.js"></script>
+    <script type="text/javascript" src="_static/karelRobotDrawer.js"></script>
+    <script type="text/javascript" src="_static/karelUI.js"></script>
+    <script type="text/javascript" src="_static/karel.js"></script>
+    <script type="text/javascript" src="_static/karel-i18n.en.js"></script>
+    <script type="text/javascript" src="_static/notes.js"></script>
+    <script type="text/javascript" src="_static/pygamelib-init.js"></script>
+    <script type="text/javascript" src="_static/blockly/blockly_compressed.js"></script>
+    <script type="text/javascript" src="_static/blockly/blocks_compressed.js"></script>
+    <script type="text/javascript" src="_static/blockly/python_compressed.js"></script>
+    <script type="text/javascript" src="_static/blockly/msg-sr.js"></script>
+    <script type="text/javascript" src="_static/blockpy/utilities.js"></script>
+    <script type="text/javascript" src="_static/blockpy/python_errors.js"></script>
+    <script type="text/javascript" src="_static/blockpy/ast_node_visitor.js"></script>
+    <script type="text/javascript" src="_static/blockpy/abstract_interpreter.js"></script>
+    <script type="text/javascript" src="_static/blockpy/pytifa.js"></script>
+    <script type="text/javascript" src="_static/blockpy/abstract_interpreter_definitions.js"></script>
+    <script type="text/javascript" src="_static/blockpy/python_to_blockly.js"></script>
+    <script type="text/javascript" src="_static/blockpy/imported.js"></script>
+    <script type="text/javascript" src="_static/blockpy/blocks/class.js"></script>
+    <script type="text/javascript" src="_static/blockpy/blocks/comment.js"></script>
+    <script type="text/javascript" src="_static/blockpy/blocks/comprehensions.js"></script>
+    <script type="text/javascript" src="_static/blockpy/blocks/dict.js"></script>
+    <script type="text/javascript" src="_static/blockpy/blocks/if.js"></script>
+    <script type="text/javascript" src="_static/blockpy/blocks/io.js"></script>
+    <script type="text/javascript" src="_static/blockpy/blocks/lists.js"></script>
+    <script type="text/javascript" src="_static/blockpy/blocks/sets.js"></script>
+    <script type="text/javascript" src="_static/blockpy/blocks/loops.js"></script>
+    <script type="text/javascript" src="_static/blockpy/blocks/parking.js"></script>
+    <script type="text/javascript" src="_static/blockpy/blocks/tuple.js"></script>
+    <script type="text/javascript" src="_static/blockpy/blocks/turtles.js"></script>
+    <script type="text/javascript" src="_static/blockpy/blocks/text.js"></script>
+    <script type="text/javascript" src="_static/blockpy-modal.js"></script>
+    <script type="text/javascript" src="_static/jquery-ui-1.10.3.custom.min.js"></script>
+    <script type="text/javascript" src="_static/jquery-fix.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-4.0.0-dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-sphinx.js"></script>
+    <script type="text/javascript" src="_static/waypoints.min.js"></script>
+    <script type="text/javascript" src="_static/rangy-core.js"></script>
+    <script type="text/javascript" src="_static/rangy-textrange.js"></script>
+    <script type="text/javascript" src="_static/rangy-cssclassapplier.js"></script>
+    <script type="text/javascript" src="_static/user-highlights.js"></script>
+    <script type="text/javascript" src="_static/jquery.idle-timer.js"></script>
+    <script type="text/javascript" src="_static/processing-1.4.1.min.js"></script>
+    <script type="text/javascript" src="_static/jquery.hotkey.js"></script>
+    <script type="text/javascript" src="_static/jquery-migrate-1.2.1.min.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Procedures" href="Procedures.html" />
+    <link rel="prev" title="Motion" href="Motion.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+<link rel="shortcut icon" href="_static/favicon.ico" type="image/ico" />
+
+<script type="text/javascript">
+  eBookConfig = {};
+  eBookConfig.host = 'http://127.0.0.1:8000' ? 'http://127.0.0.1:8000' : 'http://127.0.0.1:8000';
+  eBookConfig.app = eBookConfig.host+'/runestone';
+  eBookConfig.ajaxURL = eBookConfig.app+'/ajax/';
+  eBookConfig.course = 'Scratch3int';
+  eBookConfig.logLevel = 0;
+  eBookConfig.loginRequired = false;
+  eBookConfig.build_info = "";
+  eBookConfig.isLoggedIn = false;
+  eBookConfig.useRunestoneServices = false;
+  eBookConfig.python3 = false;
+  eBookConfig.basecourse = 'Scratch3int';
+  eBookConfig.runestone_version = '3.1.1';
+  eBookConfig.imagesDir = '_images/';
+  eBookConfig.staticDir = '_static/';
+  if(typeof(Sk) != "undefined")
+      Sk.imgPath = eBookConfig.imagesDir;
+</script>
+
+<div id="fb-root"></div>
+
+
+
+  </head><body>
+
+
+<!-- Begin navbar -->
+
+<nav id="navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
+
+  <div class="container">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+     <img src="_static/img/logo.png" style="width:80px; height: 80px;"> 
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="margin-top: 10px; margin-left: 25px;">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="./">Block-based programming in Scratch</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container col-md-12" id="continue-reading"></div>
+
+<div class="container col-md-8 col-md-offset-2" id="main-content">
+  
+  <div class="section" id="drawing">
+<h1>Drawing<a class="headerlink" href="#drawing" title="Permalink to this headline">¶</a></h1>
+<p>In Scratch, every sprite has a hidden pen and the ability to live marks on the stage when it moves.</p>
+<dl class="simple">
+<dt>If we want to draw, we need to use the blocks from the category <strong>Pen</strong>. First, we need to add this category of blocks to the Scratch interface. We can do this by clicking on the button <img alt="Ekstenzija" src="_images/Ekstenzija.png" />, which is located in the bottom left corner of the screen, and selecting the extension <strong>Pen</strong>.</dt><dd></dd>
+</dl>
+<img alt="_images/ekstOlovka.png" class="align-center" src="_images/ekstOlovka.png" />
+<p>A new category of blocks <strong>Pen</strong> will appear in the <strong>Code</strong> tab. In this category, we have 9 blocks, which we can use for drawing on the stage. With these blocks we can erase everything we have drawn on the stage (<em>erase all</em>), put the pen down and up (<em>pen down</em>, <em>pen up</em>), control the color and the size of the pen easily (<em>set pen color</em>, <em>change pen color</em>, <em>set pen size</em>, <em>change pen size</em>).</p>
+<img alt="_images/BlokoviOlovka.png" class="align-center" src="_images/BlokoviOlovka.png" />
+<p>Initially, the sprite has the pen in the up position. <strong>To make the drawing possible, we have to put the pen down.</strong></p>
+<div class="section" id="freehand-drawing">
+<h2>“Freehand” Drawing<a class="headerlink" href="#freehand-drawing" title="Permalink to this headline">¶</a></h2>
+<p>When we think about the freehand drawing, we usually picture us drawing with a pen. This is why we will use the sprite <a class="reference internal" href="_images/LikOlovka.png"><img alt="LikOlovka" src="_images/LikOlovka.png" style="width: 70px;" /></a> to create a program, which will simulate the freehand style of drawing. You can find this sprite in the Sprite library.</p>
+<p>In Scratch, the sprites draw with their center. If we want to draw with the pencil’s “graphite tip”, we will have to change the center of the sprite. We can do this in the <strong>Costumes</strong> tab.</p>
+<p>VIDEO - SPRITE’S CENTER</p>
+<p>When we examined sprite’s movement on the stage, we presented the block <img alt="OK1" src="_images/OK1.png" />. If we run this blocks an infinite number of times (<em>Forever</em>), the sprite will continuously move around on the stage following the mouse cursor. Therefore, we can use this block to simulate drawing - by moving the mouse cursor around on the stage, we will “draw” on the stage.</p>
+<p>Analyze the following scripts:</p>
+<img alt="_images/KodSR.png" class="align-center" src="_images/KodSR.png" />
+<p><img alt="Uradi" src="_images/Uradi.png" /> Create a program, which allows freehand drawing and ensure that the program stops running when you press the <strong>s</strong> key. Look for the appropriate blocks in the categories <strong>Events</strong> and <strong>Control</strong>.</p>
+</div>
+<div class="section" id="controlling-the-movement-of-the-sprite-by-using-the-keyboard-and-drawing">
+<h2>Controlling the movement of the sprite by using the keyboard and drawing<a class="headerlink" href="#controlling-the-movement-of-the-sprite-by-using-the-keyboard-and-drawing" title="Permalink to this headline">¶</a></h2>
+<p>This is a great opportunity to use the blocks that allow the sprite to move with the help of arrows and upgrade them further by making the sprite draw lines of certain color and size (thickness).</p>
+<p>Arrange so that the sprite draws in the following manner:</p>
+<ul class="simple">
+<li><p>while it moves to the right, it should draw a blue line, and the size should be 5 pixels;</p></li>
+<li><p>while it moves to the left, it should draw a green line, and the size should be 10 pixels;</p></li>
+<li><p>while it moves upward, it should draw a red line, and the size should be 15 pixels;</p></li>
+<li><p>while it moves downward, it should draw a yellow line, and the size should be 20 pixels.</p></li>
+</ul>
+<p>Create the following blocks:</p>
+<a class="reference internal image-reference" href="_images/strelicebojadebljina.png"><img alt="_images/strelicebojadebljina.png" class="align-center" src="_images/strelicebojadebljina.png" style="width: 840px;" /></a>
+<p>We drew the image you see below:</p>
+<a class="reference internal image-reference" href="_images/slobodnaruka.png"><img alt="_images/slobodnaruka.png" class="align-center" src="_images/slobodnaruka.png" style="width: 650px;" /></a>
+<p>Try to create a program, which will draw a similar image.</p>
+</div>
+<div class="section" id="absolute-movement-and-drawing">
+<h2>Absolute movement and drawing<a class="headerlink" href="#absolute-movement-and-drawing" title="Permalink to this headline">¶</a></h2>
+<a class="reference internal image-reference" href="_images/brodic.png"><img alt="_images/brodic.png" class="align-center" src="_images/brodic.png" style="width: 650px;" /></a>
+<p>Analyzing the image above, we can see that it will not be hard to determine the points we need to connect to draw the boat.</p>
+<p><img alt="Uradi" src="_images/Uradi.png" /> Create a program, which will draw the boat by using light blue lines 5 pixels thick (pen size). Don’t forget to erase everything on the stage before the drawing starts. Also, don’t forget to put the cat sprite to be a sailor on the deck of the boat.</p>
+
+    <div data-component="reveal" id="sakrivanjeCrtanje1"   data-showtitle="Compare your solution with ours" data-hidetitle="Hide the solution">
+    <p><strong>Possible solution</strong></p>
+<blockquote>
+<div><a class="reference internal image-reference" href="_images/BrodicKod.png"><img alt="_images/BrodicKod.png" class="align-center" src="_images/BrodicKod.png" style="width: 350px;" /></a>
+</div></blockquote>
+
+    </div>
+    </div>
+<div class="section" id="stamp">
+<h2>Stamp<a class="headerlink" href="#stamp" title="Permalink to this headline">¶</a></h2>
+<p>Sometimes we need to draw and rotate images that are more complex on the stage. Instead of drawing the desired shape over and over again, it can be easier to create a costume with a specific shape, and then multiply and rotate it by using the block Stamp <img alt="BO2" src="_images/BO2.png" />.</p>
+<p>We just need to use <img alt="Paint" src="_images/Paint.png" /> to draw a new sprite, and then draw the shape we want in the paint editor located in the <strong>Costumes</strong> tab.</p>
+<p>HERE VIDEO DRAGONS</p>
+<p>We can also use the Stamp with the costumes of the sprites found in the Scratch sprite library.</p>
+</div>
+</div>
+
+
+  
+      <div class="col-md-12">
+<ul class="pager">
+        <li id="relations-prev" title='Previous chapter - Motion' data-toggle="tooltip"><a href="Motion.html">Previous chapter</a></li>
+    
+        <li id="relations-next" title='Next chapter - Procedures' data-toggle="tooltip"><a href="Procedures.html">Next chapter</a></li>
+</ul>
+
+<!-- <ul class="pager"> -->
+    <!-- -->
+        <!-- <li id="relations-prev" title='Претходно поглавље - Motion' data-toggle="tooltip"><a href="Motion.html">Претходно поглавље</a></li> -->
+    <!--  -->
+    <!-- -->
+        <!-- <li id="relations-next" title='Следеће поглавље - Procedures' data-toggle="tooltip"><a href="Procedures.html">Следеће поглавље</a></li> -->
+    <!-- -->
+<!-- </ul> -->
+
+<script type="text/javascript">
+
+  $('#relations-prev').tooltip({'placement':'right', 'selector': '', 'delay': { show: 100, hide: 50}});
+  $('#relations-next').tooltip({'placement':'left', 'selector': '', 'delay': { show: 100, hide: 50}});
+
+</script>
+</div>
+  
+</div>
+<footer class="footer col-md-12">
+    <div class="container">
+        <div class="text-center">
+            <hr>
+            <p class="text-muted">
+                <span class="text-center">&copy; 2019 <a href="https://petlja.org">Petlja.org</a> 
+                  <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; vertical-align: text-bottom" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
+                  
+                  (Created using  <a href="https://pypi.org/project/Sphinx/">Sphinx</a>, <a href="http://runestoneinteractive.org/">RunestoneComponents</a> and <a href="https://github.com/Petlja/PetljaDoc">PetljaDoc</a>)</span>
+            </p>
+        </div>
+    </div>
+</footer>
+
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-32029811-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+
+  </body>
+</html>
