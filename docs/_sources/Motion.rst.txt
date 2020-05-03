@@ -1,69 +1,70 @@
-Motion
+Lëvizja
 ========
 
-You already got to know the Scratch user interface, you learned how to create sprites and determine their position on the stage. Now is a perfect time to learn how to move them by using commands (blocks) from the category **Motion**. These blocks will enable you to make simple games and animations.
+Tashmë u njohët me ndërfaqen e përdoruesit Scratch, keni mësuar se si të krijoni sprites dhe të përcaktoni pozicionin e tyre në skenë. Tani është një kohë e përsosur për të mësuar se si t'i lëvizni duke përdorur komanda (blloqe) nga kategoria **Motion**. Këto blloqe do t'ju mundësojnë të bëni lojëra dhe animacione të thjeshta.
 
-There are 3 types of blocks you can use to move your sprite:
+Ekzistojnë 3 lloje të blloqeve që mund të përdorni për të lëvizur spërkatjen tuaj:
 
-•	Blocks for absolute motion
-•	Blocks for relative motion
-•	Other motion blocks
+• Bllokime për lëvizje absolute
+• Bllokime për lëvizje relative
+• Blloqe të tjera lëvizjeje
 
-Blocks for absolute motion
+Blloqe për lëvizje absolute
 -----------------------------
 
-In the category **Motion**, there are 4 blocks, which enable absolute motion. 
+
+Në kategorinë **Motion**, ka 4 blloqe, të cilat mundësojnë lëvizje absolute.
 
 .. image:: ../_images/kretanje/AKBlokovi.png  
    :align: center
 
-You will use these blocks when you need to program your sprite to move to a **specific location (point) on the stage**. 
+Do t'i përdorni këto blloqe kur të keni nevojë për të programuar sprite-in tuaj për të kaluar në një lokacion specifik **(pikë) në skenë **.
 
 .. infonote::
 
-    **The cat is chasing the mouse...**
-        
-    The cat is located in the center of the stage, and the mouse is in the point **(x:150 y:100)**. 
+    **Macja po ndjek mausin ...**
+        
+     Macja është e vendosur në qendër të fazës, dhe miu është në pikë **(x:150 y:100)**. 
 
     .. image:: ../_images/kretanje/MM1.png 
        :width: 400px
        :align: center
 
     
-    We remind you that the stage is a rectangular surface 480 pixels wide and 360 pixels high. The center has the coordinates **(x:0 y:0)**.
+    Ju kujtojmë që faza është një sipërfaqe drejtkëndëshe 480 pixel e gjerë dhe 360 pixel e lartë. Qendra ka koordinatat **(x:0 y:0)**.
 
 .. |AK1| image:: ../_images/kretanje/AK1.png
 .. |AK2| image:: ../_images/kretanje/AK2.png
 .. |AK3| image:: ../_images/kretanje/AK3.png
 .. |AK4| image:: ../_images/kretanje/AK4.png
 
-If you want the cat to catch the mouse you can just use the block |AK1|.
+Nëse dëshironi që macja të kapë miun thjesht mund të përdorni bllokun |AK1|.
 
 .. image:: ../_images/kretanje/MM1a.png 
    :width: 400px   
    :align: center
 
-If you want the chase to last longer, you can use the block |AK2|. With this block the cat will glide for 1 second from the point **(x:0 y:0)** to the point **(x:150 y:100)**.
+Nëse dëshironi që ndjekja të zgjasë më shumë, mund të përdorni bllokun |AK2| Me këtë bllok macja do të rrëshqasë për 1 sekondë nga pika **(x:0 y:0)** tek pika **(x:150 y:100)**.
 
-By using the blocks |AK3| and |AK4| you can make it seem like the cat is slowly sneaking up to the mouse:
+Duke përdorur blloqet |AK3| dhe |AK4| ju mund ta bëni atë të duket sikur macja ngadalë po vret miun:
 
 .. image:: ../_images/kretanje/MM34a.png  
    :width: 800
    :align: center
 
-You can always see the current position of the sprite (the current values of **x:** and **y:**) below the stage, in the sprite list.
+Ju gjithmonë mund të shihni pozicionin aktual të sprite (vlerat aktuale të **x:** dhe **y:**) poshtë fazës, në listën e sprite.
 
 .. image:: ../_images/kretanje/XY.png  
    :align: center
 
 .. mchoice:: AKZadatak1
-   :answer_a: Program A
-   :answer_b: Program B
-   :feedback_a: Well done! The cat "caught" all the mice!    
-   :feedback_b: Hm.. We recommend that you carefully read the lesson Position of the sprite on the stage.
+   :answer_a: Programi A
+   :answer_b: Programi B
+   :feedback_a: Te lumte! Macja "kapi" të gjithë minjtë!    
+   :feedback_b: Hm .. Ne ju rekomandojmë që të lexoni me kujdes mësimin Pozicioni i sprite në skenë.
    :correct: a
 
-   Analyze the position of the mice presented in the figure below and select the program, which will allow the cat to "catch" all the mice.
+   Analizoni pozicionin e minjve të paraqitur në figurën më poshtë dhe zgjidhni programin, i cili do të lejojë që macja të "kapë" të gjithë minjtë.
 
    .. image:: ../_images/kretanje/AKZ1.png
       :width: 700
@@ -73,56 +74,56 @@ You can always see the current position of the sprite (the current values of **x
 
 .. infonote::
 
-    |Vazno|   **So, by using the blocks for absolute motion, you tell your sprite exactly where it should go on the stage.**
+    |Vazno|   **Kështu që, duke përdorur blloqet për lëvizje absolute, ju i tregoni burimit tuaj saktësisht se ku duhet të shkojë në skenë.**
 
-Blocks for relative motion
+Blloqe për lëvije relative
 -----------------------------
 
 .. |RKS2| image:: ../_images/kretanje/RKS2.png
 
-Relative motion is not determined by the location the sprite should go to, but by the current position of the sprite.
+Lëvizja relative nuk përcaktohet nga vendndodhja që duhet të shkojë sprite, por nga pozicioni aktual i sprite.
 
-In the category **Motion**, you have at your disposal several blocks, which enable relative motion. 
+Në kategorinë **Lëvizja**, ju keni në dispozicion disa blloqe, të cilat mundësojnë lëvizje relative.
 
 .. image:: ../_images/kretanje/RKBlokovi.png  
    :align: center
 
-In the example where the cat was chasing the mouse, we knew the exact location of the mouse (the point in which it is located). The situations where we do not know the sprite's location are more common. In these cases, we will use blocks for relative motion to move our sprites.
+Në shembullin ku macja po ndiqte miun, ne e dinim vendndodhjen e saktë të miut (pika në të cilën ndodhet). Situatat ku ne nuk e dimë vendndodhjen e sprite janë më të zakonshme. Në këto raste, ne do të përdorim blloqe për lëvizje relative për të lëvizur sprite-n tonë.
 
-When it comes to relative motion, it is very important to point (turn) the sprite in the desired direction. We achieve this by dragging the arrow around the circle of the block |RKS2|. 
+Kur bëhet fjalë për lëvizje relative, është shumë e rëndësishme të tregoni (ktheni) sprite në drejtimin e dëshiruar. Ne e arrijmë këtë duke tërhequr shigjetën rreth rrethit të bllokut |RKS2|.
 
-It is good for you to know that direction toward 0 represents up, toward 90 is to the right, toward 180 is down, and toward -90 is to the left.
+Është mirë që ju të dini që drejtimi drejt 0 përfaqëson lart, drejt 90 është në të djathtë, drejt 180 është poshtë, dhe në drejtim të -90 është në të majtë.
 
 .. image:: ../_images/kretanje/RKS1.png  
    :width: 800
    :align: center
 
-You can always see the current direction of the sprite below the stage, in the sprite list in the field **Direction**.
+Mund të shihni gjithashtu drejtimin e tanishëm të sprite poshtë fazës, në listën e sprite në fushën ** Direction**.
 
 .. image:: ../_images/kretanje/XY.png 
    :align: center
 
 .. mchoice:: RKZadatak1
-   :answer_a: Direction: 90 (right) Position: (x:50 y:-100)
-   :answer_b: Direction: 180 (down) Position: (x:50 y:100)
-   :feedback_a: Analyze the program again. Does turning the sprite 90 degrees change its direction?    
-   :feedback_b: Well done! You understand the movement of the sprite well!
-   :correct: b
+    :answer_a: Drejtimi: 90 (djathtas) Pozicioni: (x: 50 y: -100)
+    :answer_b: Drejtimi: 180 (poshtë) Pozicioni: (x: 50 y: 100)
+    :feedback_a: Analizoni përsëri programin. A e ndryshon kthesën e sprite 90 gradë?
+    :feedback_b: Shumë mirë! Ju e kuptoni mirë lëvizjen e sprite!
+    :correct: b
 
-   Analyze the program presented in the figure, and select what you think is the direction of the sprite, as well as what will be its position after the program finished running.
+    Analizoni programin e paraqitur në figurë, dhe zgjidhni atë që mendoni se është drejtimi i sprite, si dhe cili do të jetë pozicioni i tij pasi programi të mbarojë së ekzekutuari.
 
    .. image:: ../_images/kretanje/RKZ1.png
       :align: center
 
 .. infonote::
 
-    |Vazno|   **So, by using blocks for relative movement, you tell the sprite where to point and move relative to its current position.**
+    |Vazno|   **Pra, duke përdorur blloqe për lëvizje relative, ju i thoni sprite ku të tregojë dhe lëvizë në lidhje me pozicionin e tij aktual.**
 
 
-Other motion blocks
+Të tjera blloqe lëvizje
 --------------------------
 
-In the category **Motion**, you have 4 more blocks at your disposal, which enable sprites to move. 
+Në kategorinë **Motion**, ju keni në dispozicion edhe 4 blloqe të tjera, të cilat mundësojnë lëvizjen e sprites.
 
 .. image:: ../_images/kretanje/OKBlokovi.png   
    :align: center
@@ -131,54 +132,54 @@ In the category **Motion**, you have 4 more blocks at your disposal, which enabl
 .. |OK4a| image:: ../_images/kretanje/OK4a.png
 .. |OK4b| image:: ../_images/kretanje/OK4b.png
 
-The stage is a limited space. When the sprite reaches the edge of the stage, it would be natural for it to turn around and continue moving in another direction. You will enable this behavior of the sprite by using the block |OK3|. You will also decide how the sprite continues to move. If within the block |OK4a| you set the rotation style of the sprite to **all around**, it will continue to move upside-down. This will not happen if, from the drop-down list of the block, you choose the option left-right |OK4b|.
+Skena është një hapësirë e kufizuar. Kur sprite arrin skajin e skenës, do të ishte e natyrshme që ajo të kthehet dhe të vazhdojë të lëvizë në një drejtim tjetër. Ju do të mundësoni këtë sjellje të sprite duke përdorur bllokun |OK3|. Ju gjithashtu do të vendosni se si sprite vazhdon të lëvizë. Nëse brenda bllokut |OK4a| e vendosni stilin e rrotullimit të sprite në **rreth**, do të vazhdojë të lëvizë kokëposhtë. Kjo nuk do të ndodhë nëse, nga lista rënëse e bllokut, ju zgjidhni opsionin majtas-djathtas |OK4b|.
 
 .. image:: ../_images/kretanje/OKRub12.png
    :width: 800
    :align: center
 
-You can always see the current style of your sprite's movement below the stage in the sprite list, in the field **Direction**.
+Ju gjithmonë mund të shihni stilin aktual të lëvizjes së sprite tuaj nën fazën në listën e sprite, në fushën **Direction**.
 
 .. image:: ../_images/kretanje/XY.png
    :width: 400px   
    :align: center
 
-Let's go back to our sprites: |macka| and |mis|. 
+Le të kthehemi te spritet tona: |macka| and |mis|. 
 
 .. |OK1| image:: ../_images/kretanje/OK1.png
 .. |OK1a| image:: ../_images/kretanje/OK1a.png
 .. |macka| image:: ../_images/kretanje/macka.png
 .. |mis| image:: ../_images/kretanje/mis.png
 
-If we do not know the exact position of the mouse, and we want the cat to point toward it (turn toward it), we can use the block |OK1|. We just need to select the Mouse sprite |OK1a| from the drop-down list, and the problem is solved.
+Nëse nuk e dimë pozicionin e saktë të miut, dhe duam që macja të drejtohet drejt tij (të drejtohemi drejt tij), mund të përdorim bllokun |OK1|. Thjesht duhet të zgjedhim Sprite Mouse |OK1a| nga lista e lëshuar, dhe problemi është zgjidhur.
 
-We will show you how the last two blocks work in the following example.
+Ne do t'ju tregojmë se si funksionojnë dy blloqet e fundit në shembullin e mëposhtëm.
 
-.. infonote::
+.. infonote ::
 
-    **The cat is chasing the mouse...**
-        
-    The cat is chasing the mouse, gliding toward it. The mouse constantly turns and goes toward the cursor, which we are moving around the stage.
+     **Macja po ndjek mausin ...**
+        
+     Macja po ndjek mausin, duke rrëshqitur drejt tij. Miu vazhdimisht kthehet dhe shkon drejt kursorit, të cilin po lëvizim nëpër skenë.
 
     .. image:: ../_images/kretanje/OKPR1.png   
        :align: center
 
     
-    Above each of the sprites are scripts that enable the described behavior. 
+      Mbi secilën nga sprites janë skriptet që mundësojnë sjelljen e përshkruar.
 
 .. |Izazov| image:: ../_images/Izazov.png
 
-|Izazov| Upgrade the program presented above by adding one more sprite - an apple. Have the mouse chase the apple and the cat chase the mouse. Make the apple move toward the cursor (which we control), the mouse should move toward the apple, and the cat should move toward the mouse.
+|Izazov| Përditësoni programin e paraqitur më sipër duke shtuar një tjetër sprite - një mollë. Kërkoni miun të ndjekë mollën dhe macja të ndjekë miun. Bëni mollën të lëvizë drejt kursorit (të cilin ne e kontrollojmë), miu duhet të lëvizë drejt mollës, dhe macja duhet të lëvizë drejt miut.
 
 .. image:: ../_images/kretanje/MMJ.png  
    :width: 400
    :align: center
 
 .. reveal:: sakrivanjeKretanje
-   :showtitle: Compare your solution with ours
-   :hidetitle: Hide the solution
+   :showtitle: Krahaso zgjidhjen tuaj me tonën
+   :hidetitle: Fshih zgjidhjen
  
-   **Possible solution:**
+   **Zgjidhje e mundshme:**
      
    .. youtube:: QgCCzBw6DKU
       :width: 735

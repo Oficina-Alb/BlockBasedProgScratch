@@ -1,42 +1,43 @@
-Variables
+Variabla
 ===========
 
-We believe that you know multiple people can use one program and that you know this from your own experience. We create programs with the intention of making solving and performing tasks easier. We create them to have fun, relax, and connect with other people. 
+Ne besojmë se ju e dini se shumë njerëz mund të përdorin një program dhe që ju e dini këtë nga përvoja juaj. Ne krijojmë programe me qëllimin për të bërë më të lehtë zgjidhjen dhe kryerjen e detyrave. Ne i krijojmë ata që të argëtohen, të pushojnë dhe të lidhen me njerëz të tjerë.
 
-The fact that one program can be used by multiple people, who enter their data and receive corresponding results, tells us that programming has an excellent concept of managing and using computer memory. 
+Fakti që një program mund të përdoret nga njerëz të shumtë, të cilët futin të dhënat e tyre dhe marrin rezultate përkatëse, na tregon se programimi ka një koncept të shkëlqyeshëm për administrimin dhe përdorimin e kujtesës në kompjuter.
 
-Think of the memory of a digital device as being a huge, we mean enormous, almost endless room with rows and rows of shelves. Now, imagine that you can put data into every compartment on every shelf. Finally, imagine that you can name each of these compartments whatever you wish and, as soon as you call its name, the information in it becomes immediately available. 
+Mendoni për kujtesën e një pajisje dixhitale si një të madhe, nënkuptojmë një dhomë të madhe, pothuajse të pafund me rreshta dhe rreshta rafte. Tani, imagjinoni se mund të vendosni të dhëna në çdo ndarje në çdo raft. Më në fund, imagjinoni që ju mund të emëroni secilën prej këtyre ndarjeve çfarëdo që dëshironi dhe, sa më shpejt të thërrisni emrin, informacioni në të bëhet menjëherë i disponueshëm.
 
-We call these "compartments" of computer memory **variables**. A variable can potentially contain only one piece of information (a number, string, values true or false, etc.).   
+Ne i quajmë këto "ndarje" të memorjes kompjuterike **variabla**. Një variabël potencialisht mund të përmbajë vetëm një pjesë të informacionit (një numër, varg, vlera të vërteta ose false, etj.).
 
-Ask and Wait
+Ask and wait
 -------------
 
-In the category **Sensing** there is a block **Ask and wait** |BlokAskWait|. This blocks allows us to ask the user for something (usually in the form of a request or a question), and then wait for the user to click the button |Stikliranje| or press *Enter*.
+Në kategorinë **Sensing** ekziston një bllok **Ask and wait** | BlokAskWait |. Ky bllokim na lejon të kërkojmë nga përdoruesi diçka (zakonisht në formën e një kërkese ose një pyetje), dhe pastaj të presim që përdoruesi të klikojë butonin |Stikliranje| ose shtypni *Enter*.
   .. |BlokAskWait| image:: ../_images/promenljive/BlokAskWait.png
   .. |Stikliranje| image:: ../_images/promenljive/Stikliranje.png
 
-User's response is entered into the variable |VAnswer|, and the program continues to run.
+Përgjigja e përdoruesit futet në variablin |VAnswer|, dhe programi vazhdon të funksionojë.
     .. |VAnswer| image:: ../_images/promenljive/VAnswer.png
 
-|Uradi| It's best we use this block immediately. We will create a program in which the cat asks the user for his/her name, and then repeats the name and says that it is a very lovely name.
+|Uradi| Është më mirë që ta përdorim menjëherë këtë bllok. Ne do të krijojmë një program në të cilin macja i kërkon përdoruesit emrin e tij / saj, dhe pastaj përsërit emrin dhe thotë se është një emër shumë i bukur.
   .. |Uradi| image:: ../_images/Uradi.png
 
 .. image:: ../_images/promenljive/KodPromenljivaAnswer.png   
    :align: center
 
-Therefore, we will start the program by clicking on the green flag. After the command |BlokAsk|, the program stops running, expecting the user to type in his/her answer into the input field and click on the button |Stikliranje| or press *Enter*. At that moment, the content of the variable |VAnswer| does not exist |Answer|.
+Prandaj, do ta fillojmë programin duke klikuar në flamurin e gjelbër. Pas komandës |BlokAsk|, programi ndalon së funksionuari, duke pritur që përdoruesi të shkruajë përgjigjen e tij / saj në fushën hyrëse dhe të klikojë në butonin |tikliranje| ose shtypi *Enter*. Në atë moment, përmbajtja e variablës  |VAnswer| nuk ekziston |Answer|.
     .. |BlokAsk| image:: ../_images/promenljive/BlokAsk.png
     .. |Answer| image:: ../_images/promenljive/Answer.png
 
-When the user enters the answer (e.g. Mima) and clicks the button |Stikliranje| or presses *Enter*, the content of the variable |VAnswer| will be |AnswerMima|.
+Kur përdoruesi hyn në përgjigjen (psh. Mima) dhe klikon butonin |Stikliranje| ose shtyp *Enter*, përmbajtja e variablës |VAnswer| do të jetë |AnswerMima|.
     .. |AnswerMima| image:: ../_images/promenljive/AnswerMima.png
 
-Now, the cat can say the string |BlokSay|, which we made by using the block for connecting strings |Join| (in the field *apple* we put the variable |VAnswer|, and in the field *banana* we put the string "is a lovely name!". 
+Tani, macja mund të thotë vargun |BlokSay|, të cilën ne e bëmë duke përdorur bllokun për lidhjen e string |Join| (në fushën *apple* vendosim ndryshoren |VAnswer|, dhe në fushën *banana* vendosim vargun "është një emër i bukur!".
+
     .. |Join| image:: ../_images/promenljive/Join.png
     .. |BlokSay| image:: ../_images/promenljive/BlokSay.png
 
-In the figure below, you can see our program when it runs.
+Në figurën më poshtë, mund ta shihni programin tonë kur të funksionojë.
 
 .. image:: ../_images/promenljive/TokPromenljivaAnswer.png   
      :align: center
@@ -44,7 +45,7 @@ In the figure below, you can see our program when it runs.
 Creating Variables
 ----------------------
 
-Let's look at the situation where the user enters 4 numbers, then the program adds the numbers and displays the sum. It is true that the block **Ask and wait** |BlokAskWait| allows the user to enter a certain value, which will then be placed in the variable |VAnswer|. Nevertheless, what happens when we need 4 answers?
+Le të shohim situatën kur përdoruesi fut 4 numra, atëherë programi shton numrat dhe tregon shumën. Është e vërtetë që blloku **Ask and Wait** |BlokAskWait| lejon përdoruesin të fusë një vlerë të caktuar, e cila më pas do të vendoset në ndryshoren |VAnswer|. Sidoqoftë, çfarë ndodh kur kemi nevojë për 4 përgjigje?
 
 .. mchoice:: Promenljive1
    :answer_a: 50
@@ -52,34 +53,33 @@ Let's look at the situation where the user enters 4 numbers, then the program ad
    :answer_c: 20
    :answer_d: 80
    :correct: d
-   :feedback_a: The variable contains only one piece of information (a number, string, value true or false, etc.). Think again and choose the correct answer. 
-   :feedback_b: The variable contains only one piece of information (a number, string, value true or false, etc.). Think again and choose the correct answer.
-   :feedback_c: The variable contains only one piece of information (a number, string, value true or false, etc.). Think again and choose the correct answer.
-   :feedback_d: You are right, well done! The variable |VAnswer| contains only the user's final answer, and that is number 20. The sprite will say 80 (20+20+20+20).
+   :feedback_a: Variabli përmban vetëm një pjesë të informacionit (një numër, varg, vlera e vërtetë ose false, etj.). Mendoni përsëri dhe zgjidhni përgjigjen e saktë.
+    :feedback_b: Variabli përmban vetëm një pjesë të informacionit (një numër, varg, vlera e vërtetë ose false, etj.). Mendoni përsëri dhe zgjidhni përgjigjen e saktë.
+    :feedback_c: Variabli përmban vetëm një pjesë të informacionit (një numër, varg, vlera e vërtetë ose false, etj.). Mendoni përsëri dhe zgjidhni përgjigjen e saktë.
+    :feedback_d: Keni të drejtë, mirë! Ndryshorja | VAnswer | përmban vetëm përgjigjen përfundimtare të përdoruesit, dhe ky është numri 20. Sprite do të thotë 80 (20 + 20 + 20 + 20).
 
-   The user enters the following numbers one after the other: 5, 10, 15 and 20. When the program shown in the figure runs, the sprite will say:
+    Përdoruesi hyn numrat e mëposhtëm njëri pas tjetrit: 5, 10, 15 dhe 20. Kur programi i treguar në figurë të funksionojë, sprite do të thotë:
 
    .. image:: ../_images/promenljive/4pitanja.png   
      :align: center
 
-It is obvious that we need more than one variable for the program to be able to display the correct sum.
+Është e qartë se kemi nevojë për më shumë se një ndryshore që programi të jetë në gjendje të shfaqë shumën e saktë.
 
-We create the variables in the category **Variables**, by clicking on the button **Make a variable**. A window will open where we can type in the name of the variable, and then we decide if we want to make it available to all sprites or only to the sprite that is active while we are creating the variable. We can also check the option that saves the variable on the server, in the data cloud. Finally, clicking the button **OK** creates the variable.
+Krijojmë variablat në kategorinë **Variables**, duke klikuar në butonin **Make a variable**. Do të hapet një dritare ku mund të shkruajmë emrin e variablës, dhe më pas vendosim nëse duam ta bëjmë atë të disponueshëm për të gjitha sprites ose vetëm për sprite që është aktive ndërsa jemi duke krijuar variablën. Ne gjithashtu mund të kontrollojmë opsionin që ruan variablën në server, në renë e të dhënave. Më në fund, duke klikuar butonin **OK** krijon variablën.
 
-In the figure below, we can see the block, which will become available to us once we have created the variable. With the first block, we will set the value of the variable, the second one we can use if we want to increase or decrease that value, while the third and the fourth are used to make the variable visible or to hide it. 
+Në figurën më poshtë, ne mund të shohim bllokun, i cili do të vihet në dispozicion për ne pasi të kemi krijuar ndryshoren. Me bllokun e parë, do të vendosim vlerën e variablës, e dyta që mund të përdorim nëse duam ta rrisim ose ulim atë vlerë, ndërsa e treta dhe e katërta përdoren për ta bërë variablën të dukshme ose për ta fshehur atë.
 
 .. image:: ../_images/promenljive/MakeVariable.png   
    :align: center
 
 .. mchoice:: Promenljive2
-   :answer_a: Running of scripts A and B has the same result 
-   :answer_b: Running of scripts A and B has different results 
-   :correct: a
-   :feedback_a: Well done! Even though they are different, the running of both programs has the same result. 
-   :feedback_b: Think about your answer. If you still think the same, create these programs in Scratch and run them. Don't forget to arrange so that the values of the variables can be seen on the stage.
+   :answer_a:  Drejtimi i skenareve A dhe B ka të njëjtin rezultat
+   :answer_b: Drejtimi i skenareve A dhe B ka rezultate të ndryshme
+   :correct: a
+   :feedback_a: Bëhu mirë! Edhe pse ato janë të ndryshme, ekzekutimi i të dy programeve ka të njëjtin rezultat.
+   :feedback_b: Mendoni për përgjigjen tuaj. Nëse akoma mendoni njësoj, krijoni këto programe në Scratch dhe drejtojini ato. Mos harroni të rregulloni në mënyrë që vlerat e variablave të mund të shihen në skenë.
 
-   Analyze the scripts and mark the correct statement: 
-
+    Analizoni skriptet dhe shënoni deklaratën e saktë:
    .. image:: ../_images/promenljive/4brojaProm.png   
      :align: center
 

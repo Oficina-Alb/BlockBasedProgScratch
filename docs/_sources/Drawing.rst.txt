@@ -1,22 +1,23 @@
-Drawing
+Vizatimi
 =========
 
-In Scratch, every sprite has a hidden pen and the ability to live marks on the stage when it moves.
+Në Scratch, çdo sprite ka një stilolaps të fshehur dhe aftësinë për të jetuar shenja në skenë kur lëviz.
 
-If we want to draw, we need to use the blocks from the category **Pen**. First, we need to add this category of blocks to the Scratch interface. We can do this by clicking on the button |Ekstenzija|, which is located in the bottom left corner of the screen, and selecting the extension **Pen**.
+Nëse duam të vizatojmë, duhet të përdorim blloqet nga kategoria **Pen**. Së pari, ne duhet të shtojmë këtë kategori të blloqeve në ndërfaqen Scratch. Ne mund ta bëjmë këtë duke klikuar në butonin |Ekstenzija|, i cili ndodhet në këndin e poshtëm të majtë të ekranit, dhe duke zgjedhur zgjatjen **Pen**.
+
   .. |Ekstenzija| image:: ../_images/Ekstenzija.png
 
 .. image:: ../_images/crtanje/ekstOlovka.png 
    :align: center
 
-A new category of blocks **Pen** will appear in the **Code** tab. In this category, we have 9 blocks, which we can use for drawing on the stage. With these blocks we can erase everything we have drawn on the stage (*erase all*), put the pen down and up (*pen down*, *pen up*), control the color and the size of the pen easily (*set pen color*, *change pen color*, *set pen size*, *change pen size*). 
+Një kategori e re e blloqeve **Pen** do të shfaqet në kartën **Code**. Në këtë kategori, ne kemi 9 blloqe, të cilat mund t’i përdorim për vizatim në skenë. Me këto blloqe mund të fshijmë gjithçka që kemi vizatuar në skenë (*erase all*), e vendos stilolapsin poshtë dhe lart (*pen down*, *pen up*), kontrollojmë lehtë ngjyrën dhe madhësinë e lapsit (*set pen color*, *change pen color*, *set pen size*, *change pen size*).
 
 .. image:: ../_images/crtanje/BlokoviOlovka.png 
    :align: center
 
-Initially, the sprite has the pen in the up position. **To make the drawing possible, we have to put the pen down.**
+Fillimisht, sprite ka stilolapsin në pozicionin lart. **Për ta bërë të mundur vizatimin, duhet ta vendosim stilolapsin.**
 
-"Freehand" Drawing
+Vizatimi i lirë
 -------------------------
 
 .. |LikOlovka| image:: ../_images/crtanje/LikOlovka.png
@@ -25,85 +26,83 @@ Initially, the sprite has the pen in the up position. **To make the drawing poss
 
 .. |Uradi| image:: ../_images/Uradi.png
 
-When we think about the freehand drawing, we usually picture us drawing with a pen. This is why we will use the sprite |LikOlovka| to create a program, which will simulate the freehand style of drawing. You can find this sprite in the Sprite library. 
+Kur mendojmë për vizatimin e lirë, zakonisht na fotografojnë duke vizatuar me stilolaps. Kjo është arsyeja pse ne do të përdorim sprite |LikOlovka| për të krijuar një program, i cili do të simulojë stilin e lirë të vizatimit. Ju mund ta gjeni këtë sprite në librarinë Sprite.
 
-In Scratch, the sprites draw with their center. If we want to draw with the pencil's "graphite tip", we will have to change the center of the sprite. We can do this in the **Costumes** tab. 
+Në Scratch, sprites vizatojnë me qendrën e tyre. Nëse dëshirojmë të vizatojmë me "majën grafit" të lapsit, do të duhet të ndryshojmë qendrën e sprite. Ne mund ta bëjmë këtë në kartën **Costums**.
 
-VIDEO - SPRITE'S CENTER
+VIDEO - QENDRA E SPRITES
 
-When we examined sprite's movement on the stage, we presented the block |OK1|. If we run this blocks an infinite number of times (*Forever*), the sprite will continuously move around on the stage following the mouse cursor. Therefore, we can use this block to simulate drawing - by moving the mouse cursor around on the stage, we will "draw" on the stage. 
-    
-Analyze the following scripts:
+Kur shqyrtuam lëvizjen e sprite në skenë, prezantuam bllokun |OK1|. Nëse e ekzekutojmë këtë bllok në herë të pafundme (*Forever*), sprite vazhdimisht do të lëvizë në skenë pas kursorit të mouse. Prandaj, ne mund ta përdorim këtë bllok për të simuluar vizatimin - duke lëvizur kursorin e mouse përreth në skenë, ne do të "vizatojmë" në skenë.
+    
+Analizoni shkrimet e mëposhtme:
 
 .. image:: ../_images/crtanje/KodSR.png  
    :align: center
 
-|Uradi| Create a program, which allows freehand drawing and ensure that the program stops running when you press the **s** key. Look for the appropriate blocks in the categories **Events** and **Control**.
+Krijoni një program, i cili lejon vizatimin pa pagesë dhe sigurohuni që programi të ndalojë funksionimin kur shtypni tastin **s**. Shikoni blloqet e duhura në kategoritë **Ngjarjet** dhe ** Kontrolli **.
 
-Controlling the movement of the sprite by using the keyboard and drawing
+Kontrolli i lëvizjes së sprite duke përdorur tastierën dhe vizatimin
 -------------------------------------------------------------------------
 
-This is a great opportunity to use the blocks that allow the sprite to move with the help of arrows and upgrade them further by making the sprite draw lines of certain color and size (thickness). 
+Kjo është një mundësi e shkëlqyeshme për të përdorur blloqet që lejojnë sprite të lëvizë me ndihmën e shigjetave dhe t'i azhornojmë ato më tej duke bërë linjat e tërheqjes sprite të ngjyrës dhe madhësisë së caktuar (trashësi).
 
-Arrange so that the sprite draws in the following manner:
+Organizoni në mënyrë që sprite të tërheqë në mënyrën e mëposhtme:
 
-•	while it moves to the right, it should draw a blue line, and the size should be 5 pixels;
-•	while it moves to the left, it should draw a green line, and the size should be 10 pixels;
-•	while it moves upward, it should draw a red line, and the size should be 15 pixels;
-•	while it moves downward, it should draw a yellow line, and the size should be 20 pixels.
+• ndërsa lëviz në të djathtë, duhet të vizatojë një vijë blu, dhe madhësia duhet të jetë 5 pixel;
+• ndërsa lëviz në të majtë, duhet të vizatojë një vijë jeshile, dhe madhësia duhet të jetë 10 pixel;
+• ndërsa lëviz lart, duhet të vizatojë një vijë të kuqe, dhe madhësia duhet të jetë 15 pixel;
+• ndërsa lëviz poshtë, duhet të vizatojë një vijë të verdhë, dhe madhësia duhet të jetë 20 pixel.
 
-Create the following blocks:
+Krijoni blloqet e mëposhtme:
 
 .. image:: ../_images/crtanje/strelicebojadebljina.png
    :width: 840px   
    :align: center
 
-We drew the image you see below:
+Ne vizatuam një imazh si më poshtë:
 
 .. image:: ../_images/crtanje/slobodnaruka.png
    :width: 650px   
    :align: center
 
-Try to create a program, which will draw a similar image. 
+Mundohuni të krijoni një program, i cili do të tërheqë një imazh të ngjashëm.
 
-Absolute movement and drawing
+Lëvizje dhe vizatimi absolut
 -------------------------------
 
 .. image:: ../_images/crtanje/brodic.png
    :width: 650px   
    :align: center
 
-Analyzing the image above, we can see that it will not be hard to determine the points we need to connect to draw the boat.  
+Duke analizuar imazhin e mësipërm, ne mund të shohim se nuk do të jetë e vështirë të përcaktojmë pikat që duhet të lidhim për të tërhequr varkën.
 
-|Uradi| Create a program, which will draw the boat by using light blue lines 5 pixels thick (pen size). Don't forget to erase everything on the stage before the drawing starts. Also, don't forget to put the cat sprite to be a sailor on the deck of the boat.
+|Uradi| Krijoni një program, i cili do të tërheqë varkën duke përdorur linja të lehta blu 5 pixel të trashë (madhësia e stilolapsit). Mos harroni të fshini gjithçka në skenë para se të fillojë vizatimi. Gjithashtu, mos harroni ta vendosni macein të spritej si marinar në kuvertën e varkës.
 
 
 .. reveal:: sakrivanjeCrtanje1
-   :showtitle: Compare your solution with ours
-   :hidetitle: Hide the solution
+   :showtitle: Krahaso zgjidhejn tuaj me tonën
+   :hidetitle: Fshih zgjidhjen
  
-   **Possible solution**
+   **Zgjidhje e mundshme**
      
     .. image:: ../_images/crtanje/BrodicKod.png
 	:width: 350px   
 	:align: center
 
-Stamp
+Stampa
 ------
 
 .. |BO2| image:: ../_images/crtanje/BO2.png
 
 .. |Paint| image:: ../_images/crtanje/Paint.png
 
-Sometimes we need to draw and rotate images that are more complex on the stage. Instead of drawing the desired shape over and over again, it can be easier to create a costume with a specific shape, and then multiply and rotate it by using the block Stamp |BO2|.
+Ndonjëherë duhet të vizatojmë dhe rrotullojmë imazhe që janë më komplekse në skenë. Në vend që të vizatoni formën e dëshiruar pa pushim, mund të jetë më e lehtë të krijoni një kostum me një formë specifike, dhe pastaj të shumëzoni dhe rrotulloni atë duke përdorur bllokun Stamp |BO2|.
 
-  
-
-
-We just need to use |Paint| to draw a new sprite, and then draw the shape we want in the paint editor located in the **Costumes** tab.
-
-HERE VIDEO DRAGONS
-
-We can also use the Stamp with the costumes of the sprites found in the Scratch sprite library.
+  
 
 
+Thjesht duhet të përdorim |Paint| për të vizatuar një sprite të re, dhe pastaj të vizatoni formën që dëshirojmë në redaktorin e bojrave të vendosur në skedën **Costums**.
+
+DRAGON VIDEO
+
+Ne gjithashtu mund të përdorim stampën me kostumet e sprites që gjenden në librarinë e Sprite Scratch.

@@ -81,7 +81,7 @@ Vlera e ruajtur në një bllok funksioni gjithashtu mund të shihet duke klikuar
     :answer_b: Kur klikojmë në flamurin e gjelbër, sprite do të thotë "False".
     :feedback_a: Ju keni absolutisht të drejtë!
     :feedback_b: Blloku i funksionit këndor kthen vlerat e vërteta ose false. Meqenëse deklarata është 60> 50 e vërtetë, sprite do të thotë "True".
-    : e saktë: a
+    :correct: a
 
     Analizoni skenarin e paraqitur në figurë. Zgjidhni rezultatin e ekzekutimit të programit.
      .. image:: ../_images/blokovi/6050.png  

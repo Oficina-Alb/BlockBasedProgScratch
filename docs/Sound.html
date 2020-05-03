@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Sound &#8212; Runestone Interactive Overview</title>
+    <title>Tingull &#8212; Runestone Interactive Overview</title>
     <link rel="stylesheet" href="_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="_static/activecode.css" />
@@ -80,6 +80,7 @@
     <script type="text/javascript" src="_static/lib/prettify.js"></script>
     <script type="text/javascript" src="_static/lib/hammer.min.js"></script>
     <script type="text/javascript" src="_static/parsons.js"></script>
+    <script type="text/javascript" src="_static/parsons-i18n.en.js"></script>
     <script type="text/javascript" src="_static/timedparsons.js"></script>
     <script type="text/javascript" src="_static/poll.js"></script>
     <script type="text/javascript" src="_static/reveal.js"></script>
@@ -139,8 +140,8 @@
     <script type="text/javascript" src="_static/jquery-migrate-1.2.1.min.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Motion" href="Motion.html" />
-    <link rel="prev" title="Looks" href="Looks.html" />
+    <link rel="next" title="Lëvizja" href="Motion.html" />
+    <link rel="prev" title="Pamje" href="Looks.html" />
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
@@ -202,61 +203,84 @@
 
 <div class="container col-md-8 col-md-offset-2" id="main-content">
   
-  <div class="section" id="sound">
-<h1>Sound<a class="headerlink" href="#sound" title="Permalink to this headline">¶</a></h1>
-<p>The ability to add sound to our sprites, in addition to bubbles with thoughts and text in them, gives us the opportunity to create more dynamic and interesting programs.</p>
-<p>Scratch has a rich library of sounds, as well as the possibility to record our own voice or download sound recordings from our computer in .wav or .mp3 format. The blocks, which allow us to hear sounds, are located in the <strong>Sound</strong> category.</p>
-<div class="section" id="sprite-sounds">
-<h2>Sprite Sounds<a class="headerlink" href="#sprite-sounds" title="Permalink to this headline">¶</a></h2>
-<p>We will upgrade the program <em>Farm</em>, which can be found on the link <a href="https://scratch.mit.edu/projects/326422653/" target="_blank">https://scratch.mit.edu/projects/326422653/</a>, so that the girl (Avery) really says “Go, go!”, and the Chick chirps after a good meal.</p>
-<p>The first step would be to record the sound - our voice: we will make the recording and add it to the script belonging to the girl; on the recording, we should say: “Go, go!”</p>
-<p>Recording the sound</p>
-<p>Before we record the sound, we should:</p>
+  <div class="section" id="tingull">
+<h1>Tingull<a class="headerlink" href="#tingull" title="Permalink to this headline">¶</a></h1>
+<p>Aftësia për të shtuar tinguj në sprites, përveç flluskave me mendime dhe tekst në to, na jep mundësinë për të krijuar programe më dinamike dhe interesante.</p>
+<p>Scratch ka një librari të pasur të tingujve, si dhe mundësinë për të regjistruar zërin tonë ose për të shkarkuar regjistrime të tingujve nga kompjuteri ynë në formatin Wav ose .mp3. Blloqet, të cilat na lejojnë të dëgjojmë tinguj, gjenden në kategorinë <strong>Sound</strong>.</p>
+<div class="section" id="tinguj-sprite">
+<h2>Tinguj Sprite<a class="headerlink" href="#tinguj-sprite" title="Permalink to this headline">¶</a></h2>
+<p>Ne do të azhornojmë programin <em>Farm</em>, i cili mund të gjendet në lidhjen | https: //scratch.mit.edu/projects/326422653/ <a href="#id1"><span class="problematic" id="id2">|</span></a>, në mënyrë që vajza (Avery) të thotë vërtet “Shko, shko!”, dhe pulat cicërijnë pas një vakti të mirë.</p>
+<div class="system-message" id="id1">
+<p class="system-message-title">System Message: WARNING/2 (<span class="docutils literal">/home/izabela/BlockBasedProgScratch/_sources/Sound.rst</span>, line 11); <em><a href="#id2">backlink</a></em></p>
+<p>Inline substitution_reference start-string without end-string.</p>
+</div>
+<p>Hapi i parë do të ishte regjistrimi i tingullit - zëri ynë: ne do ta bëjmë regjistrimin dhe do ta shtojmë në skenarin që i përket vajzës; në regjistrim, duhet të themi: “Shko, shko!”</p>
+<p>Regjistrimi i tingullit</p>
+<p>Para se të regjistrojmë tingullin, duhet të:</p>
 <ul class="simple">
-<li><p>ensure that the girl sprite is active (the thumbnail of the sprite should have a blue frame around it in the sprites list);</p></li>
-<li><p>click on the Sound tab;</p></li>
-<li><p>choose the option Record.</p></li>
+<li><p>Sigurohuni që vajza e sprite është aktive (tabloja e spërkatjes duhet të ketë një kornizë blu rreth saj në listën e sprites);</p></li>
+<li><p>klikoni në butonin Sound;</p></li>
+<li><p>zgjidhni opsionin Record.</p></li>
 </ul>
 <img alt="_images/Avery.png" class="align-center" src="_images/Avery.png" />
-<p>The <strong>Record Sound</strong> window will open; within this window, we can start recording the sound.</p>
+<p>Do të hapet dritarja <strong>Record Sound</strong>; brenda kësaj dritare, ne mund të fillojmë regjistrimin e tingullit.</p>
 <ol class="arabic simple">
-<li><p>Click the red button and say: “Go, go!”;</p></li>
-<li><p>You can listen to the recording by pressing the <strong>Play</strong> button, if you are satisfied, you should click the button <strong>Save</strong>, and if not, click the button <strong>Re-record</strong> and do it again;</p></li>
-<li><p>A visual representation of the recording will appear in the Sound tab;</p></li>
-<li><p>Blocks that allow our voice to be heard during the running of the program, will appear in the category Sound.</p></li>
+<li><p>Klikoni butonin e kuq dhe thoni: “Shko, shko!”;</p></li>
+<li><p>Ju mund ta dëgjoni regjistrimin duke shtypur butonin <strong>Play</strong>, nëse jeni të kënaqur, duhet të klikoni në butonin <strong>Save</strong>, dhe nëse jo, klikoni në butonin <strong>Re-register</strong> dhe bëni përsëri;</p></li>
+<li><p>Një paraqitje vizuale e regjistrimit do të shfaqet në kartën Sound;</p></li>
+<li><p>Blloqet që lejojnë të dëgjohet zëri ynë gjatë ekzekutimit të programit, do të shfaqen në kategorinë Sound.</p></li>
 </ol>
 <img alt="_images/GoGo.png" class="align-center" src="_images/GoGo.png" />
-<p>The chick’s chirping sound can be found in the sound library and uploaded from it.</p>
-<p>We must not forget that the chick sprite has to be active; otherwise, the chirping sound will be added to the girl sprite.</p>
+<p>Tingulli i pulës mund të gjendet në librarinë e tingullit dhe të ngarkohet prej tij.</p>
+<p>Ne nuk duhet të harrojmë se cicerima e pulave duhet të jetë aktive; përndryshe, tingulli i bezdisshëm do t’i shtohet sprite vajzës.</p>
 <img alt="_images/Chirp.png" class="align-center" src="_images/Chirp.png" />
-<p>We are ready to add command blocks to the code.</p>
+<p>Ne jemi të gatshëm për të shtuar blloqe komandash në kod.</p>
 <a class="reference internal image-reference" href="_images/KodFarmaZvuk.png"><img alt="_images/KodFarmaZvuk.png" class="align-center" src="_images/KodFarmaZvuk.png" style="width: 1200px;" /></a>
-<dl class="simple">
-<dt><img alt="Uradi" src="_images/Uradi.png" /> Remix the project <em>Farm</em>, which can be found on the link <a href="https://scratch.mit.edu/projects/326422653/" target="_blank">https://scratch.mit.edu/projects/326422653/</a>. Record the sound and add the appropriate block to the script that belongs to the girl sprite. From the sound library, add the appropriate chirping sound to the script that belongs to the chick sprite.</dt><dd></dd>
+<dl>
+<dt><img alt="Uradi" src="_images/Uradi.png" /> Përsërite projektin <em>Farm</em>, i cili mund të gjendet në linkun | https: //scratch.mit.edu/projects/326422653/ <a href="#id3"><span class="problematic" id="id4">|</span></a>. Regjistroni tingullin dhe shtoni bllokun e duhur në skenarin që i përket vajzës. Nga libraria e tingullit, shtoni tingullin e duhur të cicërimës në skenarin që i përket sprukut</dt><dd><div class="system-message" id="id3">
+<p class="system-message-title">System Message: WARNING/2 (<span class="docutils literal">/home/izabela/BlockBasedProgScratch/_sources/Sound.rst</span>, line 57); <em><a href="#id4">backlink</a></em></p>
+<p>Inline substitution_reference start-string without end-string.</p>
+</div>
+</dd>
 </dl>
-
-            <div class="course-box course-box-question course-content">
-            <ul data-component="multiplechoice" data-multipleanswers="false"  id="ZvukZadatak1">
-            <p>Q-11: In the program Farm, we chose the block <img alt="GG" src="_images/GG.png" /> to add the sound, and not the block <img alt="GGUD" src="_images/GGUD.png" />. Why?</p>
-
-            <li data-component="answer" data-correct id="ZvukZadatak1_opt_a">If we had chosen the other block, we would have heard our voice first. The text bubble would have appeared only after the sentence had been spoken.</li><li data-component="feedback" id="ZvukZadatak1_opt_a">You are absolutely right!</li>
-            
-            <li data-component="answer"  id="ZvukZadatak1_opt_b">We could have used the second block, and the program would have run the same way.</li><li data-component="feedback" id="ZvukZadatak1_opt_b">This is not correct. In the program *Farm*, replace the block presented in the figure above, run the program and analyze the result.</li>
-            
-
-            </ul>
-            </div>
-            </div>
-<div class="section" id="composing-music">
-<h2>Composing music<a class="headerlink" href="#composing-music" title="Permalink to this headline">¶</a></h2>
-<p>Composing music requires the addition of a new block category to the Scratch interface. This is done by clicking on the button <img alt="Ekstenzija" src="_images/Ekstenzija.png" />, which is located in the bottom left corner of the screen, and then choosing the extension <strong>Music</strong>.</p>
+<div class="system-message">
+<p class="system-message-title">System Message: ERROR/3 (<span class="docutils literal">/home/izabela/BlockBasedProgScratch/_sources/Sound.rst</span>, line 59)</p>
+<p>No correct answer specified.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">mchoice</span><span class="p">::</span> <span class="n">ZvukZadatak1</span>
+    <span class="p">:</span><span class="n">answer_a</span><span class="p">:</span> <span class="n">Nëse</span> <span class="n">do</span> <span class="n">të</span> <span class="n">kishim</span> <span class="n">zgjedhur</span> <span class="n">bllokun</span> <span class="n">tjetër</span><span class="p">,</span> <span class="n">së</span> <span class="n">pari</span> <span class="n">do</span> <span class="n">të</span> <span class="n">kishim</span> <span class="n">dëgjuar</span> <span class="n">zërin</span> <span class="n">tonë</span><span class="o">.</span> <span class="n">Flluska</span> <span class="n">e</span> <span class="n">tekstit</span> <span class="n">do</span> <span class="n">të</span> <span class="n">ishte</span> <span class="n">shfaqur</span> <span class="n">vetëm</span> <span class="n">pasi</span> <span class="n">të</span> <span class="n">ishte</span> <span class="n">shqiptuar</span> <span class="n">fjalia</span><span class="o">.</span>
+</pre></div>
+</div>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<span class="docutils literal">/home/izabela/BlockBasedProgScratch/_sources/Sound.rst</span>, line 61)</p>
+<p>Explicit markup ends without a blank line; unexpected unindent.</p>
+</div>
+<p>    :answer_b: Mund të kishim përdorur bllokun e dytë, dhe programi do të kishte funksionuar në të njëjtën mënyrë.
+    :feedback_a: Ju keni absolutisht të drejtë!
+    :feedback_b: Kjo nuk është e saktë. Në programin <em>Farm</em>, zëvendësoni bllokun e paraqitur në figurën më lart, drejtoni progun</p>
+<div class="system-message">
+<p class="system-message-title">System Message: ERROR/3 (<span class="docutils literal">/home/izabela/BlockBasedProgScratch/_sources/Sound.rst</span>, line 64)</p>
+<p>Unexpected indentation.</p>
+</div>
+<blockquote>
+<div><dl class="field-list simple">
+<dt class="field-odd">correct</dt>
+<dd class="field-odd"><p>a</p>
+</dd>
+</dl>
+<p>Në programin Farm, ne zgjodhëm bllokun <img alt="GG" src="_images/GG.png" /> për të shtuar tingullin, dhe jo bllokun <img alt="GGUD" src="_images/GGUD.png" />. Pse?</p>
+</div></blockquote>
+</div>
+<div class="section" id="kompozimi-i-muzikes">
+<h2>Kompozimi i muzikës<a class="headerlink" href="#kompozimi-i-muzikes" title="Permalink to this headline">¶</a></h2>
+<p>Mosveprimi i muzikës kërkon shtimin e një kategorie të re bllok në ndërfaqen Scratch. Kjo bëhet duke klikuar në butonin <img alt="Ekstenzija" src="_images/Ekstenzija.png" />, i cili ndodhet në këndin e poshtëm të majtë të ekranit, dhe më pas duke zgjedhur zgjatjen <strong>Music</strong>.</p>
 <img alt="_images/Music.png" class="align-center" src="_images/Music.png" />
-<p>No matter what language they speak, people from all over the world know the lullaby Frère Jacques. If you don’t know the song, look it up on YouTube, and we will help you compose it in Scratch.</p>
-<p>As our instrument, we will choose the electric piano (1), and then we will connect the notes so that, when we run the program, this famous lullaby starts playing.</p>
+<p>Pavarësisht se në cilën gjuhë flasin, njerëzit nga e gjithë bota e dinë gënjeshtrën e Frère Jacques. Nëse nuk e dini këngën, kërkoni atë në YouTube dhe ne do t’ju ndihmojmë ta kompozoni atë në Scratch.</p>
+<p>Si instrumentin tonë, ne do të zgjedhim pianon elektrike (1), dhe pastaj do t’i lidhim shënimet në mënyrë që, kur të drejtojmë programin, kjo pjesë e famshme të fillojë të luajë.</p>
 <img alt="_images/FJ.png" class="align-center" src="_images/FJ.png" />
-<p><img alt="Uradi" src="_images/Uradi.png" /> Remix the project <em>Frère Jacques</em>, which can be found on the link <a href="https://scratch.mit.edu/projects/326431999/" target="_blank">https://scratch.mit.edu/projects/326431999/</a> and add the blocks that will contribute to the “fullness of sound” (drums or the rhythm section). Use the instruments from the drop-down list of the block <img alt="Drums" src="_images/Drums.png" />. By using the appropriate block from the category <strong>Sound</strong> increase the volume of each verse by 10.</p>
+<p><img alt="Uradi" src="_images/Uradi.png" /> Miksoni projektin <em>Frère Jacques</em>, i cili mund të gjendet në linkun <a href="#id5"><span class="problematic" id="id6">|https: //scratch.mit.edu/projects/326431999/|</span></a> dhe shtoni blloqet që do të kontribuojnë në “plotësinë e zërit” (daulle ose seksioni i ritmit). Përdorni instrumentet nga lista drop-down e bllokut <a href="#id7"><span class="problematic" id="id8">|Battery|</span></a>. Duke përdorur bllokun e duhur nga kategoria <strong>Sound</strong> rrisni vëllimin e secilit varg me 10.</p>
 <dl class="simple">
-<dt><img alt="Izazov" src="_images/Izazov.png" /> Try to sing the song Frère Jacques without the music and record it. Add it to the Scratch program <strong>Frère Jacques</strong>. We know for sure that it will be an interesting arrangement!</dt><dd></dd>
+<dt><img alt="Izazov" src="../_images/Izazov.png" /> Mundohuni të këndoni këngën Frère Jacques pa muzikë dhe ta regjistroni atë. Shtojeni atë në programin Scratch <strong>Frère Jacques</strong>. Ne e dimë me siguri që do të jetë një miksim interesant!</dt><dd></dd>
 </dl>
 </div>
 </div>
@@ -265,17 +289,17 @@
   
       <div class="col-md-12">
 <ul class="pager">
-        <li id="relations-prev" title='Previous chapter - Looks' data-toggle="tooltip"><a href="Looks.html">Previous chapter</a></li>
+        <li id="relations-prev" title='Previous chapter - Pamje' data-toggle="tooltip"><a href="Looks.html">Previous chapter</a></li>
     
-        <li id="relations-next" title='Next chapter - Motion' data-toggle="tooltip"><a href="Motion.html">Next chapter</a></li>
+        <li id="relations-next" title='Next chapter - Lëvizja' data-toggle="tooltip"><a href="Motion.html">Next chapter</a></li>
 </ul>
 
 <!-- <ul class="pager"> -->
     <!-- -->
-        <!-- <li id="relations-prev" title='Претходно поглавље - Looks' data-toggle="tooltip"><a href="Looks.html">Претходно поглавље</a></li> -->
+        <!-- <li id="relations-prev" title='Претходно поглавље - Pamje' data-toggle="tooltip"><a href="Looks.html">Претходно поглавље</a></li> -->
     <!--  -->
     <!-- -->
-        <!-- <li id="relations-next" title='Следеће поглавље - Motion' data-toggle="tooltip"><a href="Motion.html">Следеће поглавље</a></li> -->
+        <!-- <li id="relations-next" title='Следеће поглавље - Lëvizja' data-toggle="tooltip"><a href="Motion.html">Следеће поглавље</a></li> -->
     <!-- -->
 <!-- </ul> -->
 

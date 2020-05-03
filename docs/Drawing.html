@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Drawing &#8212; Runestone Interactive Overview</title>
+    <title>Vizatimi &#8212; Runestone Interactive Overview</title>
     <link rel="stylesheet" href="_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="_static/activecode.css" />
@@ -80,6 +80,7 @@
     <script type="text/javascript" src="_static/lib/prettify.js"></script>
     <script type="text/javascript" src="_static/lib/hammer.min.js"></script>
     <script type="text/javascript" src="_static/parsons.js"></script>
+    <script type="text/javascript" src="_static/parsons-i18n.en.js"></script>
     <script type="text/javascript" src="_static/timedparsons.js"></script>
     <script type="text/javascript" src="_static/poll.js"></script>
     <script type="text/javascript" src="_static/reveal.js"></script>
@@ -139,8 +140,8 @@
     <script type="text/javascript" src="_static/jquery-migrate-1.2.1.min.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Procedures" href="Procedures.html" />
-    <link rel="prev" title="Motion" href="Motion.html" />
+    <link rel="next" title="Proçedura" href="Procedures.html" />
+    <link rel="prev" title="Lëvizja" href="Motion.html" />
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
@@ -202,62 +203,66 @@
 
 <div class="container col-md-8 col-md-offset-2" id="main-content">
   
-  <div class="section" id="drawing">
-<h1>Drawing<a class="headerlink" href="#drawing" title="Permalink to this headline">¶</a></h1>
-<p>In Scratch, every sprite has a hidden pen and the ability to live marks on the stage when it moves.</p>
-<dl class="simple">
-<dt>If we want to draw, we need to use the blocks from the category <strong>Pen</strong>. First, we need to add this category of blocks to the Scratch interface. We can do this by clicking on the button <img alt="Ekstenzija" src="_images/Ekstenzija.png" />, which is located in the bottom left corner of the screen, and selecting the extension <strong>Pen</strong>.</dt><dd></dd>
-</dl>
+  <div class="section" id="vizatimi">
+<h1>Vizatimi<a class="headerlink" href="#vizatimi" title="Permalink to this headline">¶</a></h1>
+<p>Në Scratch, çdo sprite ka një stilolaps të fshehur dhe aftësinë për të jetuar shenja në skenë kur lëviz.</p>
+<p>Nëse duam të vizatojmë, duhet të përdorim blloqet nga kategoria <strong>Pen</strong>. Së pari, ne duhet të shtojmë këtë kategori të blloqeve në ndërfaqen Scratch. Ne mund ta bëjmë këtë duke klikuar në butonin <img alt="Ekstenzija" src="_images/Ekstenzija.png" />, i cili ndodhet në këndin e poshtëm të majtë të ekranit, dhe duke zgjedhur zgjatjen <strong>Pen</strong>.</p>
+<blockquote>
+<div></div></blockquote>
 <img alt="_images/ekstOlovka.png" class="align-center" src="_images/ekstOlovka.png" />
-<p>A new category of blocks <strong>Pen</strong> will appear in the <strong>Code</strong> tab. In this category, we have 9 blocks, which we can use for drawing on the stage. With these blocks we can erase everything we have drawn on the stage (<em>erase all</em>), put the pen down and up (<em>pen down</em>, <em>pen up</em>), control the color and the size of the pen easily (<em>set pen color</em>, <em>change pen color</em>, <em>set pen size</em>, <em>change pen size</em>).</p>
+<p>Një kategori e re e blloqeve <strong>Pen</strong> do të shfaqet në kartën <strong>Code</strong>. Në këtë kategori, ne kemi 9 blloqe, të cilat mund t’i përdorim për vizatim në skenë. Me këto blloqe mund të fshijmë gjithçka që kemi vizatuar në skenë (<em>erase all</em>), e vendos stilolapsin poshtë dhe lart (<em>pen down</em>, <em>pen up</em>), kontrollojmë lehtë ngjyrën dhe madhësinë e lapsit (<em>set pen color</em>, <em>change pen color</em>, <em>set pen size</em>, <em>change pen size</em>).</p>
 <img alt="_images/BlokoviOlovka.png" class="align-center" src="_images/BlokoviOlovka.png" />
-<p>Initially, the sprite has the pen in the up position. <strong>To make the drawing possible, we have to put the pen down.</strong></p>
-<div class="section" id="freehand-drawing">
-<h2>“Freehand” Drawing<a class="headerlink" href="#freehand-drawing" title="Permalink to this headline">¶</a></h2>
-<p>When we think about the freehand drawing, we usually picture us drawing with a pen. This is why we will use the sprite <a class="reference internal" href="_images/LikOlovka.png"><img alt="LikOlovka" src="_images/LikOlovka.png" style="width: 70px;" /></a> to create a program, which will simulate the freehand style of drawing. You can find this sprite in the Sprite library.</p>
-<p>In Scratch, the sprites draw with their center. If we want to draw with the pencil’s “graphite tip”, we will have to change the center of the sprite. We can do this in the <strong>Costumes</strong> tab.</p>
-<p>VIDEO - SPRITE’S CENTER</p>
-<p>When we examined sprite’s movement on the stage, we presented the block <img alt="OK1" src="_images/OK1.png" />. If we run this blocks an infinite number of times (<em>Forever</em>), the sprite will continuously move around on the stage following the mouse cursor. Therefore, we can use this block to simulate drawing - by moving the mouse cursor around on the stage, we will “draw” on the stage.</p>
-<p>Analyze the following scripts:</p>
+<p>Fillimisht, sprite ka stilolapsin në pozicionin lart. <strong>Për ta bërë të mundur vizatimin, duhet ta vendosim stilolapsin.</strong></p>
+<div class="section" id="vizatimi-i-lire">
+<h2>Vizatimi i lirë<a class="headerlink" href="#vizatimi-i-lire" title="Permalink to this headline">¶</a></h2>
+<p>Kur mendojmë për vizatimin e lirë, zakonisht na fotografojnë duke vizatuar me stilolaps. Kjo është arsyeja pse ne do të përdorim sprite <a class="reference internal" href="_images/LikOlovka.png"><img alt="LikOlovka" src="_images/LikOlovka.png" style="width: 70px;" /></a> për të krijuar një program, i cili do të simulojë stilin e lirë të vizatimit. Ju mund ta gjeni këtë sprite në librarinë Sprite.</p>
+<p>Në Scratch, sprites vizatojnë me qendrën e tyre. Nëse dëshirojmë të vizatojmë me “majën grafit” të lapsit, do të duhet të ndryshojmë qendrën e sprite. Ne mund ta bëjmë këtë në kartën <strong>Costums</strong>.</p>
+<p>VIDEO - QENDRA E SPRITES</p>
+<p>Kur shqyrtuam lëvizjen e sprite në skenë, prezantuam bllokun <img alt="OK1" src="_images/OK1.png" />. Nëse e ekzekutojmë këtë bllok në herë të pafundme (<em>Forever</em>), sprite vazhdimisht do të lëvizë në skenë pas kursorit të mouse. Prandaj, ne mund ta përdorim këtë bllok për të simuluar vizatimin - duke lëvizur kursorin e mouse përreth në skenë, ne do të “vizatojmë” në skenë.</p>
+<p>Analizoni shkrimet e mëposhtme:</p>
 <img alt="_images/KodSR.png" class="align-center" src="_images/KodSR.png" />
-<p><img alt="Uradi" src="_images/Uradi.png" /> Create a program, which allows freehand drawing and ensure that the program stops running when you press the <strong>s</strong> key. Look for the appropriate blocks in the categories <strong>Events</strong> and <strong>Control</strong>.</p>
+<p>Krijoni një program, i cili lejon vizatimin pa pagesë dhe sigurohuni që programi të ndalojë funksionimin kur shtypni tastin <strong>s</strong>. Shikoni blloqet e duhura në kategoritë <strong>Ngjarjet</strong> dhe ** Kontrolli <a href="#id1"><span class="problematic" id="id2">**</span></a>.</p>
+<div class="system-message" id="id1">
+<p class="system-message-title">System Message: WARNING/2 (<span class="docutils literal">/home/izabela/BlockBasedProgScratch/_sources/Drawing.rst</span>, line 42); <em><a href="#id2">backlink</a></em></p>
+<p>Inline strong start-string without end-string.</p>
 </div>
-<div class="section" id="controlling-the-movement-of-the-sprite-by-using-the-keyboard-and-drawing">
-<h2>Controlling the movement of the sprite by using the keyboard and drawing<a class="headerlink" href="#controlling-the-movement-of-the-sprite-by-using-the-keyboard-and-drawing" title="Permalink to this headline">¶</a></h2>
-<p>This is a great opportunity to use the blocks that allow the sprite to move with the help of arrows and upgrade them further by making the sprite draw lines of certain color and size (thickness).</p>
-<p>Arrange so that the sprite draws in the following manner:</p>
+</div>
+<div class="section" id="kontrolli-i-levizjes-se-sprite-duke-perdorur-tastieren-dhe-vizatimin">
+<h2>Kontrolli i lëvizjes së sprite duke përdorur tastierën dhe vizatimin<a class="headerlink" href="#kontrolli-i-levizjes-se-sprite-duke-perdorur-tastieren-dhe-vizatimin" title="Permalink to this headline">¶</a></h2>
+<p>Kjo është një mundësi e shkëlqyeshme për të përdorur blloqet që lejojnë sprite të lëvizë me ndihmën e shigjetave dhe t’i azhornojmë ato më tej duke bërë linjat e tërheqjes sprite të ngjyrës dhe madhësisë së caktuar (trashësi).</p>
+<p>Organizoni në mënyrë që sprite të tërheqë në mënyrën e mëposhtme:</p>
 <ul class="simple">
-<li><p>while it moves to the right, it should draw a blue line, and the size should be 5 pixels;</p></li>
-<li><p>while it moves to the left, it should draw a green line, and the size should be 10 pixels;</p></li>
-<li><p>while it moves upward, it should draw a red line, and the size should be 15 pixels;</p></li>
-<li><p>while it moves downward, it should draw a yellow line, and the size should be 20 pixels.</p></li>
+<li><p>ndërsa lëviz në të djathtë, duhet të vizatojë një vijë blu, dhe madhësia duhet të jetë 5 pixel;</p></li>
+<li><p>ndërsa lëviz në të majtë, duhet të vizatojë një vijë jeshile, dhe madhësia duhet të jetë 10 pixel;</p></li>
+<li><p>ndërsa lëviz lart, duhet të vizatojë një vijë të kuqe, dhe madhësia duhet të jetë 15 pixel;</p></li>
+<li><p>ndërsa lëviz poshtë, duhet të vizatojë një vijë të verdhë, dhe madhësia duhet të jetë 20 pixel.</p></li>
 </ul>
-<p>Create the following blocks:</p>
+<p>Krijoni blloqet e mëposhtme:</p>
 <a class="reference internal image-reference" href="_images/strelicebojadebljina.png"><img alt="_images/strelicebojadebljina.png" class="align-center" src="_images/strelicebojadebljina.png" style="width: 840px;" /></a>
-<p>We drew the image you see below:</p>
+<p>Ne vizatuam një imazh si më poshtë:</p>
 <a class="reference internal image-reference" href="_images/slobodnaruka.png"><img alt="_images/slobodnaruka.png" class="align-center" src="_images/slobodnaruka.png" style="width: 650px;" /></a>
-<p>Try to create a program, which will draw a similar image.</p>
+<p>Mundohuni të krijoni një program, i cili do të tërheqë një imazh të ngjashëm.</p>
 </div>
-<div class="section" id="absolute-movement-and-drawing">
-<h2>Absolute movement and drawing<a class="headerlink" href="#absolute-movement-and-drawing" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="levizje-dhe-vizatimi-absolut">
+<h2>Lëvizje dhe vizatimi absolut<a class="headerlink" href="#levizje-dhe-vizatimi-absolut" title="Permalink to this headline">¶</a></h2>
 <a class="reference internal image-reference" href="_images/brodic.png"><img alt="_images/brodic.png" class="align-center" src="_images/brodic.png" style="width: 650px;" /></a>
-<p>Analyzing the image above, we can see that it will not be hard to determine the points we need to connect to draw the boat.</p>
-<p><img alt="Uradi" src="_images/Uradi.png" /> Create a program, which will draw the boat by using light blue lines 5 pixels thick (pen size). Don’t forget to erase everything on the stage before the drawing starts. Also, don’t forget to put the cat sprite to be a sailor on the deck of the boat.</p>
+<p>Duke analizuar imazhin e mësipërm, ne mund të shohim se nuk do të jetë e vështirë të përcaktojmë pikat që duhet të lidhim për të tërhequr varkën.</p>
+<p><img alt="Uradi" src="_images/Uradi.png" /> Krijoni një program, i cili do të tërheqë varkën duke përdorur linja të lehta blu 5 pixel të trashë (madhësia e stilolapsit). Mos harroni të fshini gjithçka në skenë para se të fillojë vizatimi. Gjithashtu, mos harroni ta vendosni macein të spritej si marinar në kuvertën e varkës.</p>
 
-    <div data-component="reveal" id="sakrivanjeCrtanje1"   data-showtitle="Compare your solution with ours" data-hidetitle="Hide the solution">
-    <p><strong>Possible solution</strong></p>
+    <div data-component="reveal" id="sakrivanjeCrtanje1"   data-showtitle="Krahaso zgjidhejn tuaj me tonën" data-hidetitle="Fshih zgjidhjen">
+    <p><strong>Zgjidhje e mundshme</strong></p>
 <blockquote>
 <div><a class="reference internal image-reference" href="_images/BrodicKod.png"><img alt="_images/BrodicKod.png" class="align-center" src="_images/BrodicKod.png" style="width: 350px;" /></a>
 </div></blockquote>
 
     </div>
     </div>
-<div class="section" id="stamp">
-<h2>Stamp<a class="headerlink" href="#stamp" title="Permalink to this headline">¶</a></h2>
-<p>Sometimes we need to draw and rotate images that are more complex on the stage. Instead of drawing the desired shape over and over again, it can be easier to create a costume with a specific shape, and then multiply and rotate it by using the block Stamp <img alt="BO2" src="_images/BO2.png" />.</p>
-<p>We just need to use <img alt="Paint" src="_images/Paint.png" /> to draw a new sprite, and then draw the shape we want in the paint editor located in the <strong>Costumes</strong> tab.</p>
-<p>HERE VIDEO DRAGONS</p>
-<p>We can also use the Stamp with the costumes of the sprites found in the Scratch sprite library.</p>
+<div class="section" id="stampa">
+<h2>Stampa<a class="headerlink" href="#stampa" title="Permalink to this headline">¶</a></h2>
+<p>Ndonjëherë duhet të vizatojmë dhe rrotullojmë imazhe që janë më komplekse në skenë. Në vend që të vizatoni formën e dëshiruar pa pushim, mund të jetë më e lehtë të krijoni një kostum me një formë specifike, dhe pastaj të shumëzoni dhe rrotulloni atë duke përdorur bllokun Stamp <img alt="BO2" src="_images/BO2.png" />.</p>
+<p>Thjesht duhet të përdorim <img alt="Paint" src="_images/Paint.png" /> për të vizatuar një sprite të re, dhe pastaj të vizatoni formën që dëshirojmë në redaktorin e bojrave të vendosur në skedën <strong>Costums</strong>.</p>
+<p>DRAGON VIDEO</p>
+<p>Ne gjithashtu mund të përdorim stampën me kostumet e sprites që gjenden në librarinë e Sprite Scratch.</p>
 </div>
 </div>
 
@@ -265,17 +270,17 @@
   
       <div class="col-md-12">
 <ul class="pager">
-        <li id="relations-prev" title='Previous chapter - Motion' data-toggle="tooltip"><a href="Motion.html">Previous chapter</a></li>
+        <li id="relations-prev" title='Previous chapter - Lëvizja' data-toggle="tooltip"><a href="Motion.html">Previous chapter</a></li>
     
-        <li id="relations-next" title='Next chapter - Procedures' data-toggle="tooltip"><a href="Procedures.html">Next chapter</a></li>
+        <li id="relations-next" title='Next chapter - Proçedura' data-toggle="tooltip"><a href="Procedures.html">Next chapter</a></li>
 </ul>
 
 <!-- <ul class="pager"> -->
     <!-- -->
-        <!-- <li id="relations-prev" title='Претходно поглавље - Motion' data-toggle="tooltip"><a href="Motion.html">Претходно поглавље</a></li> -->
+        <!-- <li id="relations-prev" title='Претходно поглавље - Lëvizja' data-toggle="tooltip"><a href="Motion.html">Претходно поглавље</a></li> -->
     <!--  -->
     <!-- -->
-        <!-- <li id="relations-next" title='Следеће поглавље - Procedures' data-toggle="tooltip"><a href="Procedures.html">Следеће поглавље</a></li> -->
+        <!-- <li id="relations-next" title='Следеће поглавље - Proçedura' data-toggle="tooltip"><a href="Procedures.html">Следеће поглавље</a></li> -->
     <!-- -->
 <!-- </ul> -->
 

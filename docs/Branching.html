@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Branching &#8212; Runestone Interactive Overview</title>
+    <title>Degëzimi &#8212; Runestone Interactive Overview</title>
     <link rel="stylesheet" href="_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="_static/activecode.css" />
@@ -80,6 +80,7 @@
     <script type="text/javascript" src="_static/lib/prettify.js"></script>
     <script type="text/javascript" src="_static/lib/hammer.min.js"></script>
     <script type="text/javascript" src="_static/parsons.js"></script>
+    <script type="text/javascript" src="_static/parsons-i18n.en.js"></script>
     <script type="text/javascript" src="_static/timedparsons.js"></script>
     <script type="text/javascript" src="_static/poll.js"></script>
     <script type="text/javascript" src="_static/reveal.js"></script>
@@ -139,8 +140,8 @@
     <script type="text/javascript" src="_static/jquery-migrate-1.2.1.min.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Lists" href="Lists.html" />
-    <link rel="prev" title="Repetition" href="Repetition.html" />
+    <link rel="next" title="Listat" href="Lists.html" />
+    <link rel="prev" title="Përsëritje" href="Repetition.html" />
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
@@ -202,96 +203,128 @@
 
 <div class="container col-md-8 col-md-offset-2" id="main-content">
   
-  <div class="section" id="branching">
-<h1>Branching<a class="headerlink" href="#branching" title="Permalink to this headline">¶</a></h1>
-<p>We mentioned that repeating one or more commands (blocks) is a powerful concept in programming.</p>
-<p>Equally useful and important is the <strong>program branching concept</strong>. Branching allows certain sets of blocks to be executed by the program, while others are not. Which commands will run depends on the fulfillment of the <strong>conditions</strong>. You should understand the condition as a statement that can be <strong>true</strong> or <strong>false</strong>.</p>
-<p>Even though, up until now, we have created programs that run commands one after the other, from the beginning until the end of the program, most of the programs contain branches.</p>
-<p>There are two blocks for branching, and they are located in the category <strong>Control</strong>:</p>
+  <div class="section" id="degezimi">
+<h1>Degëzimi<a class="headerlink" href="#degezimi" title="Permalink to this headline">¶</a></h1>
+<p>Ne përmendëm se përsëritja e një ose më shumë komandave (blloqeve) është një koncept i fuqishëm në programim.</p>
+<p>Po aq e dobishme dhe e rëndësishme është edhe koncepti i  <strong>degëzimit së programit</strong>. Degëzimi lejon që grupe të caktuara të blloqeve të ekzekutohen nga programi, ndërsa të tjerët jo. Cilat komanda do të ekzekutohen varet nga përmbushja e kushteve. Ju duhet ta kuptoni gjendjen si një deklaratë që mund të jetë <strong>True</strong> ose <strong>False</strong>.</p>
+<p>Edhe pse, deri tani, ne kemi krijuar programe që drejtojnë komanda njëra pas tjetrës, nga fillimi deri në fund të programit, shumica e programeve përmbajnë degë.</p>
+<p>Ekzistojnë dy blloqe për degëzim, dhe ato janë të vendosura në kategorinë <strong>Control</strong>:</p>
 <ul class="simple">
-<li><p>The block <img alt="If" src="_images/If.png" /> checks the condition and if the condition is <strong>true</strong> it runs the blocks held inside it , and</p></li>
-<li><p>The block <img alt="IfElse" src="_images/IfElse.png" /> checks the condition an if the condition is <strong>true</strong> it runs one set of commands, and if the result is <strong>false</strong> it runs another set.</p></li>
+<li><p>Blloku <img alt="If" src="_images/If.png" /> kontrollon gjendjen dhe nëse gjendja është <strong>True</strong> ajo i bllokon blloqet e mbajtura brenda saj, dhe</p></li>
+<li><p>Blloku <img alt="IfElse" src="_images/IfElse.png" /> kontrollon gjendjen një nëse gjendja është  <strong>True</strong> ekzekuton një grup komandash, dhe nëse rezultati është <strong>False</strong> ekzekuton një grup tjetër.</p></li>
 </ul>
-<p>One way to determine if a condition is fulfilled is to select, from the category <strong>Operators</strong>, one of the <strong>comparison operators</strong>:</p>
+<p>Një mënyrë për të përcaktuar nëse një kusht është përmbushur është të zgjidhni, nga kategoria <strong>Operators</strong>, një nga <strong>operatorët e krahasimit</strong>:</p>
 <ul class="simple">
-<li><p>greater than <img alt="VeceOd" src="_images/VeceOd.png" />;</p></li>
-<li><p>less than <img alt="ManjeOd" src="_images/ManjeOd.png" />;</p></li>
-<li><p>equal to <img alt="Jednako" src="_images/Jednako.png" />.</p></li>
+<li><p>më i madh se <img alt="VeceOd" src="_images/VeceOd.png" />;</p></li>
+<li><p>më i vogël se <img alt="ManjeOd" src="_images/ManjeOd.png" />;</p></li>
+<li><p>i barabartë me <img alt="Jednako" src="_images/Jednako.png" />.</p></li>
 </ul>
-
-            <div class="course-box course-box-question course-content">
-            <ul data-component="multiplechoice" data-multipleanswers="false"  id="GrananjeZ1">
-            <p>Q-2: The price of the ice cream is 100 coins. Analyze the scripts presented in the figure and select the correct statement.</p>
-<img alt="_images/Sladoled.png" class="align-center" src="_images/Sladoled.png" />
-
-            <li data-component="answer"  id="GrananjeZ1_opt_a">As a result of running script A, the program will write a sentence "I'll buy ice cream!".</li><li data-component="feedback" id="GrananjeZ1_opt_a">Look carefully at the comparison operator in the script A. We believe that you can see that the program will write the sentence "I'll buy ice cream!" only if the price of the ice cream is less than 100 coins.</li>
-            
-            <li data-component="answer"  id="GrananjeZ1_opt_b">Running script A and B will have the same result - the programs will write a sentence "I'll buy ice cream!".</li><li data-component="feedback" id="GrananjeZ1_opt_b">Analyze how the comparison operator in script A is defined, and how it is in script B. We believe that you can see that in script A the sentence "I'll buy ice cream!" will be written only if the price of the ice cream is less than 100 coins. By running script B, the sentence "I'll buy ice cream!" will be written if the price is less than or equal to 100 coins.</li>
-            
-            <li data-component="answer" data-correct id="GrananjeZ1_opt_c">As a result of running script B, the program will write a sentence "I'll buy ice cream!".</li><li data-component="feedback" id="GrananjeZ1_opt_c">Well done! The program will write the sentence "I'll buy ice cream!" if the price is less than or equal to 100 coins.</li>
-            
-
-            </ul>
-            </div>
-            <p>The easiest way to understand branching is to create a program that simulates a quiz. When we ask the user a question and wait for his/her answer, it is expected that we would provide feedback on whether the answer was correct or not. We can only provide information about the correctness of an answer when we determine whether the user’s response is identical to the correct answer.</p>
-<img alt="_images/Kviz1.png" class="align-center" src="_images/Kviz1.png" />
-<p>Even though it seems that we wrote the code correctly, and the correct answer to the question “How many legs does a dog have?” is 4, the user could answer the question by typing a string instead of a number. In other words, the correct answer to the question is not only 4, but also:</p>
+<div class="system-message">
+<p class="system-message-title">System Message: ERROR/3 (<span class="docutils literal">/home/izabela/BlockBasedProgScratch/_sources/Branching.rst</span>, line 31)</p>
+<p>No correct answer specified.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">mchoice</span><span class="p">::</span> <span class="n">GrananjeZ1</span>
+   <span class="p">:</span><span class="n">answer_a</span><span class="p">:</span> <span class="n">Si</span> <span class="n">rezultat</span> <span class="n">i</span> <span class="n">ekzekutimit</span> <span class="n">të</span> <span class="n">skenarit</span> <span class="n">A</span><span class="p">,</span> <span class="n">programi</span> <span class="n">do</span> <span class="n">të</span> <span class="n">shkruajë</span> <span class="n">një</span> <span class="n">fjali</span> <span class="s2">&quot;Do të blej akullore!&quot;</span><span class="o">.</span>
+</pre></div>
+</div>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<span class="docutils literal">/home/izabela/BlockBasedProgScratch/_sources/Branching.rst</span>, line 33)</p>
+<p>Explicit markup ends without a blank line; unexpected unindent.</p>
+</div>
+<p>   :answer_b: Ekzekutimi i skenarit A dhe B do të ketë të njëjtin rezultat - programet do të shkruajnë një fjali “Unë do të blej akullore!”.
+   :answer_c: Si rezultat i ekzekutimit të skenarit B, programi do të shkruajë një fjali “Do të blej akullore!”.
+   :feedback_a: Shikoni me kujdes operatorin e krahasimit në skenarin A. Ne besojmë se mund të shihni që programi do të shkruajë fjalinë “Do të blej akullore!” vetëm nëse çmimi i akullores është më pak se 100 monedha.
+   :feedback_b: Analizoni se si është përcaktuar operatori i krahasimit në skenarin A, dhe si është në skenarin B. Ne besojmë se mund ta shihni që në skenarin A, fjalia “Do të blej akullore!” do të shkruhet vetëm nëse çmimi i akullores është më pak se 100 monedha. Duke drejtuar skenarin B, fjalia “Unë do të blej akullore!” do të shkruhet nëse çmimi është më i vogël ose i barabartë me 100 monedha.
+   :feedback_c: Shumë mirë! Programi do të shkruajë fjalinë “Unë do të blej akullore!” nëse çmimi është më i vogël ose i barabartë me 100 monedha.
+   :correct: c</p>
+<dl>
+<dt>   Mimi i akullores është 100 monedha. Analizoni skriptet e paraqitura në figurë dhe zgjidhni fjalinë e saktë.</dt><dd><img alt="_images/Sladoled.png" class="align-center" src="_images/Sladoled.png" />
+</dd>
+</dl>
+<p>Mënyra më e lehtë për të kuptuar degëzimin është krijimi i një programi që simulon një kuiz. Kur i bëjmë përdoruesit një pyetje dhe presim përgjigjen e tij / saj, pritet që të sigurojmë përgjigje nëse përgjigja ishte e saktë apo jo. Ne mund të japim informacione rreth saktësisë së një përgjigje kur përcaktojmë nëse përgjigja e përdoruesit është identike me përgjigjen e saktë.</p>
+<blockquote>
+<div><img alt="_images/Kviz1.png" src="_images/Kviz1.png" />
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<span class="docutils literal">/home/izabela/BlockBasedProgScratch/_sources/Branching.rst</span>, line 47)</p>
+<p>Explicit markup ends without a blank line; unexpected unindent.</p>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">align</dt>
+<dd class="field-odd"><p>center</p>
+</dd>
+</dl>
+</div></blockquote>
+<p>Edhe pse duket se ne e kemi shkruar saktë kodin, dhe përgjigjen e saktë të pyetjes “Sa këmbë ka një qen?” është 4, përdoruesi mund të përgjigjet në pyetjen duke shtypur një varg në vend të një numri. Me fjalë të tjera, përgjigjja e saktë e pyetjes nuk është vetëm 4, por gjithashtu:</p>
 <ul class="simple">
-<li><p>četiri;</p></li>
-<li><p>cetiri;</p></li>
-<li><p>four.</p></li>
+<li><p>Çetiri;</p></li>
+<li><p>Çetiri;</p></li>
+<li><p>katër.</p></li>
 </ul>
-<p>It is obvious that we need to define the condition more carefully, i.e. to accept every possible correct answer.</p>
-<p>We can overcome this situation by using the <strong>logical operators</strong>, which we can find in the category <strong>Operators</strong>:</p>
+<p>Është e qartë se duhet ta përcaktojmë gjendjen më me kujdes, d.m.th. të pranojmë çdo përgjigje të mundshme të saktë.</p>
+<p>Ne mund ta kapërcejmë këtë situatë duke përdorur <strong>operatorët logjikë</strong>, të cilat mund t’i gjejmë në kategorinë <strong>Operators</strong>:</p>
 <ul class="simple">
-<li><p>and <img alt="And" src="_images/And.png" />;</p></li>
-<li><p>or <img alt="Or" src="_images/Or.png" />;</p></li>
-<li><p>not <img alt="Not" src="_images/Not.png" />.</p></li>
+<li><p>dhe <img alt="And" src="_images/And.png" />;</p></li>
+<li><p>ose <img alt="Or" src="_images/Or.png" />;</p></li>
+<li><p>jo <a href="#id1"><span class="problematic" id="id2">|No|</span></a>.</p></li>
 </ul>
-<p>In our case, the correct answer can be <strong>4 or četiri or cetiri or four</strong>. This is why we will use the operator <img alt="Or" src="_images/Or.png" /> multiple times to define the condition.</p>
-<img alt="_images/Uslov.png" class="align-center" src="_images/Uslov.png" />
-<p>The code, which accepts all possible forms of the correct answer looks like this:</p>
+<p>Në rastin tonë, përgjigja e saktë mund të jetë <strong>4 ose četiri ose cetiri ose katër</strong>. Kjo është arsyeja pse ne do të përdorim operatorin <img alt="Or" src="_images/Or.png" /> disa herë për të përcaktuar gjendjen.</p>
 <img alt="_images/Kviz2.png" class="align-center" src="_images/Kviz2.png" />
-<p><img alt="Uradi" src="_images/Uradi.png" /> Children are used to touchscreen devices. They are not particularly skilled when it comes to using a mouse. We will help them develop this skill by creating a program with a Truck sprite and a Road as the backdrop. The truck should follow the user’s mouse pointer and go from the left side to the right side of the stage. On its way, the truck must not touch the edge of the road. If the truck touches the edge at any point, it will return to its original position (starting position at the beginning of the journey on the left side of the stage - <strong>x: -226</strong>, <strong>y: -41</strong>). For creating this program, we recommend you use the project <em>Journey</em>, which you can find on <a href="https://scratch.mit.edu/projects/326419371/" target="_blank">https://scratch.mit.edu/projects/326419371/</a>.</p>
+<p><img alt="Uradi" src="_images/Uradi.png" /> Fëmijët janë mësuar të bëjnë pajisjet e ekranit me prekje. Ata nuk janë veçanërisht të aftë kur bëhet fjalë për përdorimin e një miu. Ne do t’i ndihmojmë ata të zhvillojnë këtë aftësi duke krijuar një program me një sprite kamionësh dhe një rrugë si sfond. Kamioni duhet të ndjekë treguesin e mouse të përdoruesit dhe të shkojë nga ana e majtë në anën e djathtë të skenës. Në rrugën e saj, kamioni nuk duhet të prek buzë rrugës. Nëse kamioni prek buzë në çdo pikë, ai do të kthehet në pozicionin e tij origjinal (pozicioni fillestar në fillim të udhëtimit në anën e majtë të skenës - <strong>x: -226</strong>, <strong>y: -41</strong>). Për krijimin e këtij programi, ju rekomandojmë të përdorni projektin <em>Journey</em>, të cilin mund ta gjeni <a href="https://scratch.mit.edu/projects/326419371/" target="_blank">https://scratch.mit.edu/projects/326419371/</a>.</p>
 <img alt="_images/Putovanje.png" class="align-center" src="_images/Putovanje.png" />
-<p>As you can see, the Truck sprite is too big for the narrow road drawn on the backdrop of the stage we are using in this program. You can also see that the road is white and that a black line is separating the road from the grass. You should keep these things in mind if you want to create this program on your own.</p>
+<p>Siç mund ta shihni, Sprite Truck është shumë e madhe për rrugën e ngushtë të tërhequr në sfondin e skenës që po përdorim në këtë program. Ju gjithashtu mund të shihni se rruga është e bardhë dhe se një linjë e zezë po e ndan rrugën nga bari. Ju duhet t’i mbani mend këto gjëra nëse dëshironi ta krijoni këtë program më vete.</p>
 
-    <div data-component="reveal" id="sakrivanjeGrananje1"   data-showtitle="Look at one of the possible solutions" data-hidetitle="Hide the solution">
+    <div data-component="reveal" id="sakrivanjeGrananje1
+::showtitle: Shiko zgjidhjen e mundshme"   data-showtitle="Show" data-hidetitle="Fshih zgjidhjen">
     <p><strong>Possible solution</strong></p>
 <img alt="_images/Putovanje1.png" class="align-center" src="_images/Putovanje1.png" />
 
     </div>
-    <p><img alt="Izazov" src="_images/Izazov.png" /> It would be good if our program could measure how long it takes the user to “bring” the truck to the end of the road. Upgrade the program by adding the script, which will measure the time it takes the user to “complete the journey”.</p>
-
-    <div data-component="reveal" id="sakrivanjeGrananje2"   data-showtitle="Look at one of the possible solutions" data-hidetitle="Hide the solution">
-    <p><strong>Possible solution</strong></p>
+    <p><img alt="Izazov" src="../_images/Izazov.png" /> Do të ishte mirë nëse programi ynë mund të matë sa kohë i duhet përdoruesit të “sjellë” kamionin deri në fund të rrugës. Përditësoni programin duke shtuar skenarin, i cili do të matë kohën që i duhet përdoruesit për të “kryer udhëtimin”.</p>
+<div class="system-message">
+<p class="system-message-title">System Message: ERROR/3 (<span class="docutils literal">/home/izabela/BlockBasedProgScratch/_sources/Branching.rst</span>, line 94)</p>
+<p>Content block expected for the “reveal” directive; none found.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">reveal</span><span class="p">::</span> <span class="n">sakrivanjeGrananje2</span>
+</pre></div>
+</div>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<span class="docutils literal">/home/izabela/BlockBasedProgScratch/_sources/Branching.rst</span>, line 95)</p>
+<p>Explicit markup ends without a blank line; unexpected unindent.</p>
+</div>
+<dl class="field-list">
+<dt class="field-odd">showtitle</dt>
+<dd class="field-odd"><p>Shiko zgjidhjen e mundshme</p>
+</dd>
+<dt class="field-even">hidetitle</dt>
+<dd class="field-even"><p>Fshih zgjidhjen</p>
+<p><strong>Possible solution</strong></p>
 <img alt="_images/Putovanje2.png" class="align-center" src="_images/Putovanje2.png" />
+</dd>
+</dl>
+<p><img alt="Izazov" src="../_images/Izazov.png" /> Duke përdorur konceptet dhe teknikat e treguara në këtë dhe mësimet e mëparshme, krijoni një program që simulon futjen e fjalëkalimit kur punoni në një kompjuter. Lërini programin të lejojë përdoruesin të futë fjalëkalimin tri herë. Nëse përdoruesi nuk arrin të shkruajë fjalëkalimin e saktë, programi do të ndalojë së punuari. Nëse përdoruesi ka sukses, sprite do të ndryshojë kostumin e saj. Ne ju rekomandojmë të përdorni projektin, të cilin mund ta gjeni në linkun e mëposhtëm <a href="#id3"><span class="problematic" id="id4">|https: //scratch.mit.edu/projects/326403173/|</span></a>, ku vendosim sprite Laptopi që ka dy kostume. Paç fat!</p>
+
+    <div data-component="reveal" id="sakrivanjePonavljanje1"   data-showtitle="Shiko zgjidhjen e mundshme" data-hidetitle="Fshih zgjidhjen">
+    <p><strong>Zgjidhja e mundshme</strong></p>
 
     </div>
-    <p><img alt="Izazov" src="_images/Izazov.png" /> Using the concepts and techniques shown in this and previous lessons create a program that simulates password entry when working on a computer. Let the program allow the user to enter the password three times. If the user fails to enter the correct password, the program will stop working. If the user succeeds, the sprite will change its costume. We recommend using the project, which you can find on the following link <a href="https://scratch.mit.edu/projects/326403173/" target="_blank">https://scratch.mit.edu/projects/326403173/</a>, where we put the Laptop sprite that has two costumes. Good luck!</p>
-
-    <div data-component="reveal" id="sakrivanjePonavljanje1"   data-showtitle="Look at one of the possible solutions" data-hidetitle="Hide the solution">
-    <p><strong>Possible solution</strong></p>
-<p>You will find our solution in the project <strong>Password solution</strong>, at <a href="https://scratch.mit.edu/projects/326417414/" target="_blank">https://scratch.mit.edu/projects/326417414/</a>. We recommend you remix the project and explain our solution by using comments. We know you can do it!</p>
-
-    </div>
-    </div>
+    <p>    Do të gjeni zgjidhjen tonë në projektin <strong>Zgjidhjen e fjalëkalimit</strong>, në <a href="#id5"><span class="problematic" id="id6">|https: //scratch.mit.edu/projects/326417414/|</span></a>. Ne ju rekomandojmë të rimendoni projektin dhe të shpjegoni zgjidhjen tonë duke përdorur komente. Ne e dimë që ju mund ta bëni!</p>
+</div>
 
 
   
       <div class="col-md-12">
 <ul class="pager">
-        <li id="relations-prev" title='Previous chapter - Repetition' data-toggle="tooltip"><a href="Repetition.html">Previous chapter</a></li>
+        <li id="relations-prev" title='Previous chapter - Përsëritje' data-toggle="tooltip"><a href="Repetition.html">Previous chapter</a></li>
     
-        <li id="relations-next" title='Next chapter - Lists' data-toggle="tooltip"><a href="Lists.html">Next chapter</a></li>
+        <li id="relations-next" title='Next chapter - Listat' data-toggle="tooltip"><a href="Lists.html">Next chapter</a></li>
 </ul>
 
 <!-- <ul class="pager"> -->
     <!-- -->
-        <!-- <li id="relations-prev" title='Претходно поглавље - Repetition' data-toggle="tooltip"><a href="Repetition.html">Претходно поглавље</a></li> -->
+        <!-- <li id="relations-prev" title='Претходно поглавље - Përsëritje' data-toggle="tooltip"><a href="Repetition.html">Претходно поглавље</a></li> -->
     <!--  -->
     <!-- -->
-        <!-- <li id="relations-next" title='Следеће поглавље - Lists' data-toggle="tooltip"><a href="Lists.html">Следеће поглавље</a></li> -->
+        <!-- <li id="relations-next" title='Следеће поглавље - Listat' data-toggle="tooltip"><a href="Lists.html">Следеће поглавље</a></li> -->
     <!-- -->
 <!-- </ul> -->
 

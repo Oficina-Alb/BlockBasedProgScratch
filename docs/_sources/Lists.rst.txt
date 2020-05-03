@@ -1,4 +1,4 @@
-Lists
+Listat
 --------
 
 .. |AnswerMima| image:: ../_images/promenljive/AnswerMima.png
@@ -8,39 +8,39 @@ Lists
 .. |Emotikoni| image:: ../_images/liste/Emotikoni.png
 .. |Uradi| image:: ../_images/Uradi.png
 
-.. mchoice:: ListeZadatak1
-   :answer_a: Variable stores multiple pieces of information (numbers, strings, values True or False)
-   :answer_b: Variable stores only one piece of information (a number, a string, value True or False)
-   :correct: b
-   :feedback_a: Think about your answer. If you still think the same, create these programs in Scratch and run them. Don't forget to arrange so that the values of the variables can be seen on the stage.
-   :feedback_b: Well done! Even though they are different, the running of both programs has the same result. 
+.. mchoice:: Liste Zadatak
+   :answer_a: Variablat ruajnë shumë informacione (numra, vargjet, vlerat e vërteta ose false)
+   :answer_b: Variablat ruajnë vetëm një pjesë të informacionit (një numër, një varg, vlera e vërtetë ose e rreme)
+   :correct: b
+   :feedback_a: Mendoni për përgjigjen tuaj. Nëse akoma mendoni njësoj, krijoni këto programe në Scratch dhe drejtojini ato. Mos harroni të rregulloni në mënyrë që vlerat e variablave të mund të shihen në skenë.
+   :feedback_b: Saktë! Edhe pse ato janë të ndryshme, ekzekutimi i të dy programeve ka të njëjtin rezultat.
 
-   We have created the variable |VAnswer|. At one point, the value of this variable is |AnswerMima|, and at another point, its value is |AnswerMi|. Choose the correct statement:
+   Ne kemi krijuar ndryshoren |Answer|. Në një moment, vlera e kësaj ndryshore është |AnswerMima|, dhe në një pikë tjetër, vlera e saj është |AnswerMi|. Zgjidhni fjalinë e saktë:
 
-In the process of creating a program, programmers often have to store a lot of data (telephone numbers, names of products, addresses, etc.). In these situations, the variables we have been using so far are not very helpful.
+Në procesin e krijimit të një programi, programuesit shpesh duhet të ruajnë shumë të dhëna (numrat e telefonit, emrat e produkteve, adresat, etj.). Në këto situata, variablat që kemi përdorur deri më tani nuk janë shumë të dobishme.
 
-Because of these situations, which you will surely encounter in your future programming, we present you the **List**.
+Për shkak të këtyre situatave, të cilat me siguri do t’i hasni në programimin tuaj të ardhshëm, ju paraqesim **listën**.
 
-A list is a collection of data. You can look at it as a "notebook" containing a large number of "pages". Each "page" has a number (from 1 onward) and one piece of information is written (stored) in each of the "boxes". 
+Një listë është një koleksion i të dhënave. Mund ta shikoni si një "fletore" që përmban një numër të madh "faqesh". Çdo "faqe" ka një numër (nga 1 e tutje) dhe një pjesë e informacionit shkruhet (ruhet) në secilën prej "kutive".
 
-A list is created in the category **Variables**, by clicking on the button |MakeList|. A list can refer to one or all of the sprites in a program. List elements are entered by clicking on the sign **+** and writing values in the corresponding fields.
+Një listë krijohet në kategorinë **Variables**, duke klikuar në butonin |MakeList| Një listë mund t'i referohet një ose të gjitha pjesëve në një program. Elementet e listës futen duke klikuar në shenjën **+** dhe vlerat e shkrimit në fushat përkatëse.
 
 .. image:: ../_images/liste/NewList.png  
    :align: center
    
-Unlike *regular* variables, which are retrieved by indicating their name, each item from a list can be retrieved "called upon" by indicating their number (position) on the list.  
+Për dallim nga variablat *e rregullt*, të cilat merren duke treguar emrin e tyre, secila artikull nga një listë mund të merret "thirrur" duke treguar numrin (pozicionin) e tyre në listë.
 
-The list |Emotikoni| contains 5 items - text symbols depicting facial expressions. If we want the cat to say how WINKING can be depicted by using symbols, we need to make the following list:
+Lista |Emotikoni| përmban 5 artikuj - simbolet e tekstit që përshkruajnë shprehjet e fytyrës. Nëse duam që macja të thotë se si WINKING mund të përshkruhet duke përdorur simbole, duhet të bëjmë listën e mëposhtme:
 
 .. image:: ../_images/liste/KodEmo.png   
    :align: center
 
-We made the same quiz by using *regular* variables and by using lists. Analyze their scripts:
+Ne e bëmë të njëjtin kuiz duke përdorur *variabla të rregullta* dhe lista. Analizoni shkrimet e tyre:
 
 .. image:: ../_images/liste/2Kviza.png  
    :align: center
 
-|Uradi| Remix programs A and B, which can be found at A: |https://scratch.mit.edu/projects/326482978/| and B: |https://scratch.mit.edu/projects/326477714/|, by adding at least three questions related to feelings and emoticons that represent them. We have no doubt you will notice how much time we save by using lists instead of variables.
+|Uradi| Programet Remix A dhe B, të cilat mund të gjenden në A: |https://scratch.mit.edu/projects/326482978/| dhe B: |https://scratch.mit.edu/projects/326477714/|, duke shtuar të paktën tre pyetje në lidhje me ndjenjat dhe emocionet që i përfaqësojnë ato. Ne nuk kemi dyshim se do të vini re se sa kohë kursejmë duke përdorur listat në vend të variablave.
 
 .. |https://scratch.mit.edu/projects/326482978/| raw:: html
 

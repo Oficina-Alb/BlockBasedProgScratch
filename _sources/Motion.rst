@@ -108,7 +108,7 @@ Mund të shihni gjithashtu drejtimin e tanishëm të sprite poshtë fazës, në 
     :answer_b: Drejtimi: 180 (poshtë) Pozicioni: (x: 50 y: 100)
     :feedback_a: Analizoni përsëri programin. A e ndryshon kthesën e sprite 90 gradë?
     :feedback_b: Shumë mirë! Ju e kuptoni mirë lëvizjen e sprite!
-    :e saktë: b
+    :correct: b
 
     Analizoni programin e paraqitur në figurë, dhe zgjidhni atë që mendoni se është drejtimi i sprite, si dhe cili do të jetë pozicioni i tij pasi programi të mbarojë së ekzekutuari.
 

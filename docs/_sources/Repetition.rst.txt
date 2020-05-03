@@ -1,21 +1,21 @@
-Repetition
+Përsëritje
 ===========
 
-We have already mentioned that repeating one or more commands (blocks) is a powerful concept in programming. When some of the commands run multiple times in a program, we say that the program contains **loops**. We have used this concept several times before.
+Ne kemi përmendur tashmë se përsëritja e një ose më shumë komandave (blloqeve) është një koncept i fuqishëm në programim. Kur disa nga komandat ekzekutohen shumë herë në një program, ne themi se programi përmban **sythe**. Ne e kemi përdorur këtë koncept disa herë më parë.
 
 .. |Repeat10| image:: ../_images/ponavljanje/Repeat10.png
 .. |RepeatF| image:: ../_images/ponavljanje/RepeatF.png
 .. |RepeatU| image:: ../_images/ponavljanje/RepeatU.png
 
-In Scratch, we have 3 types of blocks that repeat commands:
+Në Scratch, ne kemi 3 lloje të blloqeve që përsërisin komandat:
 
-•	The block that repeats commands a specific number of times; 
-•	The block that repeats commands an infinite number of times;
-•	The block that repeats commands until a specific condition is fulfilled.
+• Blloku që përsërit komandat një numër specifik kohësh;
+• Blloku që përsërit komandat një numër të pafund kohërash;
+• Blloku që përsërit komandat derisa të përmbushet një kusht specifik.
 
-We will insert the blocks we need to repeat into one of these blocks.
+Ne do të futim blloqet që duhet të përsërisim në një nga këto blloqe.
 
-The block that repeats commands a specific number of times
+Blloku që përsërit komandat një numër specifik kohësh
 -----------------------------------------------------------
 
 .. |Uradi| image:: ../_images/Uradi.png
@@ -25,19 +25,19 @@ The block that repeats commands a specific number of times
 .. image:: ../_images/ponavljanje/Repeat10.png
    :align: center
 
-We used the block that repeats commands a specific number of times in the project *Farm* (you can find more information in the lesson *Looks*).  
+Ne përdorëm bllokun që përsërit komandat një numër specifik kohësh në projekt *Farm* (mund të gjesh më shumë informacion në mësim *Looks*).
 
-The chick sprite in the program was simulating the pecking motion by changing costumes a, b and c 10 times. After this simulation, the chick increased in size by 10. Our goal was to increase the size of the chick sprite by 50, so we repeated the part of the code that increased the size of the sprite 5 times. To achieve the desired behavior, we used the blocks |Repeat10a| and |Repeat5|.
+Zogu i pulave në program ishte duke simuluar lëvizjen e pekingut duke ndryshuar kostumet a, b dhe c 10 herë. Pas këtij simulimi, zogthi u rrit në madhësi me 10. Qëllimi ynë ishte të rritnim madhësinë e mishit të pulës me 50, kështu që përsërisnim pjesën e kodit që rriti madhësinë e spriteve 5 herë. Për të arritur sjelljen e dëshiruar, kemi përdorur blloqet |Repeat10a| dhe |Repeat5|.
 
-In the figure below, we shrank the part of the script related to the repetition of commands, and we made the same program, but this time without using the repetition blocks. The script we got was really long, so for clarity, we had to divide it into five columns. 
+Në figurën më poshtë, ne copëtuam pjesën e skenarit që lidhet me përsëritjen e komandave, dhe kemi bërë të njëjtin program, por këtë herë pa përdorur blloqet e përsëritjes. Skenari që morëm ishte me të vërtetë i gjatë, kështu që për qartësi, duhej ta ndanim në pesë kolona.
 
 .. image:: ../_images/ponavljanje/PileBezRepeat.png
    :width: 1200px   
    :align: center
 
-|Uradi| Create the program *Farm* without using the blocks for repetition. Compare your code with ours. We believe that you can see that stacking identical groups of blocks makes the program longer, harder to understand and upgrade.
+|Uradi| Krijoni programin *Farm* pa përdorur blloqet për përsëritje. Krahasoni kodin tuaj me tonën. Ne besojmë se ju mund të shihni se grumbullimi i grupeve identike të blloqeve e bën programin më të gjatë, më të vështirë për tu kuptuar dhe azhornuar.
 
-The block that repeats commands an infinite number of times
+Blloku që përsërit komandon një numër të pafund kohërash
 ------------------------------------------------------------
 
 .. |StopAll| image:: ../_images/ponavljanje/StopAll.png
@@ -47,23 +47,23 @@ The block that repeats commands an infinite number of times
 .. image:: ../_images/ponavljanje/RepeatF.png
    :align: center
 
-This block for repeating commands runs an infinite number of times. The running of this block never stops on its own. We have to stop it by clicking the button, which stops the program (the red button next to the green flag) or by using one of the following blocks |StopAll| / |StopTS| / |StopOS|, from the category **Control**.
+Ky bllok për përsëritjen e komandave drejton një numër të pafund herë. Drejtimi i këtij blloku nuk ndalet kurrë më vete. Ne duhet ta ndalojmë atë duke klikuar butonin, i cili ndalon programin (butoni i kuq pranë flamurit të gjelbër) ose duke përdorur një nga blloqet e mëposhtëm |StopAll| / |StopTS| / |StopOS|, nga kategoria **Control**.
 
-We used the block that repeats commands an infinite number of times in the project *The cat is chasing the mouse* (you can find more information in the lesson *Motion*).
+Ne përdorëm bllokun që përsërit komandat një numër të pafundmë herë në projekt *Macja po ndjek miun* (mund të gjesh më shumë informacion në mësimin *Move*).
 
-.. mchoice:: PonavljanjeZ1
-   :answer_a: New blocks can be inserted into the block itself, so there is no need to continue the script.
-   :answer_b: It is a bug in Scratch. The block for infinite repetition must have an option for continuing the script. 
-   :answer_c: Adding the blocks is pointless because they would never run.  
-   :feedback_a: The option to insert new blocks into the block |RepeatF| does not provide the possibility to stack scripts that will never be repeated, it just adds commands that will be repeated an infinite number of times.    
-   :feedback_b: How likely is it that one of the most frequently used blocks in Scratch is not constructed properly? We suggest you think again about the question and give a new answer. 
-   :feedback_c: Great conclusion, well done!  
-   :correct: c
+.. mchoice :: PonavljanjeZ1
+   :answer_a: Blloqet e reja mund të futen në bllok vetë, kështu që nuk ka nevojë të vazhdojë skenarin.
+   :answer_b: ashtë një gabim në Scratch. Blloku për përsëritje të pafund duhet të ketë një mundësi për vazhdimin e skenarit.
+   :answer_c: Shtimi i blloqeve është i kotë sepse ata kurrë nuk do të kandidonin.
+   :feedback_a: Mundësia për të futur blloqe të reja në bllok |RepeatF| nuk ofron mundësinë për të grumbulluar skriptet që nuk do të përsëriten kurrë, ajo thjesht shton komanda që do të përsëriten një numër të pafund kohërash.
+   :feedback_b: Sa ka të ngjarë që një nga blloqet më të përdorura në Scratch nuk është ndërtuar siç duhet? Ne ju sugjerojmë të mendoni përsëri për pyetjen dhe të jepni një përgjigje të re.
+   :feedback_c: Përfundim i shkëlqyeshëm, i bërë mirë!
+   :e saktë: c
 
-   Analyze the appearance of blocks for repeating commands. You can see that the block, which repeats commands an infinite number of times, does not have the option to connect with other blocks, i.e. you cannot add another block onto it. Why?
-   
+   Analizoni paraqitjen e blloqeve për komandat përsëritëse. Ju mund të shihni që blloku, i cili përsërit komandat një numër të pafund kohërash, nuk ka mundësinë të lidhet me blloqe të tjera, d.m.th. nuk mund të shtoni një bllok tjetër mbi të. Pse?
+   
 
-The block that repeats commands until a specific condition is fulfilled
+Blloku që përsërit komandat derisa të përmbushet një kusht specifik
 -------------------------------------------------------------------------
 
 .. |VSec| image:: ../_images/ponavljanje/Vsec.png
@@ -71,29 +71,29 @@ The block that repeats commands until a specific condition is fulfilled
 .. image:: ../_images/ponavljanje/RepeatU.png
    :align: center
 
-This block for repeating commands runs until a certain condition is fulfilled. The scripts within this block are executed based on a test, which determines whether the condition placed in the block is true or not. We use this block when we do not know how many times we need to repeat commands within the block for repetition, and therefore, we want them to run until a certain condition is fulfilled.
+Ky bllok për përsëritjen e komandave shkon derisa të përmbushet një kusht i caktuar. Skriptet brenda këtij blloku ekzekutohen bazuar në një provë, e cila përcakton nëse gjendja e vendosur në bllok është e vërtetë apo jo. Ne e përdorim këtë bllok kur nuk e dimë se sa herë duhet të përsërisim komandat brenda bllokut për përsëritje, dhe për këtë arsye, duam që ata të ekzekutojnë derisa të përmbushet një gjendje e caktuar.
 
 .. mchoice:: PonavljanjeZ2
-   :answer_a: The block that repeats commands a specific number of times.
-   :answer_b: The block that repeats commands an infinite number of times. 
-   :answer_c: The block that repeats commands until a specific condition is fulfilled.  
-   :feedback_a: If you choose this block, firing rockets has nothing to do with your sprite's energy level, does it?  
-   :feedback_b: If you choose this block, firing rockets has nothing to do with your sprite's energy level, does it?
-   :feedback_c: You are right! The number of repetitions depends on the fulfillment of the conditions. The moment your sprite's energy level drops below a certain value, firing rockets will stop.  
-   :correct: c
+   :answer_a: Blloku që përsërit komandat një numër specifik kohësh.
+   :answer_b: Blloku që përsërit komandat një numër të pafund kohërash.
+   :answer_c: Blloku që përsërit komandat derisa të përmbushet një kusht specifik.
+   :feedback_a: Nëse ju zgjidhni këtë bllok, raketat e qitjes nuk kanë asnjë lidhje me nivelin e energjisë së sprite tuaj, a është kjo?
+   :feedback_b: Nëse ju zgjidhni këtë bllok, raketat e qitjes nuk kanë asnjë lidhje me nivelin e energjisë së sprite tuaj, a është kjo?
+   :feedback_c: Ju keni të drejtë! Numri i përsëritjeve varet nga përmbushja e kushteve. Në momentin që niveli i energjisë së sprite tuaj bie nën një vlerë të caktuar, raketat e qitjes do të ndalen.
+   : e saktë: c
 
-   You want to create a program where your sprite (hail cannon) is firing rockets on hail-bearing clouds until its energy level falls below a certain value. Which block for repeating commands will you use?
+   Ju dëshironi të krijoni një program ku avioni juaj (top breshëri) po qëllon raketa në retë breshër derisa niveli i tij i energjisë të bjerë nën një vlerë të caktuar. Cilin bllok për përsëritjen e komandave do të përdorni?
 
-We will demonstrate how a *block that repeats commands until a specific condition is fulfilled* works - we will create a program that functions as a timer, i.e. it counts down seconds from the entered value to zero.
+Ne do të demonstrojmë se si një bllok *që përsërit komandat derisa të përmbushet një gjendje specifike* - do të krijojmë një program që funksionon si një kohëmatës, d.m.th. ai numëron sekonda nga vlera e futur në zero.
 
-For this program, we will create the variable |VSec|, which will store the value of the remaining seconds while the timer is counting down. We will ask the user to enter a certain number of seconds. Then, we will start the countdown. After the entered time has elapsed, we will hear a sound signal.
+Për këtë program, ne do të krijojmë variablin |VSec|, e cila do të ruajë vlerën e sekondave të mbetura ndërsa kohëmatësi po numëron. Ne do t'i kërkojmë përdoruesit të fusë një numër të caktuar sekondash. Pastaj, do të fillojmë numërimin. Pasi të ketë mbaruar koha e futur, ne do të dëgjojmë një sinjal të shëndoshë.
 
-The figure below contains our suggestion of the program's code with comments, which serve as an explanation. Programmers find it helpful to comment on scripts and explain what certain blocks do. Commenting makes it easier for other programmers to understand and upgrade the programs we create. You can add a comment by right-clicking on the script, and selecting the option **Add comment**.
+Shifra më poshtë përmban sugjerimin tonë për kodin e programit me komente, të cilat shërbejnë si një shpjegim. Programuesit e gjykojnë të dobishëm të komentojnë skriptet dhe të shpjegojnë se çfarë bëjnë blloqe të caktuara. Të komentuarit ua lehtëson programuesve të tjerë të kuptojnë dhe azhurnojnë programet që krijojmë. Mund të shtoni një koment duke klikuar me të djathtën në skenar, dhe duke zgjedhur opsionin **Add comment**.
 
 .. image:: ../_images/ponavljanje/Tajmer.png
       :align: center
 
-|Uradi| The program *Timer* can be found on the link |https://scratch.mit.edu/projects/326420353|. Upgrade it by adding a clock ticking sound, which will be heard as the timer counts down.
+|Uradi| Programi *Timer* mund të gjendet në linkun |https: //scratch.mit.edu/projects/326420353|. Përditësoni atë duke shtuar një tingull të akrepave të orës, i cili do të dëgjohet ndërsa ora kalon.
 
 .. |https://scratch.mit.edu/projects/326420353| raw:: html
 

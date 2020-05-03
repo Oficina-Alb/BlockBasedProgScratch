@@ -39,9 +39,7 @@ Analizoni shkrimet e mëposhtme:
 .. image:: ../_images/crtanje/KodSR.png  
    :align: center
 
-|Uradi| Create a program, which allows freehand drawing and ensure that the program stops running when you press the **s** key. Look for the appropriate blocks in the categories **Events** and **Control**.
-
-Krijoni një program, i cili lejon vizatimin pa pagesë dhe sigurohuni që programi të ndalojë funksionimin kur shtypni tastin ** s **. Shikoni blloqet e duhura në kategoritë ** Ngjarjet ** dhe ** Kontrolli **.
+Krijoni një program, i cili lejon vizatimin pa pagesë dhe sigurohuni që programi të ndalojë funksionimin kur shtypni tastin **s**. Shikoni blloqet e duhura në kategoritë **Ngjarjet** dhe ** Kontrolli **.
 
 Kontrolli i lëvizjes së sprite duke përdorur tastierën dhe vizatimin
 -------------------------------------------------------------------------

@@ -30,7 +30,7 @@ Një mënyrë për të përcaktuar nëse një kusht është përmbushur është 
 
 .. mchoice:: GrananjeZ1
    :answer_a: Si rezultat i ekzekutimit të skenarit A, programi do të shkruajë një fjali "Do të blej akullore!".
-   : answer_b: Ekzekutimi i skenarit A dhe B do të ketë të njëjtin rezultat - programet do të shkruajnë një fjali "Unë do të blej akullore!".
+   :answer_b: Ekzekutimi i skenarit A dhe B do të ketë të njëjtin rezultat - programet do të shkruajnë një fjali "Unë do të blej akullore!".
    :answer_c: Si rezultat i ekzekutimit të skenarit B, programi do të shkruajë një fjali "Do të blej akullore!".
    :feedback_a: Shikoni me kujdes operatorin e krahasimit në skenarin A. Ne besojmë se mund të shihni që programi do të shkruajë fjalinë "Do të blej akullore!" vetëm nëse çmimi i akullores është më pak se 100 monedha.
    :feedback_b: Analizoni se si është përcaktuar operatori i krahasimit në skenarin A, dhe si është në skenarin B. Ne besojmë se mund ta shihni që në skenarin A, fjalia "Do të blej akullore!" do të shkruhet vetëm nëse çmimi i akullores është më pak se 100 monedha. Duke drejtuar skenarin B, fjalia "Unë do të blej akullore!" do të shkruhet nëse çmimi është më i vogël ose i barabartë me 100 monedha.
@@ -93,7 +93,7 @@ Siç mund ta shihni, Sprite Truck është shumë e madhe për rrugën e ngushtë
 
 .. reveal:: sakrivanjeGrananje2
 :showtitle: Shiko zgjidhjen e mundshme
-   :hidetitle: Fshih zgjidhjen
+:hidetitle: Fshih zgjidhjen
 
    **Possible solution**
      

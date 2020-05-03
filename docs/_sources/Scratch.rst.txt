@@ -1,16 +1,16 @@
-Visual Programming Language Scratch 
+Gjuha e progamimit vizual Scratch 
 =====================================
 
-Scratch is a visual programming language made for children. Programming in Scratch does not require writing commands. To create a program you can just arrange the **blocks** in the proper order (similar to puzzles or LEGOs).
+Scratch është një gjuhë vizuale e programimit e krijuar për fëmijët. Programimi në Scratch nuk kërkon komanda për të shkruar. Për të krijuar një program, thjesht mund të organizoni **blloqet** në rregullin e duhur (të ngjashme me enigmat ose LEGO).
 
-The result of the program, which contains only one command |BWelcome| looks like this: |Welcome|.
+Rezultati i programit, i cili përmban vetëm një komandë |BWelcome| duket kështu: |Welcome|
   .. |BWelcome| image:: ../_images/scratch/BWelcome.png
   .. |Welcome| image:: ../_images/scratch/Welcome.png
 
-There are two ways we can use Scratch (version 3):
+këtu janë dy mënyra se si mund të përdorim Scratch (version 3):
 
-•	by downloading the installation file from |https://scratch.mit.edu/download| and installing it on your personal digital device (desktop version of the program);
-•	by working online on the website |https://scratch.mit.edu| (the online version of the program).
+• duke shkarkuar skedarin e instalimit nga |https: //scratch.mit.edu/download| dhe instalimi i tij në pajisjen tuaj dixhitale personale (versioni desktop i programit);
+• duke punuar në internet në faqen e internetit |https: //scratch.mit.edu| (versioni në internet i programit).
 
 .. |https://scratch.mit.edu/download| raw:: html
 
@@ -20,107 +20,108 @@ There are two ways we can use Scratch (version 3):
 
  <a href="https://scratch.mit.edu" target="_blank">https://scratch.mit.edu</a>
 
-Both ways have their advantages and disadvantages. 
+Të dyja mënyrat kanë avantazhet dhe disavantazhet e tyre.
 
-If we install the desktop version on our personal digital device, we will work faster and more comfortable, primarily because we won't depend on the quality of our Internet connection, or on the occasional maintenance of the Scratch online platform (which is then unavailable).  
+Nëse instalojmë versionin e desktopit në pajisjen tonë dixhitale personale, do të punojmë më shpejt dhe më të rehatshme, kryesisht sepse nuk do të varet nga cilësia e lidhjes sonë në internet, ose nga mirëmbajtja e herëpashershme e platformës në internet Scratch (e cila më pas është e padisponueshme).
 
-If we are programming using the Scratch online platform, we need to create our personal account. With having the account comes the ability to save our projects on the online platform and access them from any device connected to the Internet. In addition to this convenience, the Scratch online platform offers you the possibility of keeping parts of your programs in the **Backpack** and use them again when you need them. An additional advantage is the ability to publish programs. After publishing, your program becomes visible to other Scratch users; we call them **Scratchers**. Just like they can see and remix (adapt) your programs (projects), you can also see and remix theirs. You can also ask for help on the platform. Helping other Scratchers is in the spirit of this online community. 
- 
-The user interface of the two different versions of Scratch look almost identical; however, the online version has all the elements of the installed version and some other functionalities. On this page, we will show the elements of the Scratch online platform.
+Nëse po programojmë duke përdorur platformën në internet Scratch, duhet të krijojmë llogarinë tonë personale. Me të pasur llogari vjen aftësia për të ruajtur projektet tona në platformën online dhe për t'iu qasur atyre nga çdo pajisje e lidhur në Internet. Përveç kësaj komoditeti, platforma në internet Scratch ju ofron mundësinë e mbajtjes së pjesëve të programeve tuaja të **shpinës** dhe i përdorni përsëri kur ju duhen. Një avantazh shtesë është aftësia për të publikuar programe. Pas publikimit, programi juaj bëhet i dukshëm për përdoruesit e tjerë Scratch; ne i quajmë ata **Scratchers**. Ashtu si ata mund të shohin dhe rimodukojnë (adaptojnë) programet (projektet) tuaja, gjithashtu mund t'i shihni dhe shihni të tyret. Mund të kërkoni ndihmë edhe në platformë. Ndihma për Scratchers të tjerë është në frymën e këtij komuniteti në internet.
+ 
+Ndërfaqja e përdoruesit e dy versioneve të ndryshme të Scratch duket pothuajse identike; megjithatë, versioni në internet ka të gjithë elementët e versionit të instaluar dhe disa funksionalitete të tjera. Në këtë faqe, ne do të tregojmë elementet e platformës në internet Scratch.
 
-Scratch Online Platform
+Scratch Platforma Online
 -------------------------
 
-Programs that are created on the Scratch online platform are called *projects*. Projects are created by clicking on the button **Create**. This will open the user interface, which looks like this:
+Programet që janë krijuar në platformën në internet Scratch quhen *projects*. Projektet krijohen duke klikuar në butonin **Create**. Kjo do të hapë ndërfaqen e përdoruesit, e cila duket si kjo:
 
 .. image:: ../_images/scratch/RadnoOkruzenje.png   
    :align: center
 
 1. Menu bar;
 
-2. Tabs **Code**, **Costumes** and **Sounds**;
+2. Faqet **Code**, **Costumes** dhe **Sounds**;
 
-3. Selection of block categories which can be added to the work surface;
+3. Përzgjedhja e kategorive të bllokut që mund të shtohen në sipërfaqen e punës;
 
-4. Space where we can create our programs (stack our blocks), which relate to the active sprite (character) or the stage;
+4. Hapësira ku ne mund të krijojmë programet tona (grumbullojmë blloqet tona), të cilat lidhen me spritin aktiv (karakterin) ose skenën;
 
-5. Backpack;
+5. Paketë shpine;
 
-6. The Sprite list with basic parameters (characteristics) - the active sprite is marked by a blue frame around its thumbnail;
+6. Lista Sprite me parametra bazë (karakteristikat) - spraiti aktiv shënohet nga një kornizë blu rreth figurës së saj;
 
-7. The list of stage backdrops;
+7. Lista e sfondeve fazore;
 
-8. The stage.
+8. Etapa.
 
-|SLogo| The interface header is occupied by the *Menu bar*.
+| SLogo | Titulli i ndërfaqes është i zënë nga shiriti *Menu Bar*.
+
   .. |SLogo| image:: ../_images/scratch/SLogo.png 
 
 .. image:: ../_images/scratch/LinijaMenija.png   
    :align: center
 
-1. Clicking on **Scratch** will open the account page of the user who is currently logged in (in our case this would be the Loop account page). Within this page, you can see relevant notifications, news, project proposals of other Scratchers, as well as all messages received (**Messages**), and programs made by the owner of the account (**My Stuff**). 
+1. . Duke klikuar në **Scratch** do të hapet faqja e llogarisë së përdoruesit që është regjistruar aktualisht (në rastin tonë kjo do të ishte faqja e llogarisë Loop). Brenda kësaj faqe, ju mund të shihni njoftimet përkatëse, lajmet, projekt-propozimet e Scratchers të tjerë, si dhe të gjitha mesazhet e marra (**Mesazhet**), dhe programet e bëra nga pronari i llogarisë (**My Stuff**).
 
-2. Clicking on the Earth icon will open a drop-down list from which we can choose the language in which all the elements of the user interface will be displayed;
+2. Duke klikuar në ikonën Earth do të hapet një listë drop-down nga e cila mund të zgjedhim gjuhën në të cilën do të shfaqen të gjithë elementët e ndërfaqes së përdoruesit;
 
-3. **File** offers several important options: starting a new project (**New**), saving a project (**Save now**), saving a project as a copy of an already existing one (**Save as a copy**), loading a program from your personal computer (**Load from your computer**) and downloading the project to your personal computer (**Save to your computer**);
+3. **File** ofron disa mundësi të rëndësishme: fillimi i një projekti të ri (**New**), kursimi i një projekti (**Save now**), duke kursyer një projekt si një kopje të një tashmë ekzistuese (**Save as copy**), duke ngarkuar një program nga kompjuteri juaj personal (**Ngarko nga kompjuteri juaj**) dhe shkarkoni projektin në kompjuterin tuaj personal (**Ruani në kompjuterin tuaj**);
 
-4. **Edit** allows us to restore a deleted sprite with all its blocks (**Restore**), as well as to turn on the turbo mode for running the program (**Turn on turbo mode**). If we don't want the program to run quickly, we can just turn off the turbo mode (**Turn off turbo mode**);
+4. **Redaktimi** na lejon të rivendosim një sprite të fshirë me të gjitha blloqet e saj (**Rivendosja **), si dhe të ndizni mënyrën turbo për ekzekutimin e programit (**Ndizni modalitetin e turbo**). Nëse nuk duam që programi të funksionojë shpejt, thjesht mund të fikim modalitetin turbo (**Fikni modalitetin e turbo**);
 
-5. Clicking on **Tutorials** will open a page where we can select one of the instructions on how to create programs in Scratch;
+5. Duke klikuar në **Tutorials** do të hapet një faqe ku mund të zgjedhim një nga udhëzimet se si të krijojmë programe në Scratch;
 
-6. In this field we will enter the name of the project;
+6. Në këtë fushë do të shkruajmë emrin e projektit;
 
-7. Clicking the **Share** button will make our project publicly available to other Scratchers. This is when the page for that particular project is created;
+7. Klikimi i butonit **Share** do ta bëjë projektin tonë publikisht të disponueshëm për Scratchers të tjerë. Kjo është kur faqja për atë projekt të veçantë është krijuar;
 
-8. **See project page** takes us to our project's page where we need to enter: instructions on how to use the program (**Instructions**), and notes and information about the creators (**Notes and credits**). On this page we can run of the program, as well as go back to the programming environment, by clicking on the **See inside** button.
+8. **Shikoni faqen e projektit** na çon në faqen e projektit tonë ku duhet të futemi: udhëzime se si të përdorim programin (**Udhëzimet**), dhe shënimet dhe informacionet rreth krijuesve (**Shënime dhe kredite**). Në këtë faqe ne mund të drejtojmë programin, si dhe të kthehemi në mjedisin e programimit, duke klikuar në butonin **Shih brenda**.
 
-9. Clicking on the file icon (**My Stuff**) will open the page with all the programs created by the user who is logged in.
+9. Duke klikuar në ikonën e skedarit (**My Stuff**) do të hapet faqja me të gjitha programet e krijuara nga përdoruesi që është regjistruar.
 
-|SLogo| The central part of the user interface is occupied by tabs *Code*, *Costumes* and *Sounds*.
+|SLogo| Pjesa qendrore e ndërfaqes së përdoruesit është e zënë nga skedarët *Code*, *Costums* dhe *Sounds*.
 
 .. image:: ../_images/scratch/RadnoOkruzenje.gif   
    :width: 800px
    :align: center
 
-1. The *Code* tab contains categories of commands with listed blocks, which belong to them (the color of the block corresponds to the color of the category it belongs to). These blocks are related to the active sprite and the programming space in which the blocks are placed by dragging and dropping them on the surface;
+1. 1. Skeda *Code* përmban kategori komandash me blloqe të listuara, të cilat u takojnë atyre (ngjyra e bllokut korrespondon me ngjyrën e kategorisë që i përket). Këto blloqe janë të lidhura me sprite aktive dhe hapësirën programuese në të cilën blloqet vendosen duke i zvarritur dhe hedhur ato në sipërfaqe;
 
-2. The *Costumes* tab contains the editor with tools for adding, deleting, and adapting costumes belonging to the active sprite;
+2. Tab *Costums* përmban redaktorin me mjete për shtimin, fshirjen dhe përshtatjen e kostumeve që i përkasin sprite aktive;
 
-3. The *Sounds* tab contains the editor with tools for adding, deleting, playing, and basic processing of audio recordings.
+3. Skeda *Sounds* përmban redaktorin me mjete për shtimin, fshirjen, luajtjen dhe përpunimin bazë të regjistrimeve audio.
 
-|SLogo| The lower right corner of the stage is reserved for adding/deleting sprites and stage backdrops. The sprites and the stage backdrops can be added from the Sprite/Backdrop library **Choose a Sprite/Backdrop**, we can draw them **Paint**, we can let Scratch surprise us and choose for us a sprite/backdrop **Surprise**, as well as upload them from our personal computer **Upload Sprite/Backdrop**.
+|SLogo| Këndi i poshtëm i djathtë i skenës është i rezervuar për shtimin / fshirjen e sprites dhe sfondet e skenës. Sprites dhe sfondet skenike mund të shtohen nga biblioteka Sprite / Backdrop **Zgjidhni një Sprite / Backdrop**, ne mund t'i tërheqim ato **Paint**, mund të lejojmë që Scratch të na befasojë dhe të zgjedhë për ne një sprite / sfond **Surprizë**, si dhe ngarkoni ato nga kompjuteri ynë personal **Upload Sprite / Sfond**.
 
 .. image:: ../_images/scratch/LikoviPozadine.png   
    :width: 800px
    :align: center
 
-|SLogo| The *Stage* is the space within which the program is being executed. It is 480 steps (pixels) wide and 360 steps (pixels) high. The position of a sprite is determined with two values **x:** and **y:**. 
+|SLogo| *Stage* është hapësira brenda së cilës programi është duke u ekzekutuar. Isshtë 480 hapa (pixel) i gjerë dhe 360 hapa (pixel) i lartë. Pozicioni i një sprite përcaktohet me dy vlera **x:** dhe **y:**.
 
-•	The value **x:** determines the position of a sprite along the width of the stage (left or right); 
-•	The value **y:** determines the position of a sprite along the height of the stage (up or down);
+• Vlera **x:** përcakton pozicionin e një sprite përgjatë gjerësisë së fazës (majtas ose djathtas);
+• Vlera **y:** përcakton pozicionin e një sprite përgjatë lartësisë së fazës (lart ose poshtë);
 
 .. image:: ../_images/scratch/XYBoja.png   
    :align: center
 
-Therefore, the values of **x:** and **y:** depend on the location of the sprite. If we want our sprite to be in the center of the stage, the values should be: **x: 0** and **y: 0**. The information on the current location of the sprite can be seen in the sprites list, within sprite's parameters.
+Prandaj, vlerat e **x:** dhe **y:** varen nga vendndodhja e sprite. Nëse duam që sprita jonë të jetë në qendër të fazës, vlerat duhet të jenë: **x: 0 ** dhe **y: 0**. Informacioni mbi vendndodhjen aktuale të sprite mund të shihet në listën e sprites, brenda parametrave të sprite.
 
 .. mchoice:: OkruzenjeZadatak1
-   :answer_a: In the upper left part of the stage.
-   :answer_b: In the lower left part of the stage.
-   :answer_c: In the upper right part of the stage.
-   :answer_d: In the lower right part of the stage.
-   :feedback_a: Well done! You understand perfectly how the values of X: and Y: determine the position of the sprite on the stage! 
-   :feedback_b: Study the figure where we divided the stage into four parts and painted them with different colors. You will notice that in the green part of the stage the values are X > 0 and Y > 0; in the red part of the stage the values are X < 0 and Y > 0; in the blue part of the stage the value are X < 0 and Y < 0; in the yellow part of the stage the values are X > 0 and Y < 0. Are you now able to answer our question correctly?
-   :feedback_c: Study the figure where we divided the stage into four parts and painted them with different colors. You will notice that in the green part of the stage the values are X > 0 and Y > 0; in the red part of the stage the values are X < 0 and Y > 0; n the blue part of the stage the value are X < 0 and Y < 0; in the yellow part of the stage the values are X > 0 and Y < 0. Are you now able to answer our question correctly?
-   :feedback_d: Study the figure where we divided the stage into four parts and painted them with different colors. You will notice that in the green part of the stage the values are X > 0 and Y > 0; in the red part of the stage the values are X < 0 and Y > 0; n the blue part of the stage the value are X < 0 and Y < 0; in the yellow part of the stage the values are X > 0 and Y < 0. Are you now able to answer our question correctly?
-   :correct: a
+   :answer_a: : përgjigje_a: Në pjesën e sipërme të majtë të skenës.
+   :answer_b: Në pjesën e poshtme të majtë të skenës.
+   :answer_c: Në pjesën e sipërme të djathtë të fazës.
+   :answer_d: Në pjesën e poshtme të djathtë të fazës.
+   :feedback_a: Mirë! Ju e kuptoni në mënyrë të përsosur se si vlerat e X: dhe Y: përcaktoni pozicionin e sprite në skenë!
+   :feedback_b: Studioni figurën ku e ndamë fazën në katër pjesë dhe i pikturuam ato me ngjyra të ndryshme. Do të vini re se në pjesën e gjelbër të fazës vlerat janë X> 0 dhe Y> 0; në pjesën e kuqe të fazës vlerat janë X <0 dhe Y> 0; në pjesën blu të fazës vlera është X <0 dhe Y <0; në pjesën e verdhë të fazës vlerat janë X> 0 dhe Y <0. A jeni tani në gjendje t’i përgjigjeni saktë pyetjes sonë?
+   :feedback_c: Studioni figurën ku e ndamë fazën në katër pjesë dhe i pikturuam ato me ngjyra të ndryshme. Do të vini re se në pjesën e gjelbër të fazës vlerat janë X> 0 dhe Y> 0; në pjesën e kuqe të fazës vlerat janë X <0 dhe Y> 0; n pjesa blu e fazës vlera është X <0 dhe Y <0; në pjesën e verdhë të fazës vlerat janë X> 0 dhe Y <0. A jeni tani në gjendje t’i përgjigjeni saktë pyetjes sonë?
+   :feedback_d: Studioni figurën ku e ndamë fazën në katër pjesë dhe i pikturuam ato me ngjyra të ndryshme. Do të vini re se në pjesën e gjelbër të fazës vlerat janë X> 0 dhe Y> 0; në pjesën e kuqe të fazës vlerat janë X <0 dhe Y> 0; n pjesa blu e fazës vlera është X <0 dhe Y <0; në pjesën e verdhë të fazës vlerat janë X> 0 dhe Y <0. A jeni tani në gjendje t’i përgjigjeni saktë pyetjes sonë?
+   :e saktë: a
 
-   Look carefully at the information about the position of the sprite on the stage. What is the location of the sprite?
+   Shikoni me kujdes informacionin në lidhje me pozicionin e sprite në skenë. Cili është vendndodhja e sprite?
 
    .. image:: ../_images/scratch/OkruzenjeZadatak1.png
       :align: center
 
-Participating in the Scratch Online Community
+Pjesëmarrës në Komunitetin Online Scratch
 -----------------------------------------------
 
 .. |PPage| image:: ../_images/scratch/PPage.png
@@ -128,24 +129,24 @@ Participating in the Scratch Online Community
 .. |BRemix| image:: ../_images/scratch/BRemix.png
 .. |Report| image:: ../_images/scratch/Report.png
 
-Whether we created a program (project) on the online Scratch platform or by using its desktop version, we can make our program available to other people interested in programming in this visual programming language.
+Pavarësisht nëse krijuam një program (projekt) në platformën Scratch online ose duke përdorur versionin e tij të desktopit, ne mund ta bëjmë programin tonë të disponueshëm për njerëzit e tjerë të interesuar për programim në këtë gjuhë vizive të programimit.
 
-In both cases, we need to:
+Në të dy rastet, duhet të:
 
-•	have an account on the Scratch online platform; 
-•	upload our program to the platform (programs created using the offline version of Scratch have to be uploaded to the platform: **File** - **Load from your computer**);
-•	publish our project by clicking the button |Share|.
+• të keni një llogari në platformën online Scratch;
+• ngarkoni programin tonë në platformë (programet e krijuara duke përdorur versionin offline të Scratch duhet të ngarkohen në platformë: **Skedari** - **Ngarkesa nga kompjuteri juaj**);
+• publikoni projektin tonë duke klikuar butonin |Share|
 
-To enable other Scratch users to understand and use our program well, it is important that we write a detailed description on the project's page. We can access this page by clicking on |PPage|.
+Për t'u mundësuar përdoruesve të tjerë të Scratch të kuptojnë dhe të përdorin mirë programin tonë, është e rëndësishme që të shkruajmë një përshkrim të hollësishëm në faqen e projektit. Ne mund të qasemi në këtë faqe duke klikuar në |PPage|
 
 .. image:: ../_images/scratch/ProjectPage.png   
    :align: center
 
-This is how other Scratch users see our project's page:
+Kjo është mënyra se si përdoruesit e tjerë të Scratch shohin faqen e projektit tonë:
 
 .. image:: ../_images/scratch/Remix.png   
    :align: center
 
-We can see that all users of the Scratch online platform can remix our project. They can just click on the button |BRemix|, and upgrade, change and publish the newly created program. The information on the number of views, remixes, likes, etc. can be seen on the homepage.
+Ne mund të shohim që të gjithë përdoruesit e platformës në internet Scratch mund të rimodelojnë projektin tonë. Ata thjesht mund të klikojnë në butonin |BRemix| dhe të azhurnojnë, ndryshojnë dhe publikojnë programin e krijuar rishtas. Informacioni për numrin e pamjeve, rimikteve, pëlqimeve, etj mund të shihet në faqen kryesore.
 
-The Scratch online platform is dedicated to preserving the spirit of the Scratcher community. By clicking on the button |Report| the users can report inappropriate contents, comments, discussions, etc. After receiving a report, the Scratch team will review the problematic content, and if it does not comply with the community guidelines (https://en.scratch-wiki.info/wiki/Community_Guidelines), they will remove it from the platform. 
+Platforma në internet Scratch është e përkushtuar në ruajtjen e frymës së komunitetit Scratcher. Duke klikuar në butonin |Raport| përdoruesit mund të raportojnë përmbajtje të papërshtatshme, komente, diskutime, etj. Pas marrjes së një raporti, ekipi Scratch do të rishikojë përmbajtjen problematike, dhe nëse nuk përputhet me udhëzimet e komunitetit (https://en.scratch-wiki.info/ wiki / Community_Guidlines), ata do ta heqin atë nga platforma.

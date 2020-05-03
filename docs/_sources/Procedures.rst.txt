@@ -1,14 +1,14 @@
-Procedures
+Proçedura
 ===========
 
-We don't have to create the program as a whole.
+Ne nuk kemi pse ta krijojmë programin në tërësi.
 
-It is far more clear if we divide pieces of code into smaller, separate parts - **procedures**. Defining procedures makes writing programs and finding mistakes easier. That is why it is good to keep the procedures in your "backpack". That way, you will be able to use them in other programs you create, and not waste time on making them again. 
+Është shumë më e qartë nëse ndajmë pjesë të kodit në pjesë më të vogla, të ndara - **procedurat**. Përcaktimi i procedurave e bën më të lehtë programet e shkrimit dhe gjetjen e gabimeve. Kjo është arsyeja pse është mirë të mbani procedurat në "çantën e shpinës" tuaj. Në atë mënyrë, ju do të jeni në gjendje t'i përdorni ato në programet e tjera që krijoni, dhe të mos humbni kohë për t'i bërë përsëri.
 
-Broadcasting
+Transmetimi
 -------------
 
-Programs made in Scratch usually have multiple sprites that interact with each other. We can define the interaction ourselves, and we can also use the built-in procedure That allows the sprites to broadcast messages and affect the running of the program. Using the broadcasting procedure will significantly decrease the number of blocks in the program, and it will make it easier for us to read the code. 
+Programet e bëra në Scratch zakonisht kanë shumë pjesë që ndërveprojnë me njëra-tjetrën. Ne mund ta përcaktojmë ndërveprimin vetë, dhe mund të përdorim gjithashtu procedurën e integruar që lejon imazhet të transmetojnë mesazhe dhe të ndikojnë në ekzekutimin e programit. Përdorimi i procedurës së transmetimit do të ulë ndjeshëm numrin e blloqeve në program, dhe do ta lehtësojë leximin e kodit.
 
 .. image:: ../_images/procedure/ProcZ1a.png
    :width: 800px   
@@ -19,60 +19,57 @@ Programs made in Scratch usually have multiple sprites that interact with each o
    :align: center
 
 .. mchoice:: ProcedureZ1
-   :answer_a: Program A
-   :answer_b: Program B
-   :feedback_a: When we run the program, we can see that all three girls are saying hello in their own language at the same time. This would not be the case in real life, during a normal conversation. We usually listen to the person we are talking to, and then we speak.     
-   :feedback_b: You are right! When we broadcast the messages, we allow everyone participating in the conversation to be polite - and not interrupt one another.
-   :correct: b
-
-   There are two programs - A and B, presented in the figures above. Both programs contain 3 sprites, girls speaking English, German and French. Below each girl are blocks that belong to them (the blocks allow them to say hello to the other two in their own language). Create programs you see in the figures above. Analyze what happens when they run. Which program represents a simulation of a normal (regular) conversation between three strangers? 
+   :answer_a: Programi A
+   :answer_b: Programi B
+   :feedback_a: Kur ekzekutojmö programin, mund të shohim që të tre vajzat po thonë përshëndetje në gjuhën e tyre në të njëjtën kohë. Kjo nuk do të ndodhte në jetën reale, gjatë një bisede normale. Zakonisht dëgjojmë personin me të cilin po flasim, dhe pastaj flasim.
+    :feedback_b: Ke të drejtë! Kur transmetojmë mesazhet, lejojmë që të gjithë pjesëmarrësit në bisedë të jenë të sjellshëm - dhe të mos ndërpresin njëri-tjetrin. 
 
 .. reveal:: sakrivanjeDevojke
-   :showtitle: Watch the video instruction for creating the conversation between three girls
-   :hidetitle: Hide the video instruction
+   :showtitle: Shikoni udhëzimet e videos për krijimin e bisedës midis tre vajzave
+   :hidetitle: Fshih intruksionet
  
-   **Watch the process of creating the program, which allows the girls to speak without interrupting one another:**
+   **Shikoni procesin e krijimit të programit, i cili lejon vajzat të flasin pa ndërprerë njëra-tjetrën:**
      
    .. youtube:: QgCCzBw6DKU
       :width: 735
       :height: 415
       :align: center
 
-Defining a new procedure
+Definimi  një proçedure të re
 --------------------------
 
 .. |Vazno| image:: ../_images/Vazno.png
 
 .. |Uradi| image:: ../_images/Uradi.png
 
-In Scratch, we can create a new procedure that would correspond to our needs. 
+Në Scratch, ne mund të krijojmë një procedurë të re që do t'i përgjigjet nevojave tona.
 
-Imagine that we want to create a program, which draws a flower on the stage. A flower is made of petals. Therefore, we need two procedures:
+Imagjinoni që ne duam të krijojmë një program, i cili tërheq një lule në skenë. Një lule është bërë nga petale. Prandaj, na duhen dy procedura:
 
-•	**Petal**, within which we will define the drawing of one petal, and
-•	**Flower**, within which we will define the drawing of five petals.
+• **Petal**, brenda së cilës do të përcaktojmë vizatimin e një petale, dhe
+• **Flower**, brenda së cilës do të përcaktojmë vizatimin e pesë petaleve.
 
-In other words, the procedure **Flower** will call the procedure **Petal**, and the main program will call the procedure **Flower**.
+Me fjalë të tjera, procedura **Flower** do të thërras procedurën **Petal**, dhe programi kryesor do të thërrasë procedurën **Flower**.
 
-We create a procedure by clicking on the category **My Blocks**, where we should click on the button **Make a Block**. A window will open, which will allow us to name our procedure.
+Ne krijojmë një procedurë duke klikuar në kategorinë **My Blocks**, ku duhet të klikojmë në butonin **Make e block**. Do të hapet një dritare, e cila do të na lejojë të emërojmë procedurën tonë.
 
 .. image:: ../_images/procedure/ProcLatica.png
    :width: 600px   
    :align: center
 
-If you want your flower to have the same petals like the one in the figure below, create the procedure **Petal** we presented:
+Nëse dëshironi që lulja juaj të ketë të njëjtat petale si ajo në figurën më poshtë, krijoni procedurën **Petal** që prezantuam:
 
 .. image:: ../_images/procedure/KodProcLatica.png
    :width: 780px   
    :align: center
 
-|Uradi| We will let you make a procedure, which draws 5 petals. **Little help**: After drawing one petal, you need to turn the sprite 72 degrees to the right.
+|Uradi| Ne do t'ju lejojmë të bëni një procedurë, e cila tërheq 5 petale. **Ndihmë e vogël**: Pasi të vizatoni një petal, duhet ta ktheni imazhin 72 gradë në të djathtë.
 
 .. reveal:: sakrivanjeCvet1
-   :showtitle: Compare your solution with ours
-   :hidetitle: Hide the solution
+   :showtitle: Krahaso zgjidhjen tuaj me tonën
+   :hidetitle: Fshih zgjidhjen
  
-   **Possible solution**
+   **Zgjidhje e mundshme**
      
     .. image:: ../_images/procedure/Cvet.png
 	:width: 770px   
@@ -80,7 +77,7 @@ If you want your flower to have the same petals like the one in the figure below
 
 .. infonote::
 
-  |Vazno|   **So, by using procedures, we make writing programs and finding mistakes easier.**
+  |Vazno|   **Pra, duke përdorur procedurat, ne bëjmë programe shkrimi dhe gjejmë gabimeve më lehtë.**
 
 
 

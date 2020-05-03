@@ -1,30 +1,30 @@
-Blocks
+Blloqet
 =======
 
-Computer programs are sets of commands, which we use to explain to the computer how to complete a certain task or solve a problem. Given that most programming languages ​​are textual, developers often type commands.
+Programet kompjuterike janë grupe komandash, të cilat ne i përdorim për t'i shpjeguar kompjuterit se si të përfundojmë një detyrë të caktuar ose të zgjidhim një problem. Duke pasur parasysh që shumica e gjuhëve programuese janë tekstuale, zhvilluesit shpesh shtypin komanda.
 
-In the visual programming language Scratch, we don't write commands, but instead we use blocks, which represent them. We create programs by arranging (stacking) blocks in the appropriate order. 
+Në gjuhën e programimit vizual Scratch, ne nuk shkruajmë komanda, por përkundrazi përdorim blloqe, të cilat i përfaqësojnë ato. Ne krijojmë programe duke rregulluar (grumbulluar) blloqe në rendin e duhur.
 
-Types of Blocks in Scratch
+Llojet e bllokimeve në Scratch
 ----------------------------
 
-There are 4 types of blocks in Scratch: 
+Janë 4 lloje në Scratch: 
 
 .. image:: ../_images/blokovi/4Bloka.png   
    :align: center
 
-1. Command blocks;
-2. Blocks which link events with the running of the program;
-3. Blocks which control the running of the program;
-4. Blocks which report a certain value (function blocks).
+1. Blloqet komanduese;
+2. Blloqe që lidhin ngjarjet me drejtimin e programit;
+3. Blloqe që kontrollojnë drejtimin e programit;
+4. Blloqe që raportojnë një vlerë të caktuar (blloqe funksioni).
 
 
-Command Blocks
+Blloqet komanduese
 ~~~~~~~~~~~~~~~
 
-Command blocks have notches at the top and bumps on the bottom. They are designed in a way that allows them to be connected (stacked) to other blocks. We can just drag a block from the appropriate category into the scripts area (space for programming) and connect it to other blocks, which are already there. Connecting blocks looks like magnetic attraction - as soon as we place a notch of one block close to the bump of another, it will "stick" to it, thus continuing the sequence. The bumps allow new blocks to be added.    
+Blloqet komanduese kanë nivele në krye dhe gunga në fund. Ato janë dizajnuar në një mënyrë që lejon që ata të lidhen (grumbulluar) me blloqe të tjera. Ne thjesht mund të tërheqim një bllok nga kategoria e përshtatshme në zonën e skripteteve (hapësirë për programim) dhe ta lidhim atë me blloqe të tjera, të cilat tashmë janë aty. Blloqet lidhëse duken si tërheqje magnetike - posa të vendosim një nivel të një blloku afër gungës së një tjetri, do të "ngjitet" në të, duke vazhduar kështu sekuencën. Gungat lejojnë që blloqet e reja të shtohen.
 
-Blocks which link events with the running of the program
+Blloqe që lidhin ngjarjet me ekzekutimin e programit
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. |ZZ| image:: ../_images/blokovi/ZZ.png
@@ -39,50 +39,50 @@ Blocks which link events with the running of the program
 .. |SayE| image:: ../_images/blokovi/SayE.png
 .. |WUE| image:: ../_images/blokovi/WUE.png
 
-These blocks have "hats". This means that they can only be placed at the beginning of a stack of blocks. We usually start a script with one of these blocks. On the bottom, they have bumps, which allow new blocks to be added to them. 
+Këto blloqe kanë "kapele". Kjo do të thotë që ato mund të vendosen vetëm në fillim të një pirg blloqe. Zakonisht fillojmë një skenar me një nga këto blloqe. Në pjesën e poshtme, ata kanë gunga, të cilat lejojnë që blloqeve të reja t'u shtohen atyre.
 
-It is important for you to know that these blocks represent triggers, which start the running of scripts attached to them. For example, the block |ZZ| ensures that the command blocks attached to it run only when the green flag, located above the stage, is clicked. 
+Është e rëndësishme për ju të dini se këto blloqe paraqesin shkaktues, të cilët fillojnë ekzekutimin e skriptave bashkangjitur tyre. Për shembull, blloku |ZZ| siguron që blloqet e komandës bashkëngjitur tij të funksionojnë vetëm kur të klikohet flamuri i gjelbër, i vendosur sipër skenës.
 
-Blocks which control the running of the program
+Blloqe që kontrollojnë drejtimin e programit
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Similar to command blocks, the blocks controlling the running of the program have notches at the top and bumps on the bottom. We can put them above other blocks, as well as put other blocks below them. 
+Ngjashëm me blloqet e komandës, blloqet që kontrollojnë drejtimin e programit kanë pika në krye dhe gunga në pjesën e poshtme. Ne mund t'i vendosim ato mbi blloqe të tjera, si dhe të vendosim blloqe të tjera poshtë tyre.
 
-These blocks are also characterized by the ability to accommodate other blocks (other blocks can be put inside them). For example, the script |R10M10| allows our sprite to move 10 steps 10 times. 
+Këto blloqe karakterizohen gjithashtu nga aftësia për të akomoduar blloqe të tjera (blloqe të tjera mund të vendosen brenda tyre). Për shembull, skenari |R10M10| lejon sprite tona të lëvizin 10 hapa 10 herë.
 
-Blocks which report a certain value (function blocks)
+Blloqe që raportojnë një vlerë të caktuar (blloqe funksioni)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Apart from their shape, these blocks are different from other blocks because they cannot be part of the script on their own. In other words, they are **not added** to other blocks, but they form an integral part of the block they are inserted to.
+Përveç formës së tyre, këto blloqe janë të ndryshme nga blloqet e tjera sepse nuk mund të jenë pjesë e skenarit më vete. Me fjalë të tjera, ato **nuk janë shtuar** në blloqe të tjera, por ato formojnë një pjesë integrale të bllokut në të cilin futen.
 
-Function blocks contain a certain value. Their appearance depends on the type of information they contain:
+Blloqet e funksioneve përmbajnë një vlerë të caktuar. Pamja e tyre varet nga lloji i informacionit që ato përmbajnë:
 
-•	the blocks with rounded edges contain numbers |XP| or strings |Costume|;
-•	angular blocks contain values *True* or *False* |Touch|.
+• blloqet me skaj të rrumbullakosur përmbajnë numra |XP| ose vargjet |Costum|
+• blloqet këndore përmbajnë vlera *True* ose *False* |Touch|
 
-Command blocks and blocks that control the running of the program have input fields into which function blocks can be inserted. These input fields can have a rounded or hexagonal shape.  
+Blloqet komanduese dhe blloqet që kontrollojnë ekzekutimin e programit kanë fushat hyrëse në të cilat mund të futen blloqet e funksionit. Këto fusha hyrëse mund të kenë një formë të rrumbullakosur ose gjashtëkëndore.
 
 .. |Vazno| image:: ../_images/Vazno.png
 
 .. infonote::
 
-    |Vazno|  In blocks which have rounded input fields |SayE|, we can insert both rounded and hexagonal function blocks |Say|, while blocks with a hexagonal input field |WUE|, can only receive hexagonal function blocks |WU|.
+    |Vazno|  Në blloqet të cilat kanë fushat hyrëse të rrumbullakosura |SayE|, mund të vendosim blloqe funksionesh të rrumbullakosura dhe gjashtëkëndore |Say|, ndërsa blloqet me një fushë gjashtëkëndore të hyrjes |WUE|, mund të marrin vetëm blloqe të funksionit gjashtëkëndor |WU|.
 
 
-Next to function blocks, in categories where they are located, there are boxes that you can check. When you check these boxes, the value stored in these blocks will become visible on the stage.
+Pranë blloqeve të funksionimit, në kategoritë ku ato janë vendosur, ka kuti që mund t'i kontrolloni. Kur të kontrolloni këto kuti, vlera e ruajtur në këto blloqe do të bëhet e dukshme në skenë.
 
 .. image:: ../_images/blokovi/Touch.png   
    :align: center
 
-The value stored in a function block can also be seen by clicking on the block itself. For example, the block |Touching| stores the value *false* because our sprite is not touching the displayed color, while the block |Sabiranje| stores the value *22*, because that is the sum of the numbers we see in the block).
+Vlera e ruajtur në një bllok funksioni gjithashtu mund të shihet duke klikuar në vetë bllokun. Për shembull, blloku |Touch| ruan vlerën *false* sepse sprite tona nuk po prekin ngjyrën e shfaqur, ndërsa blloku |Sabiranje| ruan vlerën *22*, sepse kjo është shuma e numrave që shohim në bllok).
 
-.. mchoice:: BlokoviZadatak1
-   :answer_a: When we click on the green flag, the sprite will say "true".
-   :answer_b: When we click on the green flag, the sprite will say "false".
-   :feedback_a: You are absolutely right!    
-   :feedback_b: The angular function block returns the values True or False. Since the statement is 60>50 true, the sprite will say "true".
-   :correct: a
+.. mchoice :: BlokoviZadatak1
+    :answer_a: Kur klikojmë në flamurin e gjelbër, sprite do të thotë "True".
+    :answer_b: Kur klikojmë në flamurin e gjelbër, sprite do të thotë "False".
+    :feedback_a: Ju keni absolutisht të drejtë!
+    :feedback_b: Blloku i funksionit këndor kthen vlerat e vërteta ose false. Meqenëse deklarata është 60> 50 e vërtetë, sprite do të thotë "True".
+    :correct: a
 
-   Analyze the script presented in the figure. Choose the result of the running of the program.
+    Analizoni skenarin e paraqitur në figurë. Zgjidhni rezultatin e ekzekutimit të programit.
      .. image:: ../_images/blokovi/6050.png  
 	:align: center

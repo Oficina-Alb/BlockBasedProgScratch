@@ -1,100 +1,100 @@
-Sound
+Tingull
 =======
 
-The ability to add sound to our sprites, in addition to bubbles with thoughts and text in them, gives us the opportunity to create more dynamic and interesting programs. 
+Aftësia për të shtuar tinguj në sprites, përveç flluskave me mendime dhe tekst në to, na jep mundësinë për të krijuar programe më dinamike dhe interesante.
 
-Scratch has a rich library of sounds, as well as the possibility to record our own voice or download sound recordings from our computer in .wav or .mp3 format. The blocks, which allow us to hear sounds, are located in the **Sound** category.
+Scratch ka një librari të pasur të tingujve, si dhe mundësinë për të regjistruar zërin tonë ose për të shkarkuar regjistrime të tingujve nga kompjuteri ynë në formatin Wav ose .mp3. Blloqet, të cilat na lejojnë të dëgjojmë tinguj, gjenden në kategorinë **Sound**.
 
-Sprite Sounds
+Tinguj Sprite
 ------------------
 
-We will upgrade the program *Farm*, which can be found on the link |https://scratch.mit.edu/projects/326422653/|, so that the girl (Avery) really says "Go, go!", and the Chick chirps after a good meal. 
+Ne do të azhornojmë programin *Farm*, i cili mund të gjendet në lidhjen | https: //scratch.mit.edu/projects/326422653/ |, në mënyrë që vajza (Avery) të thotë vërtet "Shko, shko!", dhe pulat cicërijnë pas një vakti të mirë.
 
 .. |https://scratch.mit.edu/projects/326422653/| raw:: html
 
  <a href="https://scratch.mit.edu/projects/326422653/" target="_blank">https://scratch.mit.edu/projects/326422653/</a>
 
-The first step would be to record the sound - our voice: we will make the recording and add it to the script belonging to the girl; on the recording, we should say: "Go, go!"
+Hapi i parë do të ishte regjistrimi i tingullit - zëri ynë: ne do ta bëjmë regjistrimin dhe do ta shtojmë në skenarin që i përket vajzës; në regjistrim, duhet të themi: "Shko, shko!"
 
-Recording the sound
+Regjistrimi i tingullit
 
-Before we record the sound, we should:
+Para se të regjistrojmë tingullin, duhet të:
 
-•	ensure that the girl sprite is active (the thumbnail of the sprite should have a blue frame around it in the sprites list);
-•	click on the Sound tab;
-•	choose the option Record.
+• Sigurohuni që vajza e sprite është aktive (tabloja e spërkatjes duhet të ketë një kornizë blu rreth saj në listën e sprites);
+• klikoni në butonin Sound;
+• zgjidhni opsionin Record.
 
 .. image:: ../_images/zvuk/Avery.png  
    :align: center
 
-The **Record Sound** window will open; within this window, we can start recording the sound.
+Do të hapet dritarja **Record Sound**; brenda kësaj dritare, ne mund të fillojmë regjistrimin e tingullit.
 
-1. Click the red button and say: "Go, go!";
+1. Klikoni butonin e kuq dhe thoni: "Shko, shko!";
 
-2. You can listen to the recording by pressing the **Play** button, if you are satisfied, you should click the button **Save**, and if not, click the button **Re-record** and do it again;
+2. Ju mund ta dëgjoni regjistrimin duke shtypur butonin **Play**, nëse jeni të kënaqur, duhet të klikoni në butonin **Save**, dhe nëse jo, klikoni në butonin **Re-register** dhe bëni përsëri;
 
-3. A visual representation of the recording will appear in the Sound tab;
+3. Një paraqitje vizuale e regjistrimit do të shfaqet në kartën Sound;
 
-4. Blocks that allow our voice to be heard during the running of the program, will appear in the category Sound.
+4. Blloqet që lejojnë të dëgjohet zëri ynë gjatë ekzekutimit të programit, do të shfaqen në kategorinë Sound.
 
 .. image:: ../_images/zvuk/GoGo.png  
    :align: center
 
-The chick's chirping sound can be found in the sound library and uploaded from it.
+Tingulli i pulës mund të gjendet në librarinë e tingullit dhe të ngarkohet prej tij.
 
-We must not forget that the chick sprite has to be active; otherwise, the chirping sound will be added to the girl sprite.
+Ne nuk duhet të harrojmë se cicerima e pulave duhet të jetë aktive; përndryshe, tingulli i bezdisshëm do t'i shtohet sprite vajzës.
 
 .. image:: ../_images/zvuk/Chirp.png  
    :align: center
 
-We are ready to add command blocks to the code.
+Ne jemi të gatshëm për të shtuar blloqe komandash në kod.
 
 .. image:: ../_images/zvuk/KodFarmaZvuk.png
    :width: 1200px
    :align: center
 
-|Uradi| Remix the project *Farm*, which can be found on the link |https://scratch.mit.edu/projects/326422653/|. Record the sound and add the appropriate block to the script that belongs to the girl sprite. From the sound library, add the appropriate chirping sound to the script that belongs to the chick sprite.
+|Uradi| Përsërite projektin *Farm*, i cili mund të gjendet në linkun | https: //scratch.mit.edu/projects/326422653/ |. Regjistroni tingullin dhe shtoni bllokun e duhur në skenarin që i përket vajzës. Nga libraria e tingullit, shtoni tingullin e duhur të cicërimës në skenarin që i përket sprukut
   .. |Uradi| image:: ../_images/Uradi.png
 
 .. mchoice:: ZvukZadatak1
-   :answer_a: If we had chosen the other block, we would have heard our voice first. The text bubble would have appeared only after the sentence had been spoken. 
-   :answer_b: We could have used the second block, and the program would have run the same way.
-   :feedback_a: You are absolutely right!    
-   :feedback_b: This is not correct. In the program *Farm*, replace the block presented in the figure above, run the program and analyze the result.
+    :answer_a: Nëse do të kishim zgjedhur bllokun tjetër, së pari do të kishim dëgjuar zërin tonë. Flluska e tekstit do të ishte shfaqur vetëm pasi të ishte shqiptuar fjalia.
+    :answer_b: Mund të kishim përdorur bllokun e dytë, dhe programi do të kishte funksionuar në të njëjtën mënyrë.
+    :feedback_a: Ju keni absolutisht të drejtë!
+    :feedback_b: Kjo nuk është e saktë. Në programin *Farm*, zëvendësoni bllokun e paraqitur në figurën më lart, drejtoni progun
    :correct: a
 
-   In the program Farm, we chose the block |GG| to add the sound, and not the block |GGUD|. Why?
+   Në programin Farm, ne zgjodhëm bllokun |GG| për të shtuar tingullin, dhe jo bllokun |GGUD|. Pse?
 
    .. |GGUD| image:: ../_images/zvuk/GGUD.png
    .. |GG| image:: ../_images/zvuk/GG.png
 
 
-Composing music
+Kompozimi i muzikës
 -------------------
 
 .. |Ekstenzija| image:: ../_images/Ekstenzija.png
 
-Composing music requires the addition of a new block category to the Scratch interface. This is done by clicking on the button |Ekstenzija|, which is located in the bottom left corner of the screen, and then choosing the extension **Music**.
+Mosveprimi i muzikës kërkon shtimin e një kategorie të re bllok në ndërfaqen Scratch. Kjo bëhet duke klikuar në butonin |Ekstenzija|, i cili ndodhet në këndin e poshtëm të majtë të ekranit, dhe më pas duke zgjedhur zgjatjen **Music**.
 
 .. image:: ../_images/zvuk/Music.png  
    :align: center
 
-No matter what language they speak, people from all over the world know the lullaby Frère Jacques. If you don't know the song, look it up on YouTube, and we will help you compose it in Scratch.
+Pavarësisht se në cilën gjuhë flasin, njerëzit nga e gjithë bota e dinë gënjeshtrën e Frère Jacques. Nëse nuk e dini këngën, kërkoni atë në YouTube dhe ne do t'ju ndihmojmë ta kompozoni atë në Scratch.
 
-As our instrument, we will choose the electric piano (1), and then we will connect the notes so that, when we run the program, this famous lullaby starts playing.
+Si instrumentin tonë, ne do të zgjedhim pianon elektrike (1), dhe pastaj do t'i lidhim shënimet në mënyrë që, kur të drejtojmë programin, kjo pjesë e famshme të fillojë të luajë.
 
 .. image:: ../_images/zvuk/FJ.png  
    :align: center
 
 .. |Drums| image:: ../_images/zvuk/Drums.png
 
-|Uradi| Remix the project *Frère Jacques*, which can be found on the link |https://scratch.mit.edu/projects/326431999/| and add the blocks that will contribute to the "fullness of sound" (drums or the rhythm section). Use the instruments from the drop-down list of the block |Drums|. By using the appropriate block from the category **Sound** increase the volume of each verse by 10.
+|Uradi| Miksoni projektin *Frère Jacques*, i cili mund të gjendet në linkun |https: //scratch.mit.edu/projects/326431999/| dhe shtoni blloqet që do të kontribuojnë në "plotësinë e zërit" (daulle ose seksioni i ritmit). Përdorni instrumentet nga lista drop-down e bllokut |Battery|. Duke përdorur bllokun e duhur nga kategoria **Sound** rrisni vëllimin e secilit varg me 10.
 
 .. |https://scratch.mit.edu/projects/326431999/| raw:: html
 
  <a href="https://scratch.mit.edu/projects/326431999/" target="_blank">https://scratch.mit.edu/projects/326431999/</a>
 
-|Izazov| Try to sing the song Frère Jacques without the music and record it. Add it to the Scratch program **Frère Jacques**. We know for sure that it will be an interesting arrangement!
+|Izazov| Mundohuni të këndoni këngën Frère Jacques pa muzikë dhe ta regjistroni atë. Shtojeni atë në programin Scratch **Frère Jacques**. Ne e dimë me siguri që do të jetë një miksim interesant!
    .. |Izazov| image:: ../_images/Izazov.png
 
 

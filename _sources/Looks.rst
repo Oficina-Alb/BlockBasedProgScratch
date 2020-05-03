@@ -32,7 +32,7 @@ Ne do ta vendosim zogun në dorën e saj. Për pulën, duam:
    :showtitle: Shikoni udhëzuesin për krijimin e programit Farm
    :hidetitle: Fshih videon
 
-   **Shikoni procesin e krijimit të programit, i cili lejon që sprites të mendojnë, të flasin dhe të ndryshojnë madhësinë dhe kostumet e tyre: **
+**Shikoni procesin e krijimit të programit, i cili lejon që sprites të mendojnë, të flasin dhe të ndryshojnë madhësinë dhe kostumet e tyre:**
      
    .. youtube:: VIDEO1
       :width: 735
