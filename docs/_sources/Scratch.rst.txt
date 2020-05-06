@@ -105,16 +105,16 @@ Programet që janë krijuar në platformën në internet Scratch quhen *projects
 
 Prandaj, vlerat e **x:** dhe **y:** varen nga vendndodhja e sprite. Nëse duam që sprita jonë të jetë në qendër të fazës, vlerat duhet të jenë: **x: 0 ** dhe **y: 0**. Informacioni mbi vendndodhjen aktuale të sprite mund të shihet në listën e sprites, brenda parametrave të sprite.
 
-.. mchoice:: OkruzenjeZadatak1
-   :answer_a: : përgjigje_a: Në pjesën e sipërme të majtë të skenës.
-   :answer_b: Në pjesën e poshtme të majtë të skenës.
-   :answer_c: Në pjesën e sipërme të djathtë të fazës.
-   :answer_d: Në pjesën e poshtme të djathtë të fazës.
-   :feedback_a: Mirë! Ju e kuptoni në mënyrë të përsosur se si vlerat e X: dhe Y: përcaktoni pozicionin e sprite në skenë!
-   :feedback_b: Studioni figurën ku e ndamë fazën në katër pjesë dhe i pikturuam ato me ngjyra të ndryshme. Do të vini re se në pjesën e gjelbër të fazës vlerat janë X> 0 dhe Y> 0; në pjesën e kuqe të fazës vlerat janë X <0 dhe Y> 0; në pjesën blu të fazës vlera është X <0 dhe Y <0; në pjesën e verdhë të fazës vlerat janë X> 0 dhe Y <0. A jeni tani në gjendje t’i përgjigjeni saktë pyetjes sonë?
-   :feedback_c: Studioni figurën ku e ndamë fazën në katër pjesë dhe i pikturuam ato me ngjyra të ndryshme. Do të vini re se në pjesën e gjelbër të fazës vlerat janë X> 0 dhe Y> 0; në pjesën e kuqe të fazës vlerat janë X <0 dhe Y> 0; n pjesa blu e fazës vlera është X <0 dhe Y <0; në pjesën e verdhë të fazës vlerat janë X> 0 dhe Y <0. A jeni tani në gjendje t’i përgjigjeni saktë pyetjes sonë?
-   :feedback_d: Studioni figurën ku e ndamë fazën në katër pjesë dhe i pikturuam ato me ngjyra të ndryshme. Do të vini re se në pjesën e gjelbër të fazës vlerat janë X> 0 dhe Y> 0; në pjesën e kuqe të fazës vlerat janë X <0 dhe Y> 0; n pjesa blu e fazës vlera është X <0 dhe Y <0; në pjesën e verdhë të fazës vlerat janë X> 0 dhe Y <0. A jeni tani në gjendje t’i përgjigjeni saktë pyetjes sonë?
-   :e saktë: a
+   .. mchoice::  OkruzenjeZadatak1
+       :answer_a: përgjigje_a: Në pjesën e sipërme të majtë të skenës.
+       :answer_b: Në pjesën e poshtme të majtë të skenës.
+       :answer_c: Në pjesën e sipërme të djathtë të fazës.
+       :answer_d: Në pjesën e poshtme të djathtë të fazës.
+       :feedback_a: Mirë! Ju e kuptoni në mënyrë të përsosur se si vlerat e X: dhe Y: përcaktoni pozicionin e sprite në skenë!
+       :feedback_b: Studioni figurën ku e ndamë fazën në katër pjesë dhe i pikturuam ato me ngjyra të ndryshme. Do të vini re se në pjesën e gjelbër të fazës vlerat janë X> 0 dhe Y> 0; në pjesën e kuqe të fazës vlerat janë X <0 dhe Y> 0; në pjesën blu të fazës vlera është X <0 dhe Y <0; në pjesën e verdhë të fazës vlerat janë X> 0 dhe Y <0. A jeni tani në gjendje t’i përgjigjeni saktë pyetjes sonë?
+       :feedback_c: Studioni figurën ku e ndamë fazën në katër pjesë dhe i pikturuam ato me ngjyra të ndryshme. Do të vini re se në pjesën e gjelbër të fazës vlerat janë X> 0 dhe Y> 0; në pjesën e kuqe të fazës vlerat janë X <0 dhe Y> 0; n pjesa blu e fazës vlera është X <0 dhe Y <0; në pjesën e verdhë të fazës vlerat janë X> 0 dhe Y <0. A jeni tani në gjendje t’i përgjigjeni saktë pyetjes sonë?
+       :feedback_d: Studioni figurën ku e ndamë fazën në katër pjesë dhe i pikturuam ato me ngjyra të ndryshme. Do të vini re se në pjesën e gjelbër të fazës vlerat janë X> 0 dhe Y> 0; në pjesën e kuqe të fazës vlerat janë X <0 dhe Y> 0; n pjesa blu e fazës vlera është X <0 dhe Y <0; në pjesën e verdhë të fazës vlerat janë X> 0 dhe Y <0. A jeni tani në gjendje t’i përgjigjeni saktë pyetjes sonë?
+       :correct: a
 
    Shikoni me kujdes informacionin në lidhje me pozicionin e sprite në skenë. Cili është vendndodhja e sprite?
 

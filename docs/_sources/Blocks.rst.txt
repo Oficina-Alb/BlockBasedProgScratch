@@ -6,7 +6,7 @@ Programet kompjuterike janë grupe komandash, të cilat ne i përdorim për t'i 
 Në gjuhën e programimit vizual Scratch, ne nuk shkruajmë komanda, por përkundrazi përdorim blloqe, të cilat i përfaqësojnë ato. Ne krijojmë programe duke rregulluar (grumbulluar) blloqe në rendin e duhur.
 
 Llojet e bllokimeve në Scratch
-----------------------------
+-------------------------------------
 
 Janë 4 lloje në Scratch: 
 
@@ -20,12 +20,12 @@ Janë 4 lloje në Scratch:
 
 
 Blloqet komanduese
-~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
 
 Blloqet komanduese kanë nivele në krye dhe gunga në fund. Ato janë dizajnuar në një mënyrë që lejon që ata të lidhen (grumbulluar) me blloqe të tjera. Ne thjesht mund të tërheqim një bllok nga kategoria e përshtatshme në zonën e skripteteve (hapësirë për programim) dhe ta lidhim atë me blloqe të tjera, të cilat tashmë janë aty. Blloqet lidhëse duken si tërheqje magnetike - posa të vendosim një nivel të një blloku afër gungës së një tjetri, do të "ngjitet" në të, duke vazhduar kështu sekuencën. Gungat lejojnë që blloqet e reja të shtohen.
 
 Blloqe që lidhin ngjarjet me ekzekutimin e programit
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. |ZZ| image:: ../_images/blokovi/ZZ.png
 .. |R10M10| image:: ../_images/blokovi/R10M10.png
@@ -51,7 +51,7 @@ Ngjashëm me blloqet e komandës, blloqet që kontrollojnë drejtimin e programi
 Këto blloqe karakterizohen gjithashtu nga aftësia për të akomoduar blloqe të tjera (blloqe të tjera mund të vendosen brenda tyre). Për shembull, skenari |R10M10| lejon sprite tona të lëvizin 10 hapa 10 herë.
 
 Blloqe që raportojnë një vlerë të caktuar (blloqe funksioni)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Përveç formës së tyre, këto blloqe janë të ndryshme nga blloqet e tjera sepse nuk mund të jenë pjesë e skenarit më vete. Me fjalë të tjera, ato **nuk janë shtuar** në blloqe të tjera, por ato formojnë një pjesë integrale të bllokut në të cilin futen.
 
@@ -76,12 +76,12 @@ Pranë blloqeve të funksionimit, në kategoritë ku ato janë vendosur, ka kuti
 
 Vlera e ruajtur në një bllok funksioni gjithashtu mund të shihet duke klikuar në vetë bllokun. Për shembull, blloku |Touch| ruan vlerën *false* sepse sprite tona nuk po prekin ngjyrën e shfaqur, ndërsa blloku |Sabiranje| ruan vlerën *22*, sepse kjo është shuma e numrave që shohim në bllok).
 
-.. mchoice :: BlokoviZadatak1
-    :answer_a: Kur klikojmë në flamurin e gjelbër, sprite do të thotë "True".
-    :answer_b: Kur klikojmë në flamurin e gjelbër, sprite do të thotë "False".
-    :feedback_a: Ju keni absolutisht të drejtë!
-    :feedback_b: Blloku i funksionit këndor kthen vlerat e vërteta ose false. Meqenëse deklarata është 60> 50 e vërtetë, sprite do të thotë "True".
-    :correct: a
+.. mchoice:: BlokoviZadatak1
+   :answer_a: Kur klikojmë në flamurin e gjelbër, sprite do të thotë "True".
+   :answer_b: Kur klikojmë në flamurin e gjelbër, sprite do të thotë "False".
+   :feedback_a: Ju keni absolutisht të drejtë!
+   :feedback_b: Blloku i funksionit këndor kthen vlerat e vërteta ose false. Meqenëse deklarata është 60> 50 e vërtetë, sprite do të thotë "True".
+   :correct: a
 
     Analizoni skenarin e paraqitur në figurë. Zgjidhni rezultatin e ekzekutimit të programit.
      .. image:: ../_images/blokovi/6050.png  

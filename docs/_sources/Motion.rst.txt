@@ -17,8 +17,8 @@ Në kategorinë **Motion**, ka 4 blloqe, të cilat mundësojnë lëvizje absolut
 
 .. image:: ../_images/kretanje/AKBlokovi.png  
    :align: center
-
-Do t'i përdorni këto blloqe kur të keni nevojë për të programuar sprite-in tuaj për të kaluar në një lokacion specifik **(pikë) në skenë **.
+   
+Do t'i përdorni këto blloqe kur të keni nevojë për të programuar sprite-in tuaj për të kaluar në një lokacion specifik **(pikë) në skenë**.
 
 .. infonote::
 

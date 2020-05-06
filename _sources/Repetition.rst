@@ -51,7 +51,7 @@ Ky bllok për përsëritjen e komandave drejton një numër të pafund herë. Dr
 
 Ne përdorëm bllokun që përsërit komandat një numër të pafundmë herë në projekt *Macja po ndjek miun* (mund të gjesh më shumë informacion në mësimin *Move*).
 
-.. mchoice :: PonavljanjeZ1
+.. mchoice:: PonavljanjeZ1
    :answer_a: Blloqet e reja mund të futen në bllok vetë, kështu që nuk ka nevojë të vazhdojë skenarin.
    :answer_b: ashtë një gabim në Scratch. Blloku për përsëritje të pafund duhet të ketë një mundësi për vazhdimin e skenarit.
    :answer_c: Shtimi i blloqeve është i kotë sepse ata kurrë nuk do të kandidonin.

@@ -90,7 +90,7 @@ Duke analizuar imazhin e mësipërm, ne mund të shohim se nuk do të jetë e v�
 	:align: center
 
 Stampa
-------
+-------
 
 .. |BO2| image:: ../_images/crtanje/BO2.png
 

@@ -37,14 +37,14 @@ Një mënyrë për të përcaktuar nëse një kusht është përmbushur është 
    :feedback_c: Shumë mirë! Programi do të shkruajë fjalinë "Unë do të blej akullore!" nëse çmimi është më i vogël ose i barabartë me 100 monedha.
    :correct: c
 
-   Mimi i akullores është 100 monedha. Analizoni skriptet e paraqitura në figurë dhe zgjidhni fjalinë e saktë.
+   Cmimi i akullores është 100 monedha. Analizoni skriptet e paraqitura në figurë dhe zgjidhni fjalinë e saktë.
    .. image:: ../_images/grananje/Sladoled.png
       :align: center
 
 Mënyra më e lehtë për të kuptuar degëzimin është krijimi i një programi që simulon një kuiz. Kur i bëjmë përdoruesit një pyetje dhe presim përgjigjen e tij / saj, pritet që të sigurojmë përgjigje nëse përgjigja ishte e saktë apo jo. Ne mund të japim informacione rreth saktësisë së një përgjigje kur përcaktojmë nëse përgjigja e përdoruesit është identike me përgjigjen e saktë.
 
    .. image:: ../_images/grananje/Kviz1.png
-   :align: center
+       :align: center
 
 Edhe pse duket se ne e kemi shkruar saktë kodin, dhe përgjigjen e saktë të pyetjes "Sa këmbë ka një qen?" është 4, përdoruesi mund të përgjigjet në pyetjen duke shtypur një varg në vend të një numri. Me fjalë të tjera, përgjigjja e saktë e pyetjes nuk është vetëm 4, por gjithashtu:
 

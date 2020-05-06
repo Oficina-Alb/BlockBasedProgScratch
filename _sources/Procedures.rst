@@ -36,7 +36,7 @@ Programet e bëra në Scratch zakonisht kanë shumë pjesë që ndërveprojnë m
       :align: center
 
 Definimi  një proçedure të re
---------------------------
+--------------------------------
 
 .. |Vazno| image:: ../_images/Vazno.png
 

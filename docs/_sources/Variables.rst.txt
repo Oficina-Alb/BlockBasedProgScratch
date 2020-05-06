@@ -54,9 +54,9 @@ Le të shohim situatën kur përdoruesi fut 4 numra, atëherë programi shton nu
    :answer_d: 80
    :correct: d
    :feedback_a: Variabli përmban vetëm një pjesë të informacionit (një numër, varg, vlera e vërtetë ose false, etj.). Mendoni përsëri dhe zgjidhni përgjigjen e saktë.
-    :feedback_b: Variabli përmban vetëm një pjesë të informacionit (një numër, varg, vlera e vërtetë ose false, etj.). Mendoni përsëri dhe zgjidhni përgjigjen e saktë.
-    :feedback_c: Variabli përmban vetëm një pjesë të informacionit (një numër, varg, vlera e vërtetë ose false, etj.). Mendoni përsëri dhe zgjidhni përgjigjen e saktë.
-    :feedback_d: Keni të drejtë, mirë! Ndryshorja | VAnswer | përmban vetëm përgjigjen përfundimtare të përdoruesit, dhe ky është numri 20. Sprite do të thotë 80 (20 + 20 + 20 + 20).
+   :feedback_b: Variabli përmban vetëm një pjesë të informacionit (një numër, varg, vlera e vërtetë ose false, etj.). Mendoni përsëri dhe zgjidhni përgjigjen e saktë.
+   :feedback_c: Variabli përmban vetëm një pjesë të informacionit (një numër, varg, vlera e vërtetë ose false, etj.). Mendoni përsëri dhe zgjidhni përgjigjen e saktë.
+   :feedback_d: Keni të drejtë, mirë! Ndryshorja | VAnswer | përmban vetëm përgjigjen përfundimtare të përdoruesit, dhe ky është numri 20. Sprite do të thotë 80 (20 + 20 + 20 + 20).
 
     Përdoruesi hyn numrat e mëposhtëm njëri pas tjetrit: 5, 10, 15 dhe 20. Kur programi i treguar në figurë të funksionojë, sprite do të thotë:
 
