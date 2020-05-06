@@ -9,10 +9,10 @@ Tinguj Sprite
 ------------------
 
 Ne do të azhornojmë programin *Farm*, i cili mund të gjendet në lidhjen | https: //scratch.mit.edu/projects/326422653/ |, në mënyrë që vajza (Avery) të thotë vërtet "Shko, shko!", dhe pulat cicërijnë pas një vakti të mirë.
+   
+   .. |https://scratch.mit.edu/projects/326422653/| raw:: html
 
-.. |https://scratch.mit.edu/projects/326422653/| raw:: html
-
- <a href="https://scratch.mit.edu/projects/326422653/" target="_blank">https://scratch.mit.edu/projects/326422653/</a>
+      <a href="https://scratch.mit.edu/projects/326422653/" target="_blank">https://scratch.mit.edu/projects/326422653/</a>
 
 Hapi i parë do të ishte regjistrimi i tingullit - zëri ynë: ne do ta bëjmë regjistrimin dhe do ta shtojmë në skenarin që i përket vajzës; në regjistrim, duhet të themi: "Shko, shko!"
 
@@ -54,16 +54,17 @@ Ne jemi të gatshëm për të shtuar blloqe komandash në kod.
    :align: center
 
 |Uradi| Përsërite projektin *Farm*, i cili mund të gjendet në linkun | https: //scratch.mit.edu/projects/326422653/ |. Regjistroni tingullin dhe shtoni bllokun e duhur në skenarin që i përket vajzës. Nga libraria e tingullit, shtoni tingullin e duhur të cicërimës në skenarin që i përket sprukut
+ 
   .. |Uradi| image:: ../_images/Uradi.png
 
 .. mchoice:: ZvukZadatak1
-    :answer_a: Nëse do të kishim zgjedhur bllokun tjetër, së pari do të kishim dëgjuar zërin tonë. Flluska e tekstit do të ishte shfaqur vetëm pasi të ishte shqiptuar fjalia.
-    :answer_b: Mund të kishim përdorur bllokun e dytë, dhe programi do të kishte funksionuar në të njëjtën mënyrë.
-    :feedback_a: Ju keni absolutisht të drejtë!
-    :feedback_b: Kjo nuk është e saktë. Në programin *Farm*, zëvendësoni bllokun e paraqitur në figurën më lart, drejtoni progun
+   :answer_a: Nëse do të kishim zgjedhur bllokun tjetër, së pari do të kishim dëgjuar zërin tonë. Flluska e tekstit do të ishte shfaqur vetëm pasi të ishte shqiptuar fjalia.
+   :answer_b: Mund të kishim përdorur bllokun e dytë, dhe programi do të kishte funksionuar në të njëjtën mënyrë.
+   :feedback_a: Ju keni absolutisht të drejtë!
+   :feedback_b: Kjo nuk është e saktë. Në programin *Farm*, zëvendësoni bllokun e paraqitur në figurën më lart, drejtoni progun
    :correct: a
 
-   Në programin Farm, ne zgjodhëm bllokun |GG| për të shtuar tingullin, dhe jo bllokun |GGUD|. Pse?
+Në programin Farm, ne zgjodhëm bllokun |GG| për të shtuar tingullin, dhe jo bllokun |GGUD|. Pse?
 
    .. |GGUD| image:: ../_images/zvuk/GGUD.png
    .. |GG| image:: ../_images/zvuk/GG.png
@@ -88,17 +89,12 @@ Si instrumentin tonë, ne do të zgjedhim pianon elektrike (1), dhe pastaj do t'
 
 .. |Drums| image:: ../_images/zvuk/Drums.png
 
-|Uradi| Miksoni projektin *Frère Jacques*, i cili mund të gjendet në linkun |https: //scratch.mit.edu/projects/326431999/| dhe shtoni blloqet që do të kontribuojnë në "plotësinë e zërit" (daulle ose seksioni i ritmit). Përdorni instrumentet nga lista drop-down e bllokut |Battery|. Duke përdorur bllokun e duhur nga kategoria **Sound** rrisni vëllimin e secilit varg me 10.
+|Uradi| Miksoni projektin *Frère Jacques*, i cili mund të gjendet në linkun | https: //scratch.mit.edu/projects/326431999/ | dhe shtoni blloqet që do të kontribuojnë në "plotësinë e zërit" (daulle ose seksioni i ritmit). Përdorni instrumentet nga lista drop-down e bllokut |Drums|. Duke përdorur bllokun e duhur nga kategoria **Sound** rrisni vëllimin e secilit varg me 10.
 
 .. |https://scratch.mit.edu/projects/326431999/| raw:: html
 
  <a href="https://scratch.mit.edu/projects/326431999/" target="_blank">https://scratch.mit.edu/projects/326431999/</a>
 
 |Izazov| Mundohuni të këndoni këngën Frère Jacques pa muzikë dhe ta regjistroni atë. Shtojeni atë në programin Scratch **Frère Jacques**. Ne e dimë me siguri që do të jetë një miksim interesant!
-   .. |Izazov| image:: ../_images/Izazov.png
-
-
-
-
-
-
+  
+.. |Izazov| image:: ../_images/Izazov.png

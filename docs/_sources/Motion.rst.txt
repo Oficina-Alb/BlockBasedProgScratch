@@ -105,10 +105,10 @@ Mund të shihni gjithashtu drejtimin e tanishëm të sprite poshtë fazës, në 
 
 .. mchoice:: RKZadatak1
     :answer_a: Drejtimi: 90 (djathtas) Pozicioni: (x: 50 y: -100)
-    :answer_b: Drejtimi: 180 (poshtë) Pozicioni: (x: 50 y: 100)
-    :feedback_a: Analizoni përsëri programin. A e ndryshon kthesën e sprite 90 gradë?
-    :feedback_b: Shumë mirë! Ju e kuptoni mirë lëvizjen e sprite!
-    :correct: b
+    :answer_b: Drejtimi: 180 (poshtë) Pozicioni: (x: 50 y: 100)
+    :feedback_a: Analizoni përsëri programin. A e ndryshon kthesën e sprite 90 gradë
+    :feedback_b: Shumë mirë! Ju e kuptoni mirë lëvizjen e sprite!
+    :correct: b
 
     Analizoni programin e paraqitur në figurë, dhe zgjidhni atë që mendoni se është drejtimi i sprite, si dhe cili do të jetë pozicioni i tij pasi programi të mbarojë së ekzekutuari.
 
@@ -164,8 +164,7 @@ Ne do t'ju tregojmë se si funksionojnë dy blloqet e fundit në shembullin e m�
     .. image:: ../_images/kretanje/OKPR1.png   
        :align: center
 
-    
-      Mbi secilën nga sprites janë skriptet që mundësojnë sjelljen e përshkruar.
+ Mbi secilën nga sprites janë skriptet që mundësojnë sjelljen e përshkruar.
 
 .. |Izazov| image:: ../_images/Izazov.png
 

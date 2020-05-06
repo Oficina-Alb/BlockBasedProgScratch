@@ -22,13 +22,14 @@ Programet e bëra në Scratch zakonisht kanë shumë pjesë që ndërveprojnë m
    :answer_a: Programi A
    :answer_b: Programi B
    :feedback_a: Kur ekzekutojmö programin, mund të shohim që të tre vajzat po thonë përshëndetje në gjuhën e tyre në të njëjtën kohë. Kjo nuk do të ndodhte në jetën reale, gjatë një bisede normale. Zakonisht dëgjojmë personin me të cilin po flasim, dhe pastaj flasim.
-    :feedback_b: Ke të drejtë! Kur transmetojmë mesazhet, lejojmë që të gjithë pjesëmarrësit në bisedë të jenë të sjellshëm - dhe të mos ndërpresin njëri-tjetrin. 
+   :feedback_b: Ke të drejtë! Kur transmetojmë mesazhet, lejojmë që të gjithë pjesëmarrësit në bisedë të jenë të sjellshëm - dhe të mos ndërpresin njëri-tjetrin. 
+   :correct: b
 
 .. reveal:: sakrivanjeDevojke
    :showtitle: Shikoni udhëzimet e videos për krijimin e bisedës midis tre vajzave
    :hidetitle: Fshih intruksionet
  
-   **Shikoni procesin e krijimit të programit, i cili lejon vajzat të flasin pa ndërprerë njëra-tjetrën:**
+  **Shikoni procesin e krijimit të programit, i cili lejon vajzat të flasin pa ndërprerë njëra-tjetrën:**
      
    .. youtube:: QgCCzBw6DKU
       :width: 735
@@ -71,16 +72,10 @@ Nëse dëshironi që lulja juaj të ketë të njëjtat petale si ajo në figurë
  
    **Zgjidhje e mundshme**
      
-    .. image:: ../_images/procedure/Cvet.png
-	:width: 770px   
-	:align: center
+   .. image:: ../_images/procedure/Cvet.png
+      :width: 770px   
+      :align: center
 
 .. infonote::
 
   |Vazno|   **Pra, duke përdorur procedurat, ne bëjmë programe shkrimi dhe gjejmë gabimeve më lehtë.**
-
-
-
-
-   
-   

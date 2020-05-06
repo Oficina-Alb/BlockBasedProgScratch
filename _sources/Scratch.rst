@@ -9,8 +9,8 @@ Rezultati i programit, i cili përmban vetëm një komandë |BWelcome| duket kë
 
 këtu janë dy mënyra se si mund të përdorim Scratch (version 3):
 
-• duke shkarkuar skedarin e instalimit nga |https: //scratch.mit.edu/download| dhe instalimi i tij në pajisjen tuaj dixhitale personale (versioni desktop i programit);
-• duke punuar në internet në faqen e internetit |https: //scratch.mit.edu| (versioni në internet i programit).
+• duke shkarkuar skedarin e instalimit nga | https: //scratch.mit.edu/download | dhe instalimi i tij në pajisjen tuaj dixhitale personale (versioni desktop i programit);
+• duke punuar në internet në faqen e internetit | https: //scratch.mit.edu | (versioni në internet i programit).
 
 .. |https://scratch.mit.edu/download| raw:: html
 
@@ -105,16 +105,16 @@ Programet që janë krijuar në platformën në internet Scratch quhen *projects
 
 Prandaj, vlerat e **x:** dhe **y:** varen nga vendndodhja e sprite. Nëse duam që sprita jonë të jetë në qendër të fazës, vlerat duhet të jenë: **x: 0 ** dhe **y: 0**. Informacioni mbi vendndodhjen aktuale të sprite mund të shihet në listën e sprites, brenda parametrave të sprite.
 
-   .. mchoice::  OkruzenjeZadatak1
-       :answer_a: përgjigje_a: Në pjesën e sipërme të majtë të skenës.
-       :answer_b: Në pjesën e poshtme të majtë të skenës.
-       :answer_c: Në pjesën e sipërme të djathtë të fazës.
-       :answer_d: Në pjesën e poshtme të djathtë të fazës.
-       :feedback_a: Mirë! Ju e kuptoni në mënyrë të përsosur se si vlerat e X: dhe Y: përcaktoni pozicionin e sprite në skenë!
-       :feedback_b: Studioni figurën ku e ndamë fazën në katër pjesë dhe i pikturuam ato me ngjyra të ndryshme. Do të vini re se në pjesën e gjelbër të fazës vlerat janë X> 0 dhe Y> 0; në pjesën e kuqe të fazës vlerat janë X <0 dhe Y> 0; në pjesën blu të fazës vlera është X <0 dhe Y <0; në pjesën e verdhë të fazës vlerat janë X> 0 dhe Y <0. A jeni tani në gjendje t’i përgjigjeni saktë pyetjes sonë?
-       :feedback_c: Studioni figurën ku e ndamë fazën në katër pjesë dhe i pikturuam ato me ngjyra të ndryshme. Do të vini re se në pjesën e gjelbër të fazës vlerat janë X> 0 dhe Y> 0; në pjesën e kuqe të fazës vlerat janë X <0 dhe Y> 0; n pjesa blu e fazës vlera është X <0 dhe Y <0; në pjesën e verdhë të fazës vlerat janë X> 0 dhe Y <0. A jeni tani në gjendje t’i përgjigjeni saktë pyetjes sonë?
-       :feedback_d: Studioni figurën ku e ndamë fazën në katër pjesë dhe i pikturuam ato me ngjyra të ndryshme. Do të vini re se në pjesën e gjelbër të fazës vlerat janë X> 0 dhe Y> 0; në pjesën e kuqe të fazës vlerat janë X <0 dhe Y> 0; n pjesa blu e fazës vlera është X <0 dhe Y <0; në pjesën e verdhë të fazës vlerat janë X> 0 dhe Y <0. A jeni tani në gjendje t’i përgjigjeni saktë pyetjes sonë?
-       :correct: a
+ .. mchoice::  OkruzenjeZadatak1
+    :answer_a: përgjigje_a: Në pjesën e sipërme të majtë të skenës.
+    :answer_b: Në pjesën e poshtme të majtë të skenës.
+    :answer_c: Në pjesën e sipërme të djathtë të fazës.
+    :answer_d: Në pjesën e poshtme të djathtë të fazës.
+    :feedback_a: Mirë! Ju e kuptoni në mënyrë të përsosur se si vlerat e X: dhe Y: përcaktoni pozicionin e sprite në skenë!
+    :feedback_b: Studioni figurën ku e ndamë fazën në katër pjesë dhe i pikturuam ato me ngjyra të ndryshme. Do të vini re se në pjesën e gjelbër të fazës vlerat janë X> 0 dhe Y> 0; në pjesën e kuqe të fazës vlerat janë X <0 dhe Y> 0; në pjesën blu të fazës vlera është X <0 dhe Y <0; në pjesën e verdhë të fazës vlerat janë X> 0 dhe Y <0. A jeni tani në gjendje t’i përgjigjeni saktë pyetjes sonë
+    :feedback_c: Studioni figurën ku e ndamë fazën në katër pjesë dhe i pikturuam ato me ngjyra të ndryshme. Do të vini re se në pjesën e gjelbër të fazës vlerat janë X> 0 dhe Y> 0; në pjesën e kuqe të fazës vlerat janë X <0 dhe Y> 0; n pjesa blu e fazës vlera është X <0 dhe Y <0; në pjesën e verdhë të fazës vlerat janë X> 0 dhe Y <0. A jeni tani në gjendje t’i përgjigjeni saktë pyetjes sonë?
+    :feedback_d: Studioni figurën ku e ndamë fazën në katër pjesë dhe i pikturuam ato me ngjyra të ndryshme. Do të vini re se në pjesën e gjelbër të fazës vlerat janë X> 0 dhe Y> 0; në pjesën e kuqe të fazës vlerat janë X <0 dhe Y> 0; n pjesa blu e fazës vlera është X <0 dhe Y <0; në pjesën e verdhë të fazës vlerat janë X> 0 dhe Y <0. A jeni tani në gjendje t’i përgjigjeni saktë pyetjes sonë
+    :correct: a
 
    Shikoni me kujdes informacionin në lidhje me pozicionin e sprite në skenë. Cili është vendndodhja e sprite?
 
@@ -149,4 +149,4 @@ Kjo është mënyra se si përdoruesit e tjerë të Scratch shohin faqen e proje
 
 Ne mund të shohim që të gjithë përdoruesit e platformës në internet Scratch mund të rimodelojnë projektin tonë. Ata thjesht mund të klikojnë në butonin |BRemix| dhe të azhurnojnë, ndryshojnë dhe publikojnë programin e krijuar rishtas. Informacioni për numrin e pamjeve, rimikteve, pëlqimeve, etj mund të shihet në faqen kryesore.
 
-Platforma në internet Scratch është e përkushtuar në ruajtjen e frymës së komunitetit Scratcher. Duke klikuar në butonin |Raport| përdoruesit mund të raportojnë përmbajtje të papërshtatshme, komente, diskutime, etj. Pas marrjes së një raporti, ekipi Scratch do të rishikojë përmbajtjen problematike, dhe nëse nuk përputhet me udhëzimet e komunitetit (https://en.scratch-wiki.info/ wiki / Community_Guidlines), ata do ta heqin atë nga platforma.
+Platforma në internet Scratch është e përkushtuar në ruajtjen e frymës së komunitetit Scratcher. Duke klikuar në butonin |Report| përdoruesit mund të raportojnë përmbajtje të papërshtatshme, komente, diskutime, etj. Pas marrjes së një raporti, ekipi Scratch do të rishikojë përmbajtjen problematike, dhe nëse nuk përputhet me udhëzimet e komunitetit (https://en.scratch-wiki.info/ wiki / Community_Guidlines), ata do ta heqin atë nga platforma.

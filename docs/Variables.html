@@ -211,14 +211,18 @@
 <p>Ne i quajmë këto “ndarje” të memorjes kompjuterike <strong>variabla</strong>. Një variabël potencialisht mund të përmbajë vetëm një pjesë të informacionit (një numër, varg, vlera të vërteta ose false, etj.).</p>
 <div class="section" id="ask-and-wait">
 <h2>Ask and wait<a class="headerlink" href="#ask-and-wait" title="Permalink to this headline">¶</a></h2>
-<dl class="simple">
-<dt>Në kategorinë <strong>Sensing</strong> ekziston një bllok <strong>Ask and wait</strong> | BlokAskWait <a href="#id1"><span class="problematic" id="id2">|. Ky bllokim na lejon të kërkojmë nga përdoruesi diçka (zakonisht në formën e një kërkese ose një pyetje), dhe pastaj të presim që përdoruesi të klikojë butonin |Stikliranje|</span></a> ose shtypni <em>Enter</em>.</dt><dd></dd>
-<dt>Përgjigja e përdoruesit futet në variablin <img alt="VAnswer" src="_images/VAnswer.png" />, dhe programi vazhdon të funksionojë.</dt><dd></dd>
-<dt><img alt="Uradi" src="_images/Uradi.png" /> Është më mirë që ta përdorim menjëherë këtë bllok. Ne do të krijojmë një program në të cilin macja i kërkon përdoruesit emrin e tij / saj, dhe pastaj përsërit emrin dhe thotë se është një emër shumë i bukur.</dt><dd></dd>
-</dl>
+<p>Në kategorinë <strong>Sensing</strong> ekziston një bllok <strong>Ask and wait</strong> <img alt="BlokAskWait" src="_images/BlokAskWait.png" />. Ky bllokim na lejon të kërkojmë nga përdoruesi diçka (zakonisht në formën e një kërkese ose një pyetje), dhe pastaj të presim që përdoruesi të klikojë butonin <img alt="Stikliranje" src="_images/Stikliranje.png" /> ose shtypni <em>Enter</em>.</p>
+<blockquote>
+<div></div></blockquote>
+<p>Përgjigja e përdoruesit futet në variablin <img alt="VAnswer" src="_images/VAnswer.png" />, dhe programi vazhdon të funksionojë.</p>
+<blockquote>
+<div></div></blockquote>
+<p><img alt="Uradi" src="_images/Uradi.png" /> Është më mirë që ta përdorim menjëherë këtë bllok. Ne do të krijojmë një program në të cilin macja i kërkon përdoruesit emrin e tij / saj, dhe pastaj përsërit emrin dhe thotë se është një emër shumë i bukur.</p>
 <img alt="_images/KodPromenljivaAnswer.png" class="align-center" src="_images/KodPromenljivaAnswer.png" />
+<p>Prandaj, do ta fillojmë programin duke klikuar në flamurin e gjelbër. Pas komandës <img alt="BlokAsk" src="_images/BlokAsk.png" />, programi ndalon së funksionuari, duke pritur që përdoruesi të shkruajë përgjigjen e tij / saj në fushën hyrëse dhe të klikojë në butonin <img alt="Stikliranje" src="_images/Stikliranje.png" /> ose shtypi <em>Enter</em>. Në atë moment, përmbajtja e variablës  <img alt="VAnswer" src="_images/VAnswer.png" /> nuk ekziston <img alt="Answer" src="_images/Answer.png" />.</p>
+<blockquote>
+<div></div></blockquote>
 <dl class="simple">
-<dt>Prandaj, do ta fillojmë programin duke klikuar në flamurin e gjelbër. Pas komandës <img alt="BlokAsk" src="_images/BlokAsk.png" />, programi ndalon së funksionuari, duke pritur që përdoruesi të shkruajë përgjigjen e tij / saj në fushën hyrëse dhe të klikojë në butonin <a href="#id3"><span class="problematic" id="id4">|tikliranje|</span></a> ose shtypi <em>Enter</em>. Në atë moment, përmbajtja e variablës  <img alt="VAnswer" src="_images/VAnswer.png" /> nuk ekziston <img alt="Answer" src="_images/Answer.png" />.</dt><dd></dd>
 <dt>Kur përdoruesi hyn në përgjigjen (psh. Mima) dhe klikon butonin <img alt="Stikliranje" src="_images/Stikliranje.png" /> ose shtyp <em>Enter</em>, përmbajtja e variablës <img alt="VAnswer" src="_images/VAnswer.png" /> do të jetë <img alt="AnswerMima" src="_images/AnswerMima.png" />.</dt><dd></dd>
 </dl>
 <p>Tani, macja mund të thotë vargun <img alt="BlokSay" src="_images/BlokSay.png" />, të cilën ne e bëmë duke përdorur bllokun për lidhjen e string <img alt="Join" src="_images/Join.png" /> (në fushën <em>apple</em> vendosim ndryshoren <img alt="VAnswer" src="_images/VAnswer.png" />, dhe në fushën <em>banana</em> vendosim vargun “është një emër i bukur!”.</p>
@@ -236,23 +240,16 @@
             
             <li data-component="answer"  id="Promenljive1_opt_a">50</li><li data-component="feedback" id="Promenljive1_opt_a">Variabli përmban vetëm një pjesë të informacionit (një numër, varg, vlera e vërtetë ose false, etj.). Mendoni përsëri dhe zgjidhni përgjigjen e saktë.</li>
             
-            <li data-component="answer"  id="Promenljive1_opt_b">30</li><li data-component="feedback" id="Promenljive1_opt_b"></li>
+            <li data-component="answer"  id="Promenljive1_opt_b">30</li><li data-component="feedback" id="Promenljive1_opt_b">Variabli përmban vetëm një pjesë të informacionit (një numër, varg, vlera e vërtetë ose false, etj.). Mendoni përsëri dhe zgjidhni përgjigjen e saktë.</li>
             
-            <li data-component="answer"  id="Promenljive1_opt_c">20</li><li data-component="feedback" id="Promenljive1_opt_c"></li>
+            <li data-component="answer"  id="Promenljive1_opt_c">20</li><li data-component="feedback" id="Promenljive1_opt_c">Variabli përmban vetëm një pjesë të informacionit (një numër, varg, vlera e vërtetë ose false, etj.). Mendoni përsëri dhe zgjidhni përgjigjen e saktë.</li>
             
-            <li data-component="answer" data-correct id="Promenljive1_opt_d">80</li><li data-component="feedback" id="Promenljive1_opt_d"></li>
+            <li data-component="answer" data-correct id="Promenljive1_opt_d">80</li><li data-component="feedback" id="Promenljive1_opt_d">Keni të drejtë, mirë! Ndryshorja | VAnswer | përmban vetëm përgjigjen përfundimtare të përdoruesit, dhe ky është numri 20. Sprite do të thotë 80 (20 + 20 + 20 + 20).</li>
             
 
             </ul>
             </div>
-            <div class="system-message">
-<p class="system-message-title">System Message: WARNING/2 (<span class="docutils literal">/home/izabela/BlockBasedProgScratch/_sources/Variables.rst</span>, line 57)</p>
-<p>Explicit markup ends without a blank line; unexpected unindent.</p>
-</div>
-<p>   :feedback_b: Variabli përmban vetëm një pjesë të informacionit (një numër, varg, vlera e vërtetë ose false, etj.). Mendoni përsëri dhe zgjidhni përgjigjen e saktë.
-   :feedback_c: Variabli përmban vetëm një pjesë të informacionit (një numër, varg, vlera e vërtetë ose false, etj.). Mendoni përsëri dhe zgjidhni përgjigjen e saktë.
-   :feedback_d: Keni të drejtë, mirë! Ndryshorja | VAnswer | përmban vetëm përgjigjen përfundimtare të përdoruesit, dhe ky është numri 20. Sprite do të thotë 80 (20 + 20 + 20 + 20).</p>
-<p>    Përdoruesi hyn numrat e mëposhtëm njëri pas tjetrit: 5, 10, 15 dhe 20. Kur programi i treguar në figurë të funksionojë, sprite do të thotë:</p>
+            <p>    Përdoruesi hyn numrat e mëposhtëm njëri pas tjetrit: 5, 10, 15 dhe 20. Kur programi i treguar në figurë të funksionojë, sprite do të thotë:</p>
 <blockquote>
 <div><img alt="_images/4pitanja.png" class="align-center" src="_images/4pitanja.png" />
 </div></blockquote>
@@ -260,23 +257,18 @@
 <p>Krijojmë variablat në kategorinë <strong>Variables</strong>, duke klikuar në butonin <strong>Make a variable</strong>. Do të hapet një dritare ku mund të shkruajmë emrin e variablës, dhe më pas vendosim nëse duam ta bëjmë atë të disponueshëm për të gjitha sprites ose vetëm për sprite që është aktive ndërsa jemi duke krijuar variablën. Ne gjithashtu mund të kontrollojmë opsionin që ruan variablën në server, në renë e të dhënave. Më në fund, duke klikuar butonin <strong>OK</strong> krijon variablën.</p>
 <p>Në figurën më poshtë, ne mund të shohim bllokun, i cili do të vihet në dispozicion për ne pasi të kemi krijuar ndryshoren. Me bllokun e parë, do të vendosim vlerën e variablës, e dyta që mund të përdorim nëse duam ta rrisim ose ulim atë vlerë, ndërsa e treta dhe e katërta përdoren për ta bërë variablën të dukshme ose për ta fshehur atë.</p>
 <img alt="_images/MakeVariable.png" class="align-center" src="_images/MakeVariable.png" />
-<div class="system-message">
-<p class="system-message-title">System Message: ERROR/3 (<span class="docutils literal">/home/izabela/BlockBasedProgScratch/_sources/Variables.rst</span>, line 75)</p>
-<p>No correct answer specified.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">mchoice</span><span class="p">::</span> <span class="n">Promenljive2</span>
-   <span class="p">:</span><span class="n">answer_a</span><span class="p">:</span>  <span class="n">Drejtimi</span> <span class="n">i</span> <span class="n">skenareve</span> <span class="n">A</span> <span class="n">dhe</span> <span class="n">B</span> <span class="n">ka</span> <span class="n">të</span> <span class="n">njëjtin</span> <span class="n">rezultat</span>
-</pre></div>
-</div>
-</div>
-<div class="system-message">
-<p class="system-message-title">System Message: WARNING/2 (<span class="docutils literal">/home/izabela/BlockBasedProgScratch/_sources/Variables.rst</span>, line 77)</p>
-<p>Explicit markup ends without a blank line; unexpected unindent.</p>
-</div>
-<p>   :answer_b: Drejtimi i skenareve A dhe B ka rezultate të ndryshme
-   :correct: a
-   :feedback_a: Bëhu mirë! Edhe pse ato janë të ndryshme, ekzekutimi i të dy programeve ka të njëjtin rezultat.
-   :feedback_b: Mendoni për përgjigjen tuaj. Nëse akoma mendoni njësoj, krijoni këto programe në Scratch dhe drejtojini ato. Mos harroni të rregulloni në mënyrë që vlerat e variablave të mund të shihen në skenë.</p>
-<dl>
+
+            <div class="course-box course-box-question course-content">
+            <ul data-component="multiplechoice" data-multipleanswers="false"  id="Promenljive2">
+            
+            <li data-component="answer" data-correct id="Promenljive2_opt_a">Drejtimi i skenareve A dhe B ka të njëjtin rezultat</li><li data-component="feedback" id="Promenljive2_opt_a">Bëhu mirë! Edhe pse ato janë të ndryshme, ekzekutimi i të dy programeve ka të njëjtin rezultat.</li>
+            
+            <li data-component="answer"  id="Promenljive2_opt_b">Drejtimi i skenareve A dhe B ka rezultate të ndryshme</li><li data-component="feedback" id="Promenljive2_opt_b">Mendoni për përgjigjen tuaj. Nëse akoma mendoni njësoj, krijoni këto programe në Scratch dhe drejtojini ato. Mos harroni të rregulloni në mënyrë që vlerat e variablave të mund të shihen në skenë.</li>
+            
+
+            </ul>
+            </div>
+            <dl>
 <dt>    Analizoni skriptet dhe shënoni deklaratën e saktë:</dt><dd><img alt="_images/4brojaProm.png" class="align-center" src="_images/4brojaProm.png" />
 </dd>
 </dl>

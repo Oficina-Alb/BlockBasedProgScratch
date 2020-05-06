@@ -12,20 +12,24 @@ Ne i quajmë këto "ndarje" të memorjes kompjuterike **variabla**. Një variab�
 Ask and wait
 -------------
 
-Në kategorinë **Sensing** ekziston një bllok **Ask and wait** | BlokAskWait |. Ky bllokim na lejon të kërkojmë nga përdoruesi diçka (zakonisht në formën e një kërkese ose një pyetje), dhe pastaj të presim që përdoruesi të klikojë butonin |Stikliranje| ose shtypni *Enter*.
+Në kategorinë **Sensing** ekziston një bllok **Ask and wait** |BlokAskWait|. Ky bllokim na lejon të kërkojmë nga përdoruesi diçka (zakonisht në formën e një kërkese ose një pyetje), dhe pastaj të presim që përdoruesi të klikojë butonin |Stikliranje| ose shtypni *Enter*.
+
   .. |BlokAskWait| image:: ../_images/promenljive/BlokAskWait.png
   .. |Stikliranje| image:: ../_images/promenljive/Stikliranje.png
 
 Përgjigja e përdoruesit futet në variablin |VAnswer|, dhe programi vazhdon të funksionojë.
+
     .. |VAnswer| image:: ../_images/promenljive/VAnswer.png
 
 |Uradi| Është më mirë që ta përdorim menjëherë këtë bllok. Ne do të krijojmë një program në të cilin macja i kërkon përdoruesit emrin e tij / saj, dhe pastaj përsërit emrin dhe thotë se është një emër shumë i bukur.
-  .. |Uradi| image:: ../_images/Uradi.png
+
+.. |Uradi| image:: ../_images/Uradi.png
 
 .. image:: ../_images/promenljive/KodPromenljivaAnswer.png   
    :align: center
 
-Prandaj, do ta fillojmë programin duke klikuar në flamurin e gjelbër. Pas komandës |BlokAsk|, programi ndalon së funksionuari, duke pritur që përdoruesi të shkruajë përgjigjen e tij / saj në fushën hyrëse dhe të klikojë në butonin |tikliranje| ose shtypi *Enter*. Në atë moment, përmbajtja e variablës  |VAnswer| nuk ekziston |Answer|.
+Prandaj, do ta fillojmë programin duke klikuar në flamurin e gjelbër. Pas komandës |BlokAsk|, programi ndalon së funksionuari, duke pritur që përdoruesi të shkruajë përgjigjen e tij / saj në fushën hyrëse dhe të klikojë në butonin |Stikliranje| ose shtypi *Enter*. Në atë moment, përmbajtja e variablës  |VAnswer| nuk ekziston |Answer|.
+ 
     .. |BlokAsk| image:: ../_images/promenljive/BlokAsk.png
     .. |Answer| image:: ../_images/promenljive/Answer.png
 
@@ -54,9 +58,9 @@ Le të shohim situatën kur përdoruesi fut 4 numra, atëherë programi shton nu
    :answer_d: 80
    :correct: d
    :feedback_a: Variabli përmban vetëm një pjesë të informacionit (një numër, varg, vlera e vërtetë ose false, etj.). Mendoni përsëri dhe zgjidhni përgjigjen e saktë.
-   :feedback_b: Variabli përmban vetëm një pjesë të informacionit (një numër, varg, vlera e vërtetë ose false, etj.). Mendoni përsëri dhe zgjidhni përgjigjen e saktë.
-   :feedback_c: Variabli përmban vetëm një pjesë të informacionit (një numër, varg, vlera e vërtetë ose false, etj.). Mendoni përsëri dhe zgjidhni përgjigjen e saktë.
-   :feedback_d: Keni të drejtë, mirë! Ndryshorja | VAnswer | përmban vetëm përgjigjen përfundimtare të përdoruesit, dhe ky është numri 20. Sprite do të thotë 80 (20 + 20 + 20 + 20).
+   :feedback_b: Variabli përmban vetëm një pjesë të informacionit (një numër, varg, vlera e vërtetë ose false, etj.). Mendoni përsëri dhe zgjidhni përgjigjen e saktë.
+   :feedback_c: Variabli përmban vetëm një pjesë të informacionit (një numër, varg, vlera e vërtetë ose false, etj.). Mendoni përsëri dhe zgjidhni përgjigjen e saktë.
+   :feedback_d: Keni të drejtë, mirë! Ndryshorja | VAnswer | përmban vetëm përgjigjen përfundimtare të përdoruesit, dhe ky është numri 20. Sprite do të thotë 80 (20 + 20 + 20 + 20).
 
     Përdoruesi hyn numrat e mëposhtëm njëri pas tjetrit: 5, 10, 15 dhe 20. Kur programi i treguar në figurë të funksionojë, sprite do të thotë:
 
@@ -74,10 +78,10 @@ Në figurën më poshtë, ne mund të shohim bllokun, i cili do të vihet në di
 
 .. mchoice:: Promenljive2
    :answer_a:  Drejtimi i skenareve A dhe B ka të njëjtin rezultat
-   :answer_b: Drejtimi i skenareve A dhe B ka rezultate të ndryshme
-   :correct: a
-   :feedback_a: Bëhu mirë! Edhe pse ato janë të ndryshme, ekzekutimi i të dy programeve ka të njëjtin rezultat.
-   :feedback_b: Mendoni për përgjigjen tuaj. Nëse akoma mendoni njësoj, krijoni këto programe në Scratch dhe drejtojini ato. Mos harroni të rregulloni në mënyrë që vlerat e variablave të mund të shihen në skenë.
+   :answer_b: Drejtimi i skenareve A dhe B ka rezultate të ndryshme
+   :correct: a
+   :feedback_a: Bëhu mirë! Edhe pse ato janë të ndryshme, ekzekutimi i të dy programeve ka të njëjtin rezultat.
+   :feedback_b: Mendoni për përgjigjen tuaj. Nëse akoma mendoni njësoj, krijoni këto programe në Scratch dhe drejtojini ato. Mos harroni të rregulloni në mënyrë që vlerat e variablave të mund të shihen në skenë.
 
     Analizoni skriptet dhe shënoni deklaratën e saktë:
    .. image:: ../_images/promenljive/4brojaProm.png   

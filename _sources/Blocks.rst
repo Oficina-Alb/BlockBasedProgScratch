@@ -57,7 +57,7 @@ Përveç formës së tyre, këto blloqe janë të ndryshme nga blloqet e tjera s
 
 Blloqet e funksioneve përmbajnë një vlerë të caktuar. Pamja e tyre varet nga lloji i informacionit që ato përmbajnë:
 
-• blloqet me skaj të rrumbullakosur përmbajnë numra |XP| ose vargjet |Costum|
+• blloqet me skaj të rrumbullakosur përmbajnë numra |XP| ose vargjet |Costume|
 • blloqet këndore përmbajnë vlera *True* ose *False* |Touch|
 
 Blloqet komanduese dhe blloqet që kontrollojnë ekzekutimin e programit kanë fushat hyrëse në të cilat mund të futen blloqet e funksionit. Këto fusha hyrëse mund të kenë një formë të rrumbullakosur ose gjashtëkëndore.
@@ -77,11 +77,11 @@ Pranë blloqeve të funksionimit, në kategoritë ku ato janë vendosur, ka kuti
 Vlera e ruajtur në një bllok funksioni gjithashtu mund të shihet duke klikuar në vetë bllokun. Për shembull, blloku |Touch| ruan vlerën *false* sepse sprite tona nuk po prekin ngjyrën e shfaqur, ndërsa blloku |Sabiranje| ruan vlerën *22*, sepse kjo është shuma e numrave që shohim në bllok).
 
 .. mchoice:: BlokoviZadatak1
-    :answer_a: Kur klikojmë në flamurin e gjelbër, sprite do të thotë "True".
-    :answer_b: Kur klikojmë në flamurin e gjelbër, sprite do të thotë "False".
-    :feedback_a: Ju keni absolutisht të drejtë!
-    :feedback_b: Blloku i funksionit këndor kthen vlerat e vërteta ose false. Meqenëse deklarata është 60> 50 e vërtetë, sprite do të thotë "True".
-    :correct: a
+   :answer_a: Kur klikojmë në flamurin e gjelbër, sprite do të thotë "True".
+   :answer_b: Kur klikojmë në flamurin e gjelbër, sprite do të thotë "False".
+   :feedback_a: Ju keni absolutisht të drejtë!
+   :feedback_b: Blloku i funksionit këndor kthen vlerat e vërteta ose false. Meqenëse deklarata është 60> 50 e vërtetë, sprite do të thotë "True".
+   :correct: a
 
     Analizoni skenarin e paraqitur në figurë. Zgjidhni rezultatin e ekzekutimit të programit.
      .. image:: ../_images/blokovi/6050.png  

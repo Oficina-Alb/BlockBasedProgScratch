@@ -32,7 +32,7 @@ Ne do ta vendosim zogun në dorën e saj. Për pulën, duam:
    :showtitle: Shikoni udhëzuesin për krijimin e programit Farm
    :hidetitle: Fshih videon
 
-**Shikoni procesin e krijimit të programit, i cili lejon që sprites të mendojnë, të flasin dhe të ndryshojnë madhësinë dhe kostumet e tyre:**
+   **Shikoni procesin e krijimit të programit, i cili lejon që sprites të mendojnë, të flasin dhe të ndryshojnë madhësinë dhe kostumet e tyre:**
      
    .. youtube:: VIDEO1
       :width: 735
@@ -78,10 +78,10 @@ Përveç gjithçkaje të përmendur më lart, blloku |Repeat10| ishte vendimtare
 
 .. mchoice:: IZadatak1
    :answer_a: Siguron që mendimet e sprite të mbeten në skenë.
-   :answer_b: Siguron që mendimet e sprite të ndryshojnë vazhdimisht.
-   :feedback_a: Ju keni absolutisht të drejtë!
-   :feedback_b: Për të bërë të mundur që mendimet të ndryshojnë vazhdimisht, duhet të përdorni bllokun e duhur për të përsëritur komandën për shfaqjen e mendimeve të sprite.
-   : e saktë: a
+   :answer_b: Siguron që mendimet e sprite të ndryshojnë vazhdimisht
+   :feedback_a: Ju keni absolutisht të drejtë!
+   :feedback_b: Për të bërë të mundur që mendimet të ndryshojnë vazhdimisht, duhet të përdorni bllokun e duhur për të përsëritur komandën për shfaqjen e mendimeve të sprite.
+   :correct: a
 
    Ne tërheqim vëmendjen tuaj për ekzistencën e blloqeve që ekzekutojnë komanda të ngjashme me ato që kemi paraqitur në këtë mësim. Për shembull, blloku |Say| siguron që fjalimi i sprite nuk zhduket nga skena. Supozojmë se mund të konkludoni se cili është qëllimi i bllokut |Think|
 
@@ -92,5 +92,6 @@ Në të njëjtën mënyrë ne mund të zgjedhim kostumet e sprite, gjithashtu mu
 Blloqet që na lejojnë të tregojmë |Show| ose fsheh |Hide| një sprite janë gjithashtu shumë të dobishme. Ne do t'i përdorim këto blloqe në mësimet e mëposhtme.
 
 Ne do t'ju lejojmë të zbuloni vetë se si mund të luani me ngjyrën dhe pamjen e spritës tuaj duke përdorur blloqe për ndryshimin e ngjyrës ose efektit (*change ... *), duke vendosur ngjyrën ose efektin (*set ... *) , si dhe për fshirjen e të gjitha efekteve grafike (*clear graphic effects*):
+
 .. image:: ../_images/izgled/Color.png  
    :align: center

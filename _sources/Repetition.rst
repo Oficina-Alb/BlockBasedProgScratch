@@ -52,13 +52,13 @@ Ky bllok për përsëritjen e komandave drejton një numër të pafund herë. Dr
 Ne përdorëm bllokun që përsërit komandat një numër të pafundmë herë në projekt *Macja po ndjek miun* (mund të gjesh më shumë informacion në mësimin *Move*).
 
 .. mchoice:: PonavljanjeZ1
-   :answer_a: Blloqet e reja mund të futen në bllok vetë, kështu që nuk ka nevojë të vazhdojë skenarin.
-   :answer_b: ashtë një gabim në Scratch. Blloku për përsëritje të pafund duhet të ketë një mundësi për vazhdimin e skenarit.
-   :answer_c: Shtimi i blloqeve është i kotë sepse ata kurrë nuk do të kandidonin.
-   :feedback_a: Mundësia për të futur blloqe të reja në bllok |RepeatF| nuk ofron mundësinë për të grumbulluar skriptet që nuk do të përsëriten kurrë, ajo thjesht shton komanda që do të përsëriten një numër të pafund kohërash.
-   :feedback_b: Sa ka të ngjarë që një nga blloqet më të përdorura në Scratch nuk është ndërtuar siç duhet? Ne ju sugjerojmë të mendoni përsëri për pyetjen dhe të jepni një përgjigje të re.
-   :feedback_c: Përfundim i shkëlqyeshëm, i bërë mirë!
-   :e saktë: c
+   :answer_a: Blloqet e reja mund të futen në bllok vetë, kështu që nuk ka nevojë të vazhdojë skenarin.
+   :answer_b: ashtë një gabim në Scratch. Blloku për përsëritje të pafund duhet të ketë një mundësi për vazhdimin e skenarit.
+   :answer_c: Shtimi i blloqeve është i kotë sepse ata kurrë nuk do të kandidonin
+   :feedback_a: Mundësia për të futur blloqe të reja në bllok |RepeatF| nuk ofron mundësinë për të grumbulluar skriptet që nuk do të përsëriten kurrë, ajo thjesht shton komanda që do të përsëriten një numër të pafund kohërash.
+   :feedback_b: Sa ka të ngjarë që një nga blloqet më të përdorura në Scratch nuk është ndërtuar siç duhet? Ne ju sugjerojmë të mendoni përsëri për pyetjen dhe të jepni një përgjigje të re.
+   :feedback_c: Përfundim i shkëlqyeshëm, i bërë mirë!
+   :correct: c
 
    Analizoni paraqitjen e blloqeve për komandat përsëritëse. Ju mund të shihni që blloku, i cili përsërit komandat një numër të pafund kohërash, nuk ka mundësinë të lidhet me blloqe të tjera, d.m.th. nuk mund të shtoni një bllok tjetër mbi të. Pse?
    
@@ -75,12 +75,12 @@ Ky bllok për përsëritjen e komandave shkon derisa të përmbushet një kusht 
 
 .. mchoice:: PonavljanjeZ2
    :answer_a: Blloku që përsërit komandat një numër specifik kohësh.
-   :answer_b: Blloku që përsërit komandat një numër të pafund kohërash.
-   :answer_c: Blloku që përsërit komandat derisa të përmbushet një kusht specifik.
-   :feedback_a: Nëse ju zgjidhni këtë bllok, raketat e qitjes nuk kanë asnjë lidhje me nivelin e energjisë së sprite tuaj, a është kjo?
-   :feedback_b: Nëse ju zgjidhni këtë bllok, raketat e qitjes nuk kanë asnjë lidhje me nivelin e energjisë së sprite tuaj, a është kjo?
-   :feedback_c: Ju keni të drejtë! Numri i përsëritjeve varet nga përmbushja e kushteve. Në momentin që niveli i energjisë së sprite tuaj bie nën një vlerë të caktuar, raketat e qitjes do të ndalen.
-   : e saktë: c
+   :answer_b: Blloku që përsërit komandat një numër të pafund kohërash.
+   :answer_c: Blloku që përsërit komandat derisa të përmbushet një kusht specifik.
+   :feedback_a: Nëse ju zgjidhni këtë bllok, raketat e qitjes nuk kanë asnjë lidhje me nivelin e energjisë së sprite tuaj, a është kjo?
+   :feedback_b: Nëse ju zgjidhni këtë bllok, raketat e qitjes nuk kanë asnjë lidhje me nivelin e energjisë së sprite tuaj, a është kjo?
+   :feedback_c: Ju keni të drejtë! Numri i përsëritjeve varet nga përmbushja e kushteve. Në momentin që niveli i energjisë së sprite tuaj bie nën një vlerë të caktuar, raketat e qitjes do të ndalen.
+   :correct: c
 
    Ju dëshironi të krijoni një program ku avioni juaj (top breshëri) po qëllon raketa në retë breshër derisa niveli i tij i energjisë të bjerë nën një vlerë të caktuar. Cilin bllok për përsëritjen e komandave do të përdorni?
 
@@ -93,7 +93,7 @@ Shifra më poshtë përmban sugjerimin tonë për kodin e programit me komente, 
 .. image:: ../_images/ponavljanje/Tajmer.png
       :align: center
 
-|Uradi| Programi *Timer* mund të gjendet në linkun |https: //scratch.mit.edu/projects/326420353|. Përditësoni atë duke shtuar një tingull të akrepave të orës, i cili do të dëgjohet ndërsa ora kalon.
+Programi *Timer* mund të gjendet në linkun |https: //scratch.mit.edu/projects/326420353|. Përditësoni atë duke shtuar një tingull të akrepave të orës, i cili do të dëgjohet ndërsa ora kalon.
 
 .. |https://scratch.mit.edu/projects/326420353| raw:: html
 

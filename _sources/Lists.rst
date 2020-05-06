@@ -10,12 +10,12 @@ Listat
 
 .. mchoice:: Liste Zadatak
    :answer_a: Variablat ruajnë shumë informacione (numra, vargjet, vlerat e vërteta ose false)
-   :answer_b: Variablat ruajnë vetëm një pjesë të informacionit (një numër, një varg, vlera e vërtetë ose e rreme)
-   :correct: b
-   :feedback_a: Mendoni për përgjigjen tuaj. Nëse akoma mendoni njësoj, krijoni këto programe në Scratch dhe drejtojini ato. Mos harroni të rregulloni në mënyrë që vlerat e variablave të mund të shihen në skenë.
-   :feedback_b: Saktë! Edhe pse ato janë të ndryshme, ekzekutimi i të dy programeve ka të njëjtin rezultat.
+   :answer_b: Variablat ruajnë vetëm një pjesë të informacionit (një numër, një varg, vlera e vërtetë ose e rreme)
+   :correct: b
+   :feedback_a: Mendoni për përgjigjen tuaj. Nëse akoma mendoni njësoj, krijoni këto programe në Scratch dhe drejtojini ato. Mos harroni të rregulloni në mënyrë që vlerat e variablave të mund të shihen në skenë.
+   :feedback_b: Saktë! Edhe pse ato janë të ndryshme, ekzekutimi i të dy programeve ka të njëjtin rezultat.
 
-   Ne kemi krijuar ndryshoren |Answer|. Në një moment, vlera e kësaj ndryshore është |AnswerMima|, dhe në një pikë tjetër, vlera e saj është |AnswerMi|. Zgjidhni fjalinë e saktë:
+   Ne kemi krijuar ndryshoren |AnswerMi|. Në një moment, vlera e kësaj ndryshore është |AnswerMima|, dhe në një pikë tjetër, vlera e saj është |AnswerMi|. Zgjidhni fjalinë e saktë:
 
 Në procesin e krijimit të një programi, programuesit shpesh duhet të ruajnë shumë të dhëna (numrat e telefonit, emrat e produkteve, adresat, etj.). Në këto situata, variablat që kemi përdorur deri më tani nuk janë shumë të dobishme.
 

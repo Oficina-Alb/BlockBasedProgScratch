@@ -39,7 +39,7 @@ Analizoni shkrimet e mëposhtme:
 .. image:: ../_images/crtanje/KodSR.png  
    :align: center
 
-Krijoni një program, i cili lejon vizatimin pa pagesë dhe sigurohuni që programi të ndalojë funksionimin kur shtypni tastin **s**. Shikoni blloqet e duhura në kategoritë **Ngjarjet** dhe ** Kontrolli **.
+Krijoni një program, i cili lejon vizatimin pa pagesë dhe sigurohuni që programi të ndalojë funksionimin kur shtypni tastin **s**. Shikoni blloqet e duhura në kategoritë **Ngjarjet** dhe **Kontrolli**.
 
 Kontrolli i lëvizjes së sprite duke përdorur tastierën dhe vizatimin
 -------------------------------------------------------------------------
