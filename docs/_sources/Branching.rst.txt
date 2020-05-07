@@ -101,7 +101,7 @@ Do të ishte mirë nëse programi ynë mund të matë sa kohë i duhet përdorue
  .. image:: ../_images/grananje/Putovanje2.png 
       :align: center
 
-|Izazov| Duke përdorur konceptet dhe teknikat e treguara në këtë dhe mësimet e mëparshme, krijoni një program që simulon futjen e fjalëkalimit kur punoni në një kompjuter. Lërini programin të lejojë përdoruesin të futë fjalëkalimin tri herë. Nëse përdoruesi nuk arrin të shkruajë fjalëkalimin e saktë, programi do të ndalojë së punuari. Nëse përdoruesi ka sukses, sprite do të ndryshojë kostumin e saj. Ne ju rekomandojmë të përdorni projektin, të cilin mund ta gjeni në linkun e mëposhtëm |https: //scratch.mit.edu/projects/326403173/|, ku vendosim sprite Laptopi që ka dy kostume. Paç fat!
+|Izazov| Duke përdorur konceptet dhe teknikat e treguara në këtë dhe mësimet e mëparshme, krijoni një program që simulon futjen e fjalëkalimit kur punoni në një kompjuter. Lërini programin të lejojë përdoruesin të futë fjalëkalimin tri herë. Nëse përdoruesi nuk arrin të shkruajë fjalëkalimin e saktë, programi do të ndalojë së punuari. Nëse përdoruesi ka sukses, sprite do të ndryshojë kostumin e saj. Ne ju rekomandojmë të përdorni projektin, të cilin mund ta gjeni në linkun e mëposhtëm |https://scratch.mit.edu/projects/326403173/|, ku vendosim sprite Laptopi që ka dy kostume. Paç fat!
 
 .. |https://scratch.mit.edu/projects/326403173/| raw:: html
 
@@ -113,7 +113,7 @@ Do të ishte mirë nëse programi ynë mund të matë sa kohë i duhet përdorue
    
    **Zgjidhja e mundshme**
        
-   Do të gjeni zgjidhjen tonë në projektin **Zgjidhjen e fjalëkalimit**, në |https: //scratch.mit.edu/projects/326417414/|. Ne ju rekomandojmë të rimendoni projektin dhe të shpjegoni zgjidhjen tonë duke përdorur komente. Ne e dimë që ju mund ta bëni!
+   Do të gjeni zgjidhjen tonë në projektin **Zgjidhjen e fjalëkalimit**, në |https://scratch.mit.edu/projects/326417414/|. Ne ju rekomandojmë të rimendoni projektin dhe të shpjegoni zgjidhjen tonë duke përdorur komente. Ne e dimë që ju mund ta bëni!
  
 .. |https://scratch.mit.edu/projects/326417414/| raw:: html
 

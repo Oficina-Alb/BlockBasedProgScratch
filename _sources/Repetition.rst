@@ -93,7 +93,7 @@ Shifra më poshtë përmban sugjerimin tonë për kodin e programit me komente, 
 .. image:: ../_images/ponavljanje/Tajmer.png
       :align: center
 
-Programi *Timer* mund të gjendet në linkun |https: //scratch.mit.edu/projects/326420353|. Përditësoni atë duke shtuar një tingull të akrepave të orës, i cili do të dëgjohet ndërsa ora kalon.
+Programi *Timer* mund të gjendet në linkun |https://scratch.mit.edu/projects/326420353|. Përditësoni atë duke shtuar një tingull të akrepave të orës, i cili do të dëgjohet ndërsa ora kalon.
 
 .. |https://scratch.mit.edu/projects/326420353| raw:: html
 

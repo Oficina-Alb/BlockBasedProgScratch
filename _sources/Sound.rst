@@ -8,11 +8,11 @@ Scratch ka një librari të pasur të tingujve, si dhe mundësinë për të regj
 Tinguj Sprite
 ------------------
 
-Ne do të azhornojmë programin *Farm*, i cili mund të gjendet në lidhjen | https: //scratch.mit.edu/projects/326422653/ |, në mënyrë që vajza (Avery) të thotë vërtet "Shko, shko!", dhe pulat cicërijnë pas një vakti të mirë.
+Ne do të azhornojmë programin *Farm*, i cili mund të gjendet në lidhjen |https: //scratch.mit.edu/projects/326422653/|, në mënyrë që vajza (Avery) të thotë vërtet "Shko, shko!", dhe pulat cicërijnë pas një vakti të mirë.
    
-   .. |https://scratch.mit.edu/projects/326422653/| raw:: html
+.. |https://scratch.mit.edu/projects/326422653/| raw:: html
 
-      <a href="https://scratch.mit.edu/projects/326422653/" target="_blank">https://scratch.mit.edu/projects/326422653/</a>
+ <a href="https://scratch.mit.edu/projects/326422653/" target="_blank">https://scratch.mit.edu/projects/326422653/</a>
 
 Hapi i parë do të ishte regjistrimi i tingullit - zëri ynë: ne do ta bëjmë regjistrimin dhe do ta shtojmë në skenarin që i përket vajzës; në regjistrim, duhet të themi: "Shko, shko!"
 
@@ -53,9 +53,14 @@ Ne jemi të gatshëm për të shtuar blloqe komandash në kod.
    :width: 1200px
    :align: center
 
-|Uradi| Përsërite projektin *Farm*, i cili mund të gjendet në linkun | https: //scratch.mit.edu/projects/326422653/ |. Regjistroni tingullin dhe shtoni bllokun e duhur në skenarin që i përket vajzës. Nga libraria e tingullit, shtoni tingullin e duhur të cicërimës në skenarin që i përket sprukut
+|Uradi| Përsërite projektin *Farm*, i cili mund të gjendet në linkun |https: //scratch.mit.edu/projects/326422653/|. Regjistroni tingullin dhe shtoni bllokun e duhur në skenarin që i përket vajzës. Nga libraria e tingullit, shtoni tingullin e duhur të cicërimës në skenarin që i përket sprukut
  
-  .. |Uradi| image:: ../_images/Uradi.png
+.. |https: //scratch.mit.edu/projects/326422653/| raw:: html
+
+ <a href="https: //scratch.mit.edu/projects/326422653//" target="_blank">https: //scratch.mit.edu/projects/326422653/</a>
+
+
+.. |Uradi| image:: ../_images/Uradi.png
 
 .. mchoice:: ZvukZadatak1
    :answer_a: Nëse do të kishim zgjedhur bllokun tjetër, së pari do të kishim dëgjuar zërin tonë. Flluska e tekstit do të ishte shfaqur vetëm pasi të ishte shqiptuar fjalia.
