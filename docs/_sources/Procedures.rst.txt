@@ -29,7 +29,7 @@ Programet e bëra në Scratch zakonisht kanë shumë pjesë që ndërveprojnë m
    :showtitle: Shikoni udhëzimet e videos për krijimin e bisedës midis tre vajzave
    :hidetitle: Fshih intruksionet
  
-**Shikoni procesin e krijimit të programit, i cili lejon vajzat të flasin pa ndërprerë njëra-tjetrën:**
+ **Shikoni procesin e krijimit të programit, i cili lejon vajzat të flasin pa ndërprerë njëra-tjetrën:**
      
    .. youtube:: QgCCzBw6DKU
       :width: 735
